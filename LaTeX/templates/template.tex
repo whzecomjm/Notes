@@ -1,0 +1,85 @@
+\documentclass{article}
+\title{Notes on Aperiodic Oderer}
+\author{whzecomjm}
+\usepackage{amsmath,amsfonts,amsthm}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem*{cor}{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[section]
+\newtheorem{conj}{Conjecture}[section]
+\newtheorem{exmp}{Example}[section]
+
+\theoremstyle{remark}
+\newtheorem*{rem}{Remark}
+\newtheorem*{note}{Note}
+
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\cA}{\mathcal A}
+\newcommand{\on}{\operatorname}
+
+
+
+
+
+
+\begin{document}
+
+\maketitle
+\section{Introduction}
+
+Danny Schechtman, from Technion, observed in 1982 a strange metallic material (alloy of Aluminium and Manganese): its diffraction pattern looked like that of a crystal (with sharp, bright spots), but showed a “forbidden” 10-fold rotational symmetry. “Forbidden”, because crystals were always assumed to be periodic arrangements of atoms, and such an arrangement can only have rotational symmetry of order 2, 3, 4, or 6. The revolutionary insight of Schechtman was that he didn’t dismiss his result as “experimental error”, but realized that this was indeed a new kind of material, which he called “aperiodic crystal”, and now more commonly called “quasicrystal”. For his discovery he won the Nobel Prize in Chemistry in 2011 \cite{solo1}.
+
+
+
+\begin{quote}
+\textbf{Tilling Program}: Is there an algorithm that, upon being given a set of prototiles, with matching rules, decides whether a tiling of the entire space exists?
+\end{quote}
+
+When $d = 1$, the “Wang tiles” are just intervals with colored endpoints, and there is an easy algorithm to answer the Tiling Problem. Draw a graph whose vertices are prototiles and directed edges indicate which pairs are allowed. A tiling of $\mathbb{R}$ exists if and only if there is an infinite path in this graph, which is equivalent to existence of a cycle.
+
+\begin{defn}
+A tiling T of $\R^d$ is called a periodic tiling if its translation group $\Gamma_{T} =\{t \in\mathbb{R}^d: T-t =T \}$ is a lattice (free abelian group), that is, a subgroup of $R^d$ with d linearly independent generators. A tiling is called aperiodic if $\Gamma_T = \{0\}$.
+\end{defn}
+
+
+\section{Aperiodic Sequences}
+\subsection{Sturmian Sequences}
+We will consider sequences in a finite alphabet $\mathcal{A}$. Denote by $\mathcal{A}_n$ the set of “words” of length n in the alphabet $\mathcal{A}$. Given an infinite sequence $u\in\mathcal{A}^{\mathbb{N}}$, let $L_n(u)$ be the set of words of length n which occur in $u$, which is called language of $u$. The cardinality $p_u(n) = \#L_n(u)$
+is called the complexity of a sequence $u$.
+
+Here are some propositions of the complexity of a sequence for peroidic preperty etc.
+
+\begin{prop}
+\begin{enumerate}
+\item[(1)] If $u$ is an eventually periodic sequence, then $p_u(n)$ is bounded.
+\item[(2)] If there exists $n$ such that $p_u(n) \leq n$, then $u$ is eventually periodic (in which case $p_u(n) \leq C$ for a constant C).
+\end{enumerate}
+\end{prop}
+
+Thus, $p_u(n) = n + 1$ is the minimal possible complexity of a non-periodic sequence.
+
+\begin{lem}
+Every Sturmian sequence $u$ is recurrent, which means that every word that occurs in $u$ appears infinitely often.
+\end{lem}
+
+
+
+\begin{thebibliography}{99}
+\bibitem{solo1} B. Solomyak, \href{http://u.math.biu.ac.il/~solomyb/GRAD/14/Aper/Aperiodic.docx}{Mathematics of Aperiodic Order}, 2015.
+\bibitem{Robinaon} E. A. Robinson, Jr., Symbolic dynamics and tilings of $\mathbb{R}^d$, in Symbolic dynamics and its applications, Proc. Sympos. Appl. Math., Vol. 60, Amer. Math. Soc., Providence, RI, 2004, pp. 81–119.
+\bibitem{Penrose} R. Penrose, The role of aesthetics in pure and applied mathematical research, Bull. Inst. Math. Appl.10 (1974), 266-271. Pentaplexity: a class of nonperiodic tilings of the plane, Math. Intelligencer 2(1979/80), no. 1, 32–37.
+\bibitem{solo2} B. Solomyak, \href{https://www.math.washington.edu/~solomyak/PREPRINTS/notes6.pdf}{Tilings and Dynamics}.
+\bibitem{Boyle} M. Boyle, \href{http://www.math.umd.edu/~mboyle/courses/475sp05/spec.pdf}{Notes on the Perron-Frobenius Theory of Nonnegative Matrices}.
+
+\end{thebibliography}
+\end{document}

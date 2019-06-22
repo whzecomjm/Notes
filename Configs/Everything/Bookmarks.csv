@@ -1,0 +1,5 @@
+Name,Case,Whole Word,Path,Diacritic,Regex,Sort,Descending,Filter,Search,Index,File List,Host,Link Type,Macro,Key,View
+"Markdown文档内容搜索",0,0,0,0,0,"Name",0,"EVERYTHING","*.md e:\ content:",0,"","",1,,1347,0
+"e盘长文件名照片",0,0,0,0,0,"Name",0,"PICTURE","len:24-100 e:\",0,"","",1,,,0
+"Rome",0,0,0,0,0,"Name",0,"EVERYTHING","*.txt ""D:\Program Files\Rome-TW\"" content:""Imperial C"" ",0,"","",1,,,0
+"腾讯和浏览器log",0,0,0,0,0,"Name",0,"EVERYTHING","*.tlg.* | .log_backup1 | *-?.log | *.?.log",0,"","",1,"log",,0

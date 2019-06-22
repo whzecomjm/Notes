@@ -1,0 +1,122 @@
+
+\documentclass[12pt]{amsart}
+
+\usepackage{hyperref}
+
+\setlength{\oddsidemargin}{0.25 in}
+\setlength{\evensidemargin}{0.25 in}
+\setlength{\textwidth}{6 in}
+
+%\renewcommand{\labelenumi}{\arabic{enumi}.}
+%\renewcommand{\labelenumii}{\alph{enumii}.}
+
+
+% environments
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{cor}[thm]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{rem}[thm]{Remark}
+
+\theoremstyle{remark}
+\newtheorem*{claim}{Claim}
+
+\newcommand{\Homeo}{\mathop{\rm Homeo}}
+\newcommand{\Diff}{\mathop{\rm Diff}}
+\newcommand{\id}{\mathop{\rm id}}
+
+\begin{document}
+
+\author{Michael P. Cohen}
+\address{Michael P. Cohen,
+Department of Mathematics,
+North Dakota State University,
+PO Box 6050,
+Fargo, ND, 58108-6050}
+\email{michael.cohen@ndsu.edu}
+
+\title{Polishability of some groups of interval and circle diffeomorphisms}
+
+\begin{abstract}  Let $M=I$ or $M=\mathbb{S}^1$ and let $k\geq 1$.  We exhibit a new infinite class of Polish groups by showing that each group $\Diff_+^{k+AC}(M)$, consisting of those $C^k$ diffeomorphisms whose $k$-th derivative is absolutely continuous, admits a natural Polish group topology which refines the subspace topology inherited from $\Diff_+^k(M)$.  By contrast, the group $\Diff_+^{1+BV}(M)$, consisting of $C^1$ diffeomorphisms whose derivative has bounded variation, admits no Polish group topology whatsoever.
+\end{abstract}
+
+\maketitle
+
+%\keywords{}
+%\subjclass[2010]{}
+
+\section{Introduction and Preliminaries}
+
+We are motivated by the following question: let $M$ be a compact one-dimensional manifold (i.e. the interval $I$ or the circle $\mathbb{S}^1$) and let $G$ be a group of orientation-preserving homeomorphisms of $M$ defined by some smoothness assumption which is stronger than $C^k$ but weaker than $C^{k+1}$.  Then, is it possible to topologize $G$ in such a way that it becomes a Polish group\footnote{That is, a group endowed with a separable completely metrizable topology under which the group multiplication and inversion maps are continuous.}?
+
+More concretely, let $\mathcal{A}$ be an algebra of real-valued continuous functions defined on $M$ which satisfies the following closure properties: (1) whenever $f\in A$ and $f$ is everywhere positive then $\frac{1}{f}\in\mathcal{A}$, and (2) whenever $f\in \mathcal{A}$ and $g\in\Diff_+^1(M)$ then $f\circ g\in\mathcal{A}$.  Then for any integer $k\geq 1$, by iterating the chain rule, product rule, and inverse rule for derivatives, it is straightforward to verify that the collection\\
+
+\begin{center} $G=\{f\in\Diff_+^k(M):f^{(k)}\in\mathcal{A}\}$
+\end{center}
+\vspace{.3cm}
+
+\noindent comprises a subgroup of $\Diff_+^k(M)$.  We list some significant examples of such algebras $\mathcal{A}$ below:\\
+
+\begin{itemize}
+		\item $CBV(M)$, the space of all continuous functions of bounded total variation;
+		\item $AC(M)$, the space of all absolutely continuous functions;
+		\item $C^{0,\epsilon}(M)$, the space of all H\"older continuous functions with exponent $0<\epsilon<1$; and
+		\item $\mbox{\rm Lip}(M)$, the space of all Lipschitz continuous functions.
+\end{itemize}
+\vspace{.3cm}
+
+
+
+\begin{thebibliography}{99}
+
+\bibitem{adams_1936a} C. R. Adams,
+{\it The Space of Functions of Bounded Variation and Certain General Spaces,} Trans. Amer. Math. Soc. {\bf 40 (3)} (1936), 421--438.
+
+\bibitem{cohen_2017a} M. P. Cohen,
+\textit{On the large-scale geometry of diffeomorphism groups of $1$-manifolds}.  To appear in Forum Mathematicum.
+
+\bibitem{cohen_kallman_2015a} M. P. Cohen and R. R. Kallman, 
+\textit{$\mbox{\rm PL}_+(I)$ is not a Polish group}.  Ergodic Theory and Dynamical Systems, available on CJO 2015. doi:{\tt 10.1017/etds.2015.13.}
+
+\bibitem{dudley_1961a} R. M. Dudley,
+{\it Continuity of homomorphisms}, Duke Math. J., 1961, pp. 587 -- 594.
+
+\bibitem{kallman_1986a} R. R. Kallman,
+{\it Uniqness results for homeomorphism groups}, Trans. Amer. Math. Soc. {\bf 295 (1)} (1986), 389--397.
+
+\bibitem{hayes_1997a} D. Hayes,
+{\it Minimality of the Special Linear Groups}, Ph.D. thesis, University of North Texas, 1997.
+
+\bibitem{hjorth_2000a} G. Hjorth,
+{\it Classification and orbit equivalence relations}, Mathematical Surveys and Monographs, 75, American Mathematical Society, Providence, R.I., 2000.
+
+\bibitem{leoni_2009a} S. Leoni,
+{\it A First Course in Sobolev Spaces}, Graduate Studies in Mathematcs, 105, American Mathematical Society, Providence, RI, 2009.
+
+\bibitem{montgomery_1936a} D. Montgomery,
+{\it Continuity in topological groups}, Bull. Amer. Math. Soc. 42 (1936), 879-882.
+
+\bibitem{navas_2011a} A. Navas,
+{\it Groups of circle diffeomorphisms}, University of Chicago Press, 2011.
+
+\bibitem{pettis_1950a} B. J. Pettis,
+{\it On continuity and openness of homomorphisms in topological groups}, Ann. of Math. (2) 52, 1950, 293--308.
+
+\bibitem{rosendal_2005a} C. Rosendal,
+{\it On the non-existence of certain group topologies}, Fund. Math. 187 (3), pp. 213--228, 2005.
+
+\bibitem{rudin_1987a} W. Rudin,
+{\it Real and Complex Analysis}, McGraw-Hill, 1987.
+
+\bibitem{solecki_1999a} S. Solecki,
+{\it Polish group topologies}, Sets and Proofs, eds. S. Cooper, J. Truss, London Math Soc. Lecture Note Ser., 258 (1999), 339--364.
+
+\bibitem{wiener_young_1933a} N. Wiener and R. C. Young,
+{\it The Total Variation of $g(x + h) - g(x)$}, Trans. Amer. Math. Soc. {\bf 35 (1)} (1933), 327--340.
+
+\end{thebibliography}
+
+\end{document}

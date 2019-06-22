@@ -1,0 +1,237 @@
+(************** Content-type: application/mathematica **************
+                     CreatedBy='Mathematica 5.0'
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used with any Mathematica-compatible
+application, such as Mathematica, MathReader or Publicon. The data
+for the notebook starts with the line containing stars above.
+
+To get the notebook into a Mathematica-compatible application, do
+one of the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the
+  application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing
+the word CacheID, otherwise Mathematica-compatible applications may
+try to use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+*******************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[      5288,        163]*)
+(*NotebookOutlinePosition[      5931,        185]*)
+(*  CellTagsIndexPosition[      5887,        181]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+    \(\[Sum]\+\(i = 1\)\%n 
+        Cos[\(\((2  i - 1)\) \[Pi]\)\/\(2  n + 1\)]\)], "Input"],
+
+Cell[BoxData[
+    \(\(-Cos[\[Pi]\/\(1 + 2\ n\)]\) + 
+      If[\(-\(1\/\(1 + 2\ n\)\)\) \[Element] 
+          Integers, \((\[ImaginaryI]\^\(-\(\(2\ n\)\/\(1 + 2\ n\)\)\)\ n + 
+              Cos[\(n\ \[Pi]\)\/\(1 + 2\ n\)])\)\ Cos[\[Pi]\/\(1 + 2\ n\) - \
+\(n\ \[Pi]\)\/\(1 + 2\ n\)], 
+        Cos[\[Pi]\/\(1 + 2\ n\) - \(n\ \[Pi]\)\/\(1 + 2\ n\)]\ Csc[\[Pi]\/\(1 \
++ 2\ n\)]\ Sin[\[Pi]\/\(1 + 2\ n\) + \(n\ \[Pi]\)\/\(1 + 2\ n\)]]\)], "Output"]
+}, Open  ]],
+
+Cell[BoxData[
+    StyleBox[\(\(-Cos[\[Pi]\/\(1 + 2\ n\)]\) + 
+        If[\(-\(1\/\(1 + 2\ n\)\)\) \[Element] 
+            Integers, \((\[ImaginaryI]\^\(-\(\(2\ n\)\/\(1 + 2\ n\)\)\)\ n + 
+                Cos[\(n\ \[Pi]\)\/\(1 + 2\ n\)])\)\ Cos[\[Pi]\/\(1 + 2\ n\) - \
+\(n\ \[Pi]\)\/\(1 + 2\ n\)], 
+          Cos[\[Pi]\/\(1 + 2\ n\) - \(n\ \[Pi]\)\/\(1 + 2\ n\)]\ \
+Csc[\[Pi]\/\(1 + 2\ n\)]\ Sin[\[Pi]\/\(1 + 2\ n\) + \(n\ \[Pi]\)\/\(1 + 2\ \
+n\)]]\),
+      FontSize->16]], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\[Sum]\+\(i = 1\)\%1 
+        Cos[\(\((2  i - 1)\) \[Pi]\)\/\(2 + 1\)]\)], "Input"],
+
+Cell[BoxData[
+    \(1\/2\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\[Sum]\+\(i = 1\)\%2 
+        Cos[\(\((2  i - 1)\) \[Pi]\)\/\(4 + 1\)]\)], "Input"],
+
+Cell[BoxData[
+    \(\(-\(1\/4\)\)\ \((\(-1\) + \@5)\) + 1\/4\ \((1 + \@5)\)\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\[Sum]\+\(i = 1\)\%4 
+        Cos[\(\((2  i - 1)\) \[Pi]\)\/\(8 + 1\)]\)], "Input"],
+
+Cell[BoxData[
+    \(1\/2 + Cos[\[Pi]\/9] + Cos[\(5\ \[Pi]\)\/9] + 
+      Cos[\(7\ \[Pi]\)\/9]\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Cos[\[Pi]\/7] + Cos[\(3\ \[Pi]\)\/7] + Cos[\(5\ \[Pi]\)\/7]\)], "Input"],
+
+Cell[BoxData[
+    \(Cos[\[Pi]\/7] + Cos[\(3\ \[Pi]\)\/7] + Cos[\(5\ \[Pi]\)\/7]\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(FunctionExpand[
+      1\/2 + Cos[\[Pi]\/9] + Cos[\(5\ \[Pi]\)\/9] + 
+        Cos[\(7\ \[Pi]\)\/9]]\)], "Input"],
+
+Cell[BoxData[
+    \(1\/2 + 
+      1\/2\ \((\(-\((1\/2\ \((\(-1\) - \[ImaginaryI]\ \@3)\))\)\^\(1/3\)\) - \
+\((1\/2\ \((\(-1\) + \[ImaginaryI]\ \@3)\))\)\^\(1/3\))\) + 
+      1\/2\ \((\(-\(1\/2\)\)\ \((\(-1\) - \[ImaginaryI]\ \@3)\)\ \((1\/2\ \((\
+\(-1\) + \[ImaginaryI]\ \@3)\))\)\^\(1/3\) - 
+            1\/2\ \((1\/2\ \((\(-1\) - \[ImaginaryI]\ \@3)\))\)\^\(1/3\)\ \((\
+\(-1\) + \[ImaginaryI]\ \@3)\))\) + 
+      1\/2\ \((\(-\(\((\(-1\) - \[ImaginaryI]\ \@3)\)\^\(4/3\)\/\(2\ 2\^\(1/3\
+\)\)\)\) - \((\(-1\) + \[ImaginaryI]\ \@3)\)\^\(4/3\)\/\(2\ \
+2\^\(1/3\)\))\)\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(FunctionExpand[Cos[\[Pi]\/9]]\)], "Input"],
+
+Cell[BoxData[
+    \(1\/2\ \((\(-\(\((\(-1\) - \[ImaginaryI]\ \@3)\)\^\(4/3\)\/\(2\ 2\^\(1/3\
+\)\)\)\) - \((\(-1\) + \[ImaginaryI]\ \@3)\)\^\(4/3\)\/\(2\ \
+2\^\(1/3\)\))\)\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(FunctionExpand[Cos[\(5\ \[Pi]\)\/9] + Cos[\(7\ \[Pi]\)\/9]]\)], "Input"],
+
+Cell[BoxData[
+    \(1\/2\ \((\(-\((1\/2\ \((\(-1\) - \[ImaginaryI]\ \@3)\))\)\^\(1/3\)\) - \
+\((1\/2\ \((\(-1\) + \[ImaginaryI]\ \@3)\))\)\^\(1/3\))\) + 
+      1\/2\ \((\(-\(1\/2\)\)\ \((\(-1\) - \[ImaginaryI]\ \@3)\)\ \((1\/2\ \((\
+\(-1\) + \[ImaginaryI]\ \@3)\))\)\^\(1/3\) - 
+            1\/2\ \((1\/2\ \((\(-1\) - \[ImaginaryI]\ \@3)\))\)\^\(1/3\)\ \((\
+\(-1\) + \[ImaginaryI]\ \@3)\))\)\)], "Output"]
+}, Open  ]]
+},
+FrontEndVersion->"5.0 for Microsoft Windows",
+ScreenRectangle->{{0, 1024}, {0, 685}},
+WindowSize->{495, 527},
+WindowMargins->{{0, Automatic}, {Automatic, 0}}
+]
+
+(*******************************************************************
+Cached data follows.  If you edit this Notebook file directly, not
+using Mathematica, you must remove the line containing CacheID at
+the top of  the file.  The cache data will then be recreated when
+you save this file from within Mathematica.
+*******************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[1776, 53, 106, 2, 49, "Input"],
+Cell[1885, 57, 442, 7, 113, "Output"]
+}, Open  ]],
+Cell[2342, 67, 481, 9, 235, "Input"],
+
+Cell[CellGroupData[{
+Cell[2848, 80, 103, 2, 51, "Input"],
+Cell[2954, 84, 38, 1, 42, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3029, 90, 103, 2, 51, "Input"],
+Cell[3135, 94, 89, 1, 42, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3261, 100, 103, 2, 51, "Input"],
+Cell[3367, 104, 107, 2, 42, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3511, 111, 92, 1, 42, "Input"],
+Cell[3606, 114, 93, 1, 42, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3736, 120, 131, 3, 42, "Input"],
+Cell[3870, 125, 579, 10, 167, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4486, 140, 62, 1, 40, "Input"],
+Cell[4551, 143, 184, 3, 57, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4772, 151, 92, 1, 42, "Input"],
+Cell[4867, 154, 405, 6, 115, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+
+
+(*******************************************************************
+End of Mathematica Notebook file.
+*******************************************************************)
+

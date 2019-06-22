@@ -1,0 +1,300 @@
+(************** Content-type: application/mathematica **************
+                     CreatedBy='Mathematica 5.0'
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used with any Mathematica-compatible
+application, such as Mathematica, MathReader or Publicon. The data
+for the notebook starts with the line containing stars above.
+
+To get the notebook into a Mathematica-compatible application, do
+one of the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the
+  application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing
+the word CacheID, otherwise Mathematica-compatible applications may
+try to use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+*******************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[      6091,        203]*)
+(*NotebookOutlinePosition[      6735,        225]*)
+(*  CellTagsIndexPosition[      6691,        221]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+    \(\[Sum]\+\(i = 1\)\%\[Infinity] 1\/i\^2\)], "Input"],
+
+Cell[BoxData[
+    \(\[Pi]\^2\/6\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(slove[a + 3  b + 4  c + 5  d == 78, \n
+      a + 5  b + 7  c + 9  d \[Equal] 98, a, b, c, d]\)], "Input"],
+
+Cell[BoxData[
+    \(slove[a + 3\ b + 4\ c + 5\ d \[Equal] 78, 
+      a + 5\ b + 7\ c + 9\ d \[Equal] 98, a, b, c, d]\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(SolveAlways[a + 3\ b + 4\ c + 5\ d \[Equal] 78, 
+      a + 5\ b + 7\ c + 9\ d \[Equal] 98, a, b, c, d]\)], "Input"],
+
+Cell[BoxData[
+    RowBox[{\(SolveAlways::"argrx"\), \(\(:\)\(\ \)\), "\<\"\\!\\(SolveAlways\
+\\) called with \\!\\(6\\) arguments; \\!\\(2\\) arguments are expected. \
+\\!\\(\\*ButtonBox[\\\"More\[Ellipsis]\\\", ButtonStyle->\\\"RefGuideLinkText\
+\\\", ButtonFrame->None, ButtonData:>\\\"General::argrx\\\"]\\)\"\>"}]], \
+"Message"],
+
+Cell[BoxData[
+    \(SolveAlways[a + 3\ b + 4\ c + 5\ d \[Equal] 78, 
+      a + 5\ b + 7\ c + 9\ d \[Equal] 98, a, b, c, d]\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(SolveAlways[a + 3\ b + 4\ c + 5\ d \[Equal] 78, 
+      a + 5\ b + 7\ c + 9\ d \[Equal] 98, a]\)], "Input"],
+
+Cell[BoxData[
+    RowBox[{\(SolveAlways::"argrx"\), \(\(:\)\(\ \)\), "\<\"\\!\\(SolveAlways\
+\\) called with \\!\\(3\\) arguments; \\!\\(2\\) arguments are expected. \
+\\!\\(\\*ButtonBox[\\\"More\[Ellipsis]\\\", ButtonStyle->\\\"RefGuideLinkText\
+\\\", ButtonFrame->None, ButtonData:>\\\"General::argrx\\\"]\\)\"\>"}]], \
+"Message"],
+
+Cell[BoxData[
+    \(SolveAlways[a + 3\ b + 4\ c + 5\ d \[Equal] 78, 
+      a + 5\ b + 7\ c + 9\ d \[Equal] 98, a]\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Eliminate[{a + 3\ b + 4\ c + 5\ d \[Equal] 78, 
+        a + 5\ b + 7\ c + 9\ d \[Equal] 98}, \[IndentingNewLine]d]\)], "Input"],
+
+Cell[BoxData[
+    \(212 - 2\ b - c \[Equal] 4\ a\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(FindInstance[a + 3\ b + 4\ c + 5\ d \[Equal] 78, 
+      a + 5\ b + 7\ c + 9\ d \[Equal] 98, {a, b, c, d}]\)], "Input"],
+
+Cell[BoxData[
+    RowBox[{\(FindInstance::"ivar"\), \(\(:\)\(\ \)\), "\<\"\\!\\(\\(\\(a + \
+\\(\\(5\\\\ b\\)\\) + \\(\\(7\\\\ c\\)\\) + \\(\\(9\\\\ d\\)\\)\\)\\) \
+\[Equal] 98\\) is not a valid variable. \
+\\!\\(\\*ButtonBox[\\\"More\[Ellipsis]\\\", ButtonStyle->\\\"RefGuideLinkText\
+\\\", ButtonFrame->None, ButtonData:>\\\"General::ivar\\\"]\\)\"\>"}]], \
+"Message"],
+
+Cell[BoxData[
+    \(FindInstance[a + 3\ b + 4\ c + 5\ d \[Equal] 78, 
+      a + 5\ b + 7\ c + 9\ d \[Equal] 98, {a, b, c, d}]\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(FindInstance[
+      a + 3\ b + 4\ c + 5\ d \[Equal] 78 && 
+        a + 5\ b + 7\ c + 9\ d \[Equal] 98, {a, b, c, d}]\)], "Input"],
+
+Cell[BoxData[
+    \({{a \[Rule] \(-\(14\/5\)\) - \(27\ \[ImaginaryI]\)\/10, 
+        b \[Rule] \(-\(4\/5\)\) + \(7\ \[ImaginaryI]\)\/2, 
+        c \[Rule] 1124\/5 + \(19\ \[ImaginaryI]\)\/5, 
+        d \[Rule] \(-\(816\/5\)\) - \(23\ \[ImaginaryI]\)\/5}}\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(5754154784515785/\((24\[Times]60\[Times]60)\)\)], "Input"],
+
+Cell[BoxData[
+    \(42623368774191\/640\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(N[42623368774191\/640]\)], "Input"],
+
+Cell[BoxData[
+    \(6.659901370967344`*^10\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\@\(5 - \@21\)\)], "Input"],
+
+Cell[BoxData[
+    \(\@\(5 - \@21\)\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\(\(\[IndentingNewLine]\)\(N[\@\(5 - \@21\)]\)\)\)], "Input"],
+
+Cell[BoxData[
+    \(0.6460838219953818`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Nsolve[x\^2 + \((2 - \@2)\) x + \@2 - 3 == 0, x]\)], "Input"],
+
+Cell[BoxData[
+    RowBox[{\(General::"spell"\), \(\(:\)\(\ \)\), "\<\"Possible spelling \
+error: new symbol name \\\"\\!\\(Nsolve\\)\\\" is similar to existing symbols \
+\\!\\({NSolve, solve}\\). \\!\\(\\*ButtonBox[\\\"More\[Ellipsis]\\\", \
+ButtonStyle->\\\"RefGuideLinkText\\\", ButtonFrame->None, \
+ButtonData:>\\\"General::spell\\\"]\\)\"\>"}]], "Message"],
+
+Cell[BoxData[
+    \(Nsolve[\(-3\) + \@2 + \((2 - \@2)\)\ x + x\^2 \[Equal] 0, 
+      x]\)], "Output"]
+}, Open  ]]
+},
+FrontEndVersion->"5.0 for Microsoft Windows",
+ScreenRectangle->{{0, 1024}, {0, 685}},
+WindowSize->{496, 527},
+WindowMargins->{{-1, Automatic}, {Automatic, 0}}
+]
+
+(*******************************************************************
+Cached data follows.  If you edit this Notebook file directly, not
+using Mathematica, you must remove the line containing CacheID at
+the top of  the file.  The cache data will then be recreated when
+you save this file from within Mathematica.
+*******************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[1776, 53, 71, 1, 49, "Input"],
+Cell[1850, 56, 45, 1, 45, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[1932, 62, 125, 2, 50, "Input"],
+Cell[2060, 66, 130, 2, 48, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2227, 73, 135, 2, 50, "Input"],
+Cell[2365, 77, 332, 5, 37, "Message"],
+Cell[2700, 84, 136, 2, 48, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2873, 91, 126, 2, 50, "Input"],
+Cell[3002, 95, 332, 5, 37, "Message"],
+Cell[3337, 102, 127, 2, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3501, 109, 147, 2, 50, "Input"],
+Cell[3651, 113, 62, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3750, 119, 138, 2, 50, "Input"],
+Cell[3891, 123, 369, 6, 37, "Message"],
+Cell[4263, 131, 139, 2, 48, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4439, 138, 149, 3, 50, "Input"],
+Cell[4591, 143, 268, 4, 76, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4896, 152, 78, 1, 30, "Input"],
+Cell[4977, 155, 53, 1, 42, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[5067, 161, 55, 1, 42, "Input"],
+Cell[5125, 164, 56, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[5218, 170, 47, 1, 37, "Input"],
+Cell[5268, 173, 48, 1, 36, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[5353, 179, 81, 1, 58, "Input"],
+Cell[5437, 182, 53, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[5527, 188, 81, 1, 33, "Input"],
+Cell[5611, 191, 360, 5, 52, "Message"],
+Cell[5974, 198, 101, 2, 32, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+
+
+(*******************************************************************
+End of Mathematica Notebook file.
+*******************************************************************)
+

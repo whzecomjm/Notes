@@ -1,0 +1,16 @@
+[Rule0]
+ID=Insert
+Config=TEXT:%5B%E5%85%AC%E4%BC%97%E5%8F%B7%5D+;WHERE:1;POSITION:1;INSERTAFTERTEXT:;INSERTBEFORETEXT:;RIGHTTOLEFT:0;SKIPEXTENSION:1
+Marked=1
+Comment=
+
+[Filters]
+AddFilesFromFolders=1
+AddFoldersAsFiles=0
+IncludeSubfolders=1
+IncludeHidden=0
+IncludeSystem=0
+SkipRootFoldersAsFiles=0
+MasksOnFileName=0
+Masks=
+MasksExclude=

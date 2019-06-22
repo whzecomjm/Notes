@@ -1,0 +1,796 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     30265,        786]
+NotebookOptionsPosition[     28884,        733]
+NotebookOutlinePosition[     29524,        758]
+CellTagsIndexPosition[     29481,        755]
+WindowTitle->Runge's Phenomenon - Source
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Runge's Phenomenon", "Section",
+ CellFrame->{{0, 0}, {0, 0}},
+ ShowCellBracket->False,
+ FontColor->RGBColor[0.597406, 0, 0.0527047]],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[CompressedData["
+1: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
+FP/69esnAAAAAAAAAAAAwM74B4thROM=
+   "], {{0, 0}, {1800, 25}}, {0, 255},
+   ColorFunction->RGBColor],
+  ImageSize->{1800, 25},
+  PlotRange->{{0, 1800}, {0, 25}}]], "Section",
+ CellFrame->{{0, 0}, {0, 0}},
+ ShowCellBracket->False],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"r", "[", "x_", "]"}], ":=", 
+   FractionBox["1", 
+    RowBox[{"1", " ", "+", " ", 
+     RowBox[{"25", " ", 
+      SuperscriptBox["x", "2"]}]}]]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Runge", "[", "n_", "]"}], ":=", 
+   RowBox[{"Table", "[", " ", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"x", ",", " ", 
+       RowBox[{"r", "[", "x", "]"}]}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", " ", 
+       RowBox[{"-", "1."}], ",", " ", "1.", ",", " ", 
+       RowBox[{"2.", "/", 
+        RowBox[{"(", 
+         RowBox[{"n", "-", "1"}], ")"}]}]}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"ChebyshevNodes", "[", "n_", "]"}], ":=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"N", "[", 
+      RowBox[{"Cos", "[", 
+       RowBox[{
+        FractionBox[
+         RowBox[{
+          RowBox[{"2", " ", "i"}], " ", "-", " ", "1"}], 
+         RowBox[{"2", "n", " "}]], "\[Pi]"}], "]"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "1", ",", "n"}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"commonopts", " ", "=", " ", 
+   RowBox[{"Sequence", "[", 
+    RowBox[{
+     RowBox[{"PlotStyle", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"Orange", ",", "Blue"}], "}"}]}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "1"}], ",", "1"}], "}"}]}], ",", 
+     RowBox[{"Ticks", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "1"}], ",", "1"}], "}"}]}], "}"}]}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "400"}], ",", 
+     RowBox[{"PlotRangePadding", "\[Rule]", ".2"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"erroropts", " ", "=", " ", 
+   RowBox[{"Sequence", "[", 
+    RowBox[{
+     RowBox[{"ImageSize", "\[Rule]", "400"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
+     RowBox[{"Ticks", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", "Automatic"}], "}"}]}], 
+     ",", 
+     RowBox[{"PlotLabel", "\[Rule]", "\"\<error in interpolant\>\""}], ",", 
+     RowBox[{"PlotStyle", "\[Rule]", "Black"}], ",", 
+     RowBox[{"AspectRatio", "\[Rule]", ".25"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"RungePlot", "[", "n_", "]"}], ":=", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"data", ",", "interp"}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"interp", " ", "=", 
+       RowBox[{"Expand", "[", 
+        RowBox[{"InterpolatingPolynomial", "[", 
+         RowBox[{
+          RowBox[{"Runge", "[", "n", "]"}], ",", "x"}], "]"}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Column", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Plot", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"1", "/", 
+               RowBox[{"(", 
+                RowBox[{"1", "+", 
+                 RowBox[{"25", 
+                  RowBox[{"x", "^", "2"}]}]}], ")"}]}], ",", "interp"}], 
+             "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"x", ",", 
+              RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+            RowBox[{"ImageSize", "\[Rule]", 
+             RowBox[{"{", "450", "}"}]}], ",", 
+            RowBox[{"Epilog", "\[Rule]", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"PointSize", "[", "Medium", "]"}], ",", "Red", ",", 
+               RowBox[{"Point", "/@", 
+                RowBox[{"Runge", "[", "n", "]"}]}]}], "}"}]}], ",", 
+            RowBox[{"Evaluate", "[", "commonopts", "]"}]}], "]"}], ",", 
+          "\[IndentingNewLine]", 
+          RowBox[{"ListLinePlot", "[", 
+           RowBox[{
+            RowBox[{"Table", "[", 
+             RowBox[{
+              RowBox[{"{", 
+               RowBox[{"x", ",", 
+                RowBox[{"Abs", "[", 
+                 RowBox[{"N", "[", 
+                  RowBox[{
+                   RowBox[{"N", "[", "interp", "]"}], " ", "-", " ", 
+                   RowBox[{"r", "[", "x", "]"}]}], "]"}], "]"}]}], "}"}], ",", 
+              RowBox[{"{", 
+               RowBox[{"x", ",", 
+                RowBox[{"-", "1"}], ",", "1", ",", ".01"}], "}"}]}], "]"}], 
+            ",", 
+            RowBox[{"Evaluate", "[", "erroropts", "]"}], ",", 
+            RowBox[{"ImageSize", "\[Rule]", "450"}]}], "]"}]}], "}"}], ",", 
+        "Center"}], "]"}]}]}], "\[IndentingNewLine]", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"ChebyshevPlot", "[", "n_", "]"}], ":=", " ", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"data", ",", "interp"}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"data", " ", "=", " ", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"#", ",", 
+           RowBox[{"r", "[", "#", "]"}]}], "}"}], "&"}], "/@", " ", 
+        RowBox[{"ChebyshevNodes", "[", "n", "]"}]}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"interp", " ", "=", "  ", 
+       RowBox[{"InterpolatingPolynomial", "[", 
+        RowBox[{"data", ",", "x"}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"Column", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Plot", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"1", "/", 
+               RowBox[{"(", 
+                RowBox[{"1", "+", 
+                 RowBox[{"25", 
+                  RowBox[{"x", "^", "2"}]}]}], ")"}]}], ",", "interp"}], 
+             "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"x", ",", 
+              RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+            RowBox[{"ImageSize", "\[Rule]", "450"}], ",", 
+            RowBox[{"Epilog", "\[Rule]", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"PointSize", "[", "Medium", "]"}], ",", "Red", ",", 
+               RowBox[{"Point", "/@", "data"}]}], "}"}]}], ",", 
+            RowBox[{"Evaluate", "[", "commonopts", "]"}]}], "]"}], ",", 
+          "\[IndentingNewLine]", 
+          RowBox[{"Plot", "[", 
+           RowBox[{
+            RowBox[{"Abs", "[", 
+             RowBox[{"interp", " ", "-", " ", 
+              RowBox[{"1", "/", 
+               RowBox[{"(", 
+                RowBox[{"1", "+", 
+                 RowBox[{"25", 
+                  RowBox[{"x", "^", "2"}]}]}], ")"}]}]}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"x", ",", 
+              RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+            RowBox[{"Evaluate", "[", "erroropts", "]"}], ",", 
+            RowBox[{"ImageSize", "\[Rule]", "450"}]}], "]"}]}], 
+         "\[IndentingNewLine]", "}"}], ",", "Center"}], "]"}]}]}], 
+    "\[IndentingNewLine]", "]"}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.36233408951592*^9, 3.36233410106827*^9}, {
+   3.36240581139183*^9, 3.36240586659755*^9}, {3.36240606538029*^9, 
+   3.36240606611246*^9}, {3.3624061075712*^9, 3.36240611052207*^9}, {
+   3.3624061931933*^9, 3.36240620197826*^9}, {3.3624063028405*^9, 
+   3.36240642009922*^9}, {3.36240645614803*^9, 3.36240649050122*^9}, {
+   3.36240660987181*^9, 3.36240665229215*^9}, {3.3624069209375*^9, 
+   3.36240694202668*^9}, {3.36240698115518*^9, 3.36240701781722*^9}, {
+   3.370385709109375*^9, 3.3703857213125*^9}, {3.370385819140625*^9, 
+   3.37038585109375*^9}, 3.370385897296875*^9, {3.384098788745994*^9, 
+   3.3840988012560997`*^9}, {3.384098852595501*^9, 3.384098852871977*^9}, {
+   3.384099135072077*^9, 3.384099185351128*^9}, 3.384099216367154*^9, {
+   3.38660514705986*^9, 3.3866051817143373`*^9}, 3.386605219847023*^9},
+ CellID->1240481398],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Text", "@", 
+    RowBox[{"Column", "[", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"sampling", " ", "\[Equal]", " ", "\"\<equally spaced\>\""}], 
+        ",", "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{"\"\<equally spaced sample points\>\"", ",", 
+          RowBox[{"RungePlot", "[", "n", "]"}]}], "}"}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Text", "@", "\"\<Chebyshev sample points\>\""}], ",", 
+          RowBox[{"ChebyshevPlot", "[", "n", "]"}]}], "}"}]}], 
+       "\[IndentingNewLine]", "]"}], ",", "Center"}], "]"}]}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"n", ",", "5", ",", "\"\<number of points\>\""}], "}"}], ",", 
+     "5", ",", "50", ",", "5", ",", 
+     RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "sampling", ",", "\"\<equally spaced\>\"", ",", 
+       "\"\<sampling method\>\""}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\"\<equally spaced\>\"", ",", "\"\<Chebyshev points\>\""}], 
+      "}"}]}], "}"}], ",", 
+   RowBox[{"SaveDefinitions", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.36276802339251*^9, 3.36276821531708*^9}, {
+   3.36276845166871*^9, 3.36276852562825*^9}, {3.370385662890625*^9, 
+   3.3703857015*^9}, {3.3703857436875*^9, 3.37038574546875*^9}, {
+   3.370385780828125*^9, 3.370385781703125*^9}, {3.370385932640625*^9, 
+   3.37038593896875*^9}, {3.3840979496358213`*^9, 3.38409795153589*^9}, {
+   3.384098916145598*^9, 3.3840990380690823`*^9}, {3.38409907641257*^9, 
+   3.384099089171322*^9}, {3.384102584051207*^9, 3.384102590769785*^9}, {
+   3.384723264511361*^9, 3.384723265179571*^9}},
+ CellID->539607262]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`n$$ = 5, $CellContext`sampling$$ = 
+    "Chebyshev points", Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`n$$], 5, "number of points"}, 5, 50, 5}, {{
+       Hold[$CellContext`sampling$$], "Chebyshev points", 
+       "sampling method"}, {"equally spaced", "Chebyshev points"}}}, 
+    Typeset`size$$ = {450., {211., 217.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    False, $CellContext`n$591946$$ = 0, $CellContext`sampling$591947$$ = 
+    False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`n$$ = 5, $CellContext`sampling$$ = 
+        "Chebyshev points"}, "ControllerVariables" :> {
+        Hold[$CellContext`n$$, $CellContext`n$591946$$, 0], 
+        Hold[$CellContext`sampling$$, $CellContext`sampling$591947$$, False]},
+       "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Text[
+        Column[
+         If[$CellContext`sampling$$ == "equally spaced", {
+          "equally spaced sample points", 
+           $CellContext`RungePlot[$CellContext`n$$]}, {
+           Text["Chebyshev sample points"], 
+           $CellContext`ChebyshevPlot[$CellContext`n$$]}], Center]], 
+      "Specifications" :> {{{$CellContext`n$$, 5, "number of points"}, 5, 50, 
+         5, Appearance -> 
+         "Labeled"}, {{$CellContext`sampling$$, "Chebyshev points", 
+          "sampling method"}, {"equally spaced", "Chebyshev points"}}}, 
+      "Options" :> {}, "DefaultOptions" :> {ControllerLinking -> True}],
+     ImageSizeCache->{495., {268., 273.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>(({$CellContext`RungePlot[
+          Pattern[$CellContext`n, 
+           Blank[]]] := 
+        Module[{$CellContext`data, $CellContext`interp}, $CellContext`interp = 
+           Expand[
+             InterpolatingPolynomial[
+              $CellContext`Runge[$CellContext`n], $CellContext`x]]; Column[{
+             
+             Plot[{1/(1 + 
+               25 $CellContext`x^2), $CellContext`interp}, {$CellContext`x, \
+-1, 1}, ImageSize -> {450}, Epilog -> {
+                PointSize[Medium], Red, 
+                Map[Point, 
+                 $CellContext`Runge[$CellContext`n]]}, 
+              Evaluate[$CellContext`commonopts]], 
+             ListLinePlot[
+              Table[{$CellContext`x, 
+                Abs[
+                 N[
+                 N[$CellContext`interp] - $CellContext`r[$CellContext`x]]]}, \
+{$CellContext`x, -1, 1, 0.01}], 
+              Evaluate[$CellContext`erroropts], ImageSize -> 450]}, 
+            Center]], $CellContext`Runge[
+          Pattern[$CellContext`n, 
+           Blank[]]] := Table[{$CellContext`x, 
+           $CellContext`r[$CellContext`x]}, {$CellContext`x, -1., 1., 
+           2./($CellContext`n - 1)}], $CellContext`r[
+          Pattern[$CellContext`x, 
+           Blank[]]] := 1/(1 + 25 $CellContext`x^2), $CellContext`commonopts = 
+        Sequence[PlotStyle -> {
+            RGBColor[1, 0.5, 0], 
+            RGBColor[0, 0, 1]}, PlotRange -> {-1, 1}, 
+          Ticks -> {{-1, 1}, {-1, 1}}, ImageSize -> 400, PlotRangePadding -> 
+          0.2], Attributes[PlotRange] = {
+         ReadProtected}, $CellContext`erroropts = 
+        Sequence[
+         ImageSize -> 400, PlotRange -> All, Ticks -> {{-1, 1}, Automatic}, 
+          PlotLabel -> "error in interpolant", PlotStyle -> GrayLevel[0], 
+          AspectRatio -> 0.25], $CellContext`ChebyshevPlot[
+          Pattern[$CellContext`n, 
+           Blank[]]] := 
+        Module[{$CellContext`data, $CellContext`interp}, $CellContext`data = 
+           Map[{#, 
+              $CellContext`r[#]}& , 
+             $CellContext`ChebyshevNodes[$CellContext`n]]; \
+$CellContext`interp = 
+           InterpolatingPolynomial[$CellContext`data, $CellContext`x]; Column[{
+             
+             Plot[{1/(1 + 
+               25 $CellContext`x^2), $CellContext`interp}, {$CellContext`x, \
+-1, 1}, ImageSize -> 450, Epilog -> {
+                PointSize[Medium], Red, 
+                Map[Point, $CellContext`data]}, 
+              Evaluate[$CellContext`commonopts]], 
+             Plot[
+              
+              Abs[$CellContext`interp - 1/(1 + 
+               25 $CellContext`x^2)], {$CellContext`x, -1, 1}, 
+              Evaluate[$CellContext`erroropts], ImageSize -> 450]}, 
+            Center]], $CellContext`ChebyshevNodes[
+          Pattern[$CellContext`n, 
+           Blank[]]] := Table[
+          N[
+           
+           Cos[((2 $CellContext`i - 1)/(2 $CellContext`n)) 
+            Pi]], {$CellContext`i, 1, $CellContext`n}]}; 
+      Typeset`initDone$$ = True); ReleaseHold[{{
+         HoldComplete[$CellContext`r[
+             Pattern[$CellContext`x, 
+              Blank[]]] := 1/(1 + 25 $CellContext`x^2); Null], 
+         HoldComplete[Null], 
+         HoldComplete[$CellContext`Runge[
+             Pattern[$CellContext`n, 
+              Blank[]]] := Table[{$CellContext`x, 
+              $CellContext`r[$CellContext`x]}, {$CellContext`x, -1., 1., 
+              2./($CellContext`n - 1)}]; Null], 
+         HoldComplete[Null], 
+         HoldComplete[$CellContext`ChebyshevNodes[
+             Pattern[$CellContext`n, 
+              Blank[]]] := Table[
+             N[
+              
+              Cos[((2 $CellContext`i - 1)/(2 $CellContext`n)) 
+               Pi]], {$CellContext`i, 1, $CellContext`n}]; Null], 
+         HoldComplete[Null], 
+         HoldComplete[$CellContext`commonopts = 
+           Sequence[
+            PlotStyle -> {Orange, Blue}, PlotRange -> {-1, 1}, 
+             Ticks -> {{-1, 1}, {-1, 1}}, ImageSize -> 400, PlotRangePadding -> 
+             0.2]; Null], 
+         HoldComplete[Null], 
+         HoldComplete[$CellContext`erroropts = 
+           Sequence[
+            ImageSize -> 400, PlotRange -> All, Ticks -> {{-1, 1}, Automatic},
+              PlotLabel -> "error in interpolant", PlotStyle -> Black, 
+             AspectRatio -> 0.25]; Null], 
+         HoldComplete[Null], 
+         HoldComplete[$CellContext`RungePlot[
+             Pattern[$CellContext`n, 
+              Blank[]]] := 
+           Module[{$CellContext`data, $CellContext`interp}, \
+$CellContext`interp = Expand[
+                InterpolatingPolynomial[
+                 $CellContext`Runge[$CellContext`n], $CellContext`x]]; Column[{
+                
+                Plot[{1/(1 + 
+                  25 $CellContext`x^2), $CellContext`interp}, \
+{$CellContext`x, -1, 1}, ImageSize -> {450}, Epilog -> {
+                   PointSize[Medium], Red, 
+                   Map[Point, 
+                    $CellContext`Runge[$CellContext`n]]}, 
+                 Evaluate[$CellContext`commonopts]], 
+                ListLinePlot[
+                 Table[{$CellContext`x, 
+                   Abs[
+                    N[
+                    N[$CellContext`interp] - \
+$CellContext`r[$CellContext`x]]]}, {$CellContext`x, -1, 1, 0.01}], 
+                 Evaluate[$CellContext`erroropts], ImageSize -> 450]}, 
+               Center]]; Null], 
+         HoldComplete[Null], 
+         HoldComplete[$CellContext`ChebyshevPlot[
+             Pattern[$CellContext`n, 
+              Blank[]]] := 
+           Module[{$CellContext`data, $CellContext`interp}, $CellContext`data = 
+              Map[{#, 
+                 $CellContext`r[#]}& , 
+                $CellContext`ChebyshevNodes[$CellContext`n]]; \
+$CellContext`interp = 
+              InterpolatingPolynomial[$CellContext`data, $CellContext`x]; 
+             Column[{
+                
+                Plot[{1/(1 + 
+                  25 $CellContext`x^2), $CellContext`interp}, \
+{$CellContext`x, -1, 1}, ImageSize -> 450, Epilog -> {
+                   PointSize[Medium], Red, 
+                   Map[Point, $CellContext`data]}, 
+                 Evaluate[$CellContext`commonopts]], 
+                Plot[
+                 
+                 Abs[$CellContext`interp - 1/(1 + 
+                  25 $CellContext`x^2)], {$CellContext`x, -1, 1}, 
+                 Evaluate[$CellContext`erroropts], ImageSize -> 450]}, 
+               Center]]; Null]}}]; Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellID->1829864202],
+
+Cell[CellGroupData[{
+
+Cell["CAPTION", "Section",
+ CellFrame->{{0, 0}, {1, 0}},
+ CellFrameColor->RGBColor[0.87, 0.87, 0.87],
+ FontFamily->"Helvetica",
+ FontSize->12,
+ FontWeight->"Bold",
+ FontColor->RGBColor[0.597406, 0, 0.0527047]],
+
+Cell[TextData[{
+ "Runge's phenomenon illustrates the error that can occur when constructing a \
+polynomial interpolant of high degree. The function to be interpolated, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "=", 
+    FractionBox["1", 
+     RowBox[{"1", " ", "+", " ", 
+      RowBox[{"25", " ", 
+       SuperscriptBox["x", "2"]}]}]]}], TraditionalForm]], "InlineMath"],
+ ", is shown in orange, the interpolating polynomial in blue, and the data \
+points in red. The difference between the interpolant and the function is \
+shown below."
+}], "Text"]
+}, Close]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["DETAILS", "Section",
+ CellFrame->{{0, 0}, {1, 0}},
+ CellFrameColor->RGBColor[0.87, 0.87, 0.87],
+ FontFamily->"Helvetica",
+ FontSize->12,
+ FontWeight->"Bold",
+ FontColor->RGBColor[0.597406, 0, 0.0527047]],
+
+Cell[TextData[{
+ "Runge's function is given by ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"f", "(", "x", ")"}], " ", "=", " ", 
+    FractionBox["1", 
+     RowBox[{"1", " ", "+", " ", 
+      RowBox[{"25", " ", 
+       SuperscriptBox["x", "2"]}]}]]}], TraditionalForm]], "InlineMath"],
+ ". When this function is sampled at equally spaced points in the range ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", " ", "\[Element]", " ", 
+    RowBox[{"[", 
+     RowBox[{
+      RowBox[{"-", "1"}], ",", "1"}], "]"}]}], TraditionalForm]], 
+  "InlineMath"],
+ ", ",
+ "as the number of sample points increase the error difference the\n\
+interpolating polynomial and the function grow without bound.",
+ " When Cheybshev points are used the error diminishes as the number of \
+points increases. "
+}], "Text"]
+}, Close]],
+
+Cell[CellGroupData[{
+
+Cell["THIS NOTEBOOK IS THE SOURCE CODE FROM", "Text",
+ CellFrame->{{0, 0}, {0, 0}},
+ CellMargins->{{48, 10}, {4, 28}},
+ CellGroupingRules->{"SectionGrouping", 25},
+ CellFrameMargins->{{48, 48}, {6, 5}},
+ CellFrameColor->RGBColor[0.87, 0.87, 0.87],
+ FontFamily->"Helvetica",
+ FontSize->10,
+ FontWeight->"Bold",
+ FontColor->RGBColor[0.597406, 0, 0.0527047]],
+
+Cell[TextData[{
+ "\"",
+ ButtonBox["Runge's Phenomenon",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/RungesPhenomenon/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/RungesPhenomenon/"],
+ "\"",
+ " from ",
+ ButtonBox["the Wolfram Demonstrations Project",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/"],
+ "\[ParagraphSeparator]\[NonBreakingSpace]",
+ ButtonBox["http://demonstrations.wolfram.com/RungesPhenomenon/",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/RungesPhenomenon/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/RungesPhenomenon/"]
+}], "Text",
+ CellMargins->{{48, Inherited}, {0, Inherited}},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.5]],
+
+Cell[TextData[{
+ "Contributed by: ",
+ ButtonBox["Chris Maes",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/author.html?author=Chris+Maes"], 
+    None},
+  ButtonNote->
+   "http://demonstrations.wolfram.com/author.html?author=Chris+Maes"]
+}], "Text",
+ CellDingbat->"\[FilledSmallSquare]",
+ CellMargins->{{66, 48}, {2, 4}},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.6],
+ CellID->1121372264],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "A full-function Wolfram ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " system (Version 6 or higher) is required to edit this notebook.\n",
+ StyleBox[ButtonBox["GET WOLFRAM MATHEMATICA \[RightGuillemet]",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://www.wolfram.com/products/mathematica/"], None},
+  ButtonNote->"http://www.wolfram.com/products/mathematica/"],
+  FontFamily->"Helvetica",
+  FontWeight->"Bold",
+  FontSlant->"Italic",
+  FontColor->RGBColor[1, 0.42, 0]]
+}], "Text",
+ CellFrame->True,
+ CellMargins->{{48, 68}, {8, 28}},
+ CellFrameMargins->12,
+ CellFrameColor->RGBColor[0.87, 0.87, 0.87],
+ CellChangeTimes->{3.3750111182355957`*^9},
+ ParagraphSpacing->{1., 1.},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.411765],
+ Background->RGBColor[1, 1, 1]],
+
+Cell[TextData[{
+ "\[Copyright] ",
+ StyleBox[ButtonBox["Wolfram Demonstrations Project & Contributors",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/"],
+  FontColor->GrayLevel[0.6]],
+ "\[ThickSpace]\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+ StyleBox[ButtonBox["Terms of Use",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/termsofuse.html"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/termsofuse.html"],
+  FontColor->GrayLevel[0.6]],
+ "\[ThickSpace]\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+ StyleBox[ButtonBox["Make a new version of this Demonstration \
+\[RightGuillemet]",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/participate/upload.jsp?id=\
+RungesPhenomenon"], None},
+  ButtonNote->None],
+  FontColor->GrayLevel[0.6]]
+}], "Text",
+ CellFrame->{{0, 0}, {0, 0.5}},
+ CellMargins->{{48, 10}, {20, 50}},
+ CellFrameMargins->{{6, 0}, {6, 6}},
+ CellFrameColor->GrayLevel[0.6],
+ FontFamily->"Verdana",
+ FontSize->9,
+ FontColor->GrayLevel[0.6]]
+}, Open  ]]
+}, Open  ]]
+},
+Editable->True,
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+CellInsertionPointCell->None,
+WindowSize->{710, 650},
+WindowMargins->{{Inherited, Inherited}, {Inherited, 0}},
+WindowElements->{
+ "StatusArea", "MemoryMonitor", "MagnificationPopUp", "VerticalScrollBar", 
+  "MenuBar"},
+WindowTitle->"Runge's Phenomenon - Source",
+DockedCells->{},
+CellContext->Notebook,
+FrontEndVersion->"8.0 for Microsoft Windows (32-bit) (November 7, 2010)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[620, 23, 138, 3, 70, "Section"],
+Cell[761, 28, 3700, 64, 70, "Section"],
+Cell[4464, 94, 7976, 210, 70, "Input",
+ CellID->1240481398],
+Cell[12443, 306, 1990, 46, 70, "Input",
+ CellID->539607262]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14470, 357, 8787, 190, 70, "Output",
+ CellID->1829864202],
+Cell[CellGroupData[{
+Cell[23282, 551, 209, 6, 70, "Section"],
+Cell[23494, 559, 553, 13, 70, "Text"]
+}, Close]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24095, 578, 209, 6, 70, "Section"],
+Cell[24307, 586, 798, 23, 70, "Text"]
+}, Close]],
+Cell[CellGroupData[{
+Cell[25141, 614, 355, 9, 70, "Text",
+ CellGroupingRules->{"SectionGrouping", 25}],
+Cell[25499, 625, 875, 24, 70, "Text"],
+Cell[26377, 651, 448, 15, 70, "Text",
+ CellID->1121372264],
+Cell[CellGroupData[{
+Cell[26850, 670, 815, 24, 70, "Text"],
+Cell[27668, 696, 1188, 33, 70, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+(* NotebookSignature nT4JpR0AYQ3q0DT3USFz7dvq *)
