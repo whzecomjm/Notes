@@ -1,0 +1,13 @@
+[DEFAULT]
+BASEURL=http://pages.tzengyuxio.me/pandoc/
+[DOC_dsq-app7167_ssIFrame_google]
+BASEURL=https://accounts.google.com/o/oauth2/iframe
+ORIGURL=https://accounts.google.com/o/oauth2/iframe#origin=https%3A%2F%2Fdisqus.com&rpcToken=682629015.9305639&clearCache=1
+[DOC_dsq-app7167_fb_xdm_frame_https]
+BASEURL=https://staticxx.facebook.com/connect/xd_arbiter.php?version=44
+ORIGURL=https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f14526ac4801c3&origin=https%3A%2F%2Fdisqus.com
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+IDList=
+URL=http://pages.tzengyuxio.me/pandoc/
