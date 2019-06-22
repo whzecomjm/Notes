@@ -19,13 +19,20 @@ SendInput http://www.whzecomjm.com
 return
 ```
 
+
+
 ## 修改默认ahk编辑器为Emeditor
 
-如何修改默认的编辑器，需要修改注册表 `HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Edit\Command`， 将其内容改为
+如何修改默认的编辑器，需要修改注册表 
+> HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Edit\Command
+
+将其内容改为:
 
 ```bash
 "D:\Program Files\EmEditor\EmEditor.exe" "%1"
 ```
+
+
 
 ## GroupAdd
 
@@ -46,6 +53,8 @@ GroupAdd, MyGroup, ahk_class Qt5QWindowIcon
 ;some information here
 #IfWinActive 
 ```
+
+
 
 ## 转义符号
 
@@ -70,7 +79,9 @@ GroupAdd, MyGroup, ahk_class Qt5QWindowIcon
 | 发送 | 以默认 (非原始) 模式使用 [Send 命令](http://ahkcn.sourceforge.net/docs/commands/Send.htm) 或 [热字串](http://ahkcn.sourceforge.net/docs/Hotstrings.htm) 时, 像 **{}^!+#** 这些字符具有特殊含义. 因此, 要使用它们的原义字符, 必须把它们包围在大括号中. 例如：`Send {^}{!}{{}`。 |
 | "" | 在 [表达式](http://ahkcn.sourceforge.net/docs/Variables.htm#Expressions) 中, 原义字符串内的两个连续的引号被解析为单个原义的引号. 例如：`Var := "The color ""red"" was found."`。 |
 
-## 有趣的AHK教程
+
+
+## 更多AHK教程
 
 更多学习可以参见附件的教程，另学习笔记参考链接：
 
