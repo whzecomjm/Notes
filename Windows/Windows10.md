@@ -56,7 +56,6 @@
 | Ctrl+Shift+C | 复制文件路径（Listary） |
 | Ctrl+Shift+E | 使用 Notepad 打开文件 |
 | Ctrl+Shift+P | 使用 Sumatra PDF 打开 |
-| Ctrl+Shift+M | Minipad2 切换/打开 |
 | Ctrl+shift+A | ~~Cent 浏览器截图~~ 修改为系统自带截图 |
 | **Alt+ A** | 微信截图 (常用可以直接保存文件) |
 | Alt + P | 文件(图片)预览 |
@@ -68,6 +67,8 @@
 * [ListaryWithWinKey](https://github.com/KevinWang15/ListaryWithWinKey)：将快捷键改为Win键。更多listary的功能，参见[Listary 官方文档中文版](./Listary/Listary 官方文档中文版.md).
 
 
+
+
 ## 在右键新建菜单中添加 Md文件类型
 
 方法如下:
@@ -77,6 +78,32 @@
 3. 在 `[ShellNew]` 下新建字符串值，如果您使用的文件类型，其程序预设为在启动时打开空白文件，就将新字符串名称设定为`NullFile`;  如果您使用的文件类型，其程序在启动时不会自动打开空白文件的话，新建字符串值名称为 `FileName` (或者保持使用NullFile都可以)，键值为模板文件的绝对路径，我的是 `C:\Users\Administrator\Documents\markdown.md`. 
 
 用这种[方法](http://heiybb.com/add-cpp-tpye.hf)，各种文件类型都可以添加。如果你还想要特定软件新建，可以在该软件的项目内部建一个ShellNew，比如`.md > emeditor64.md > ShellNew` 。这也解决了直接在`.md`下新建项不成功的情况。
+
+
+
+## 解决Windows 10祖传 日志 DistributedCOM 10016 错误
+
+这个错误会会导致 Windows 10 死机, 我们需要使用 `RegOwnershipEx` 这一软件。
+
+1. 首先打开事件查看器定位10016错误信息，我们有如下日志：
+
+   > 应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (不可用)中运行的地址 LocalHost (使用 LRPC) 中的用户 PC\whzecomjm SID (blabla)授予针对 CLSID 为 
+   > {2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+   > 、APPID 为 
+   > {15C20B67-12E7-4BB6-92BB-7AFF07997402}
+   >  的 COM 服务器应用程序的 本地 激活 权限。此安全权限可以使用组件服务管理工具进行修改。
+
+   我们需要记住，用户名， APPID。
+
+2. 用注册表编辑器找到 APPID，比如 `HKEY_CLASSES_ROOT\AppID\{15C20B67-12E7-4BB6-92BB-7AFF07997402}`, 查看其对应的组件服务名称。
+
+3. 用  `RegOwnershipEx` 释放上述 APPID 的注册表权限。
+
+4. 在组件服务中，打开我们找到`计算机-我的电脑-DCOM配置-组件服务名称`，点击属性-安全，修改"启动和激活权限"，在弹窗中点 Delete, 之后进入以后添加用户及其权限。
+
+5. 使用  `RegOwnershipEx`归还注册表权限. 
+
+> 参考：[解决Windows10祖传 日志 DistributedCOM 10016 错误](https://nga.178.com/read.php?tid=13817103)
 
 ## 其他问题解决的链接
 
@@ -106,9 +133,10 @@ Win10作为微软的一个旗舰系统有了更多的性质，不过也会有相
 
 * [Windows 10 下 7zip 拖动鼠标选择时鼠标会瞬移/飞走](https://www.v2ex.com/t/411282)： SysListView32 的 bug。解决方案改用 Bandizip，减少显示属性内容。
 
-* [解决Windows10祖传 日志 DistributedCOM 10016 错误](https://nga.178.com/read.php?tid=13817103): 这个日志会导致死机, 使用 RegOwnershipEx 修改注册表权限, 再用 `cmd(admin) - dcomcnfg` 定位组件服务添加用户(包括 whzec, users, administrators) 修改"激活权限", 之后归还注册表权限. 
+  
 
   
+
 
 
 
