@@ -1,0 +1,126 @@
+created: 20150712202420723
+creator: whzecomjm
+modified: 20150713171054201
+modifier: whzecomjm
+tags: 使用事项
+title: WikiText
+type: text/vnd.tiddlywiki
+
+这篇文档用于介绍 WikiText，这是一种广泛的维基写法。下面我们将先介绍一些简单的文字标记：粗体、斜体、删除线、下划线、行内代码、上下标、破折号等等。下面是一个很好的例子：
+
+```
+The ''quick'' brown ~~flea~~ fox //jumps// over __the__ `lazy` dog, ha--ha---ha! We need ^^more^^ words from my ,,mouth,,.
+```
+生成的效果如下：
+
+The ''quick'' brown ~~flea~~ fox //jumps// over __the__ `lazy` dog, ha--ha---ha! We need ^^more^^ words from my ,,mouth,,.
+
+! 链接与图片
+
+!! 链接
+
+关于''内部链接''，WikiText 提供一个很好的方式。对所有如 WikiText 这样的 ~CamelCase （骆驼式命名法）的单词，直接会产生链接。另外`[[WikiText]]`也能产生同样的效果。
+
+''外部链接''和上述方法差不多，`[[连接词|http://example.com]]`就可以了。
+
+!! 图片
+图片的引用方法类似于链接，如下
+
+```
+[img width=32 [Caption|http://tiddlywiki.com/favicon.ico]]
+```
+
+其中我们可以只简单的列出链接即可，前面对于宽度和图片标题都可以省略。
+
+! 撰写目录
+一个简单的方式如下：
+
+```
+<<list-links "[tag[日记]]">>
+```
+
+就可以生成一个日记标签下的所有条目。
+
+! 引用与代码块
+
+!! 引用
+
+我们同样可以用 Markdown 方式的引用。那样的话下面的问题就不存在了，因为 Markdown 式的引用是单行引用，所以每一行之间都会有比较明显的空行。这种方式可以层叠。
+
+WikiText 的多行引用用的是小于号而非 Markdown 的大于号，下面是一个例子。
+
+```
+<<<
+This is a block quoted paragraph
+written in English
+<<< Steve Jobs
+```
+
+得到的效果是
+
+<<<
+This is a block quoted paragraph
+written in English
+<<< Steve Jobs
+
+注意，末行`<<<`之后可以添加人名或者书名等，表示被引用人或者著作的身份。
+
+另一个上述例子的注意点是，WikiText 没有像 Markdown 一样的尾行加两个空格算换行。''强制换行''需要在这样的行前后分别加入三个双引号`"""`。这正是前面在 Markdown 式引用中提到的问题。
+
+!! 代码块
+
+这一用法和下面正要介绍的代码块是类似的。''代码块''正是常用的在行尾行首加入三个用于标记行内代码的反撇号。
+
+! 定义
+
+WikiText 还提供了定义的写法，用法如下：
+
+```
+;Term being defined
+: Definition of that term
+; Another term
+: Another definition
+```
+
+! 标题与列表
+
+标题的用法和 Markdown 类似，不过要改用 `!` 而非 `#`。类似地，无序列表改用 `*` 而不能用其他的标记，比如 `-`。有序列表不再使用数字而改用`#`。这些符号都能够嵌套。
+
+同时单独成行的 `---` 同样可以生成一个分割线。
+
+! 表格
+
+表格的写法如下：
+
+```
+|!Cell1 |!Cell2 |
+|Cell3 |Cell3 |
+```
+
+注意每行末都不能有空格号，第一行的感叹号是为了标记首行。上述代码将会得到如下结果：
+
+|!Cell1 |!Cell2 |
+|Cell3 |Cell3 |
+
+表格内部的位置可以由空格、`^`、`,` 来调整。下面是九个方向的所有的标记方式：
+
+```
+|^top left |^ top center |^ top right|
+|middle left | middle center | middle right|
+|,bottom left |, bottom center |, bottom right|
+```
+
+表格还能利用`>`、`<`、`~` 进行合并：
+
+```
+|Cell1 |Cell2 |Cell3 |Cell4 |
+|Cell5 |Cell6 |Cell7 |<|
+|Cell5 |~|Cell7 |Cell8 |
+|>|Cell9 |Cell10 |Cell11 |
+```
+
+
+|Cell1 |Cell2 |Cell3 |Cell4 |
+|Cell5 |Cell6 |Cell7 |<|
+|Cell5 |~|Cell7 |Cell8 |
+|>|Cell9 |Cell10 |Cell11 |
