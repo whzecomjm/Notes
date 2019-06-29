@@ -8,3 +8,4 @@
 - `syncconfigs.rls`: SyncFolders 文件同步配置
 - `WGestures 1.8.4.0-20190117.wgb`: WGestures 配置文件
 - `Renamer`文件夹: Renamer 快速更改文件名配置
+- `*.cpf`文件: Caesium 压缩图片配置文件
