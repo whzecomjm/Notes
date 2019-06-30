@@ -66,15 +66,24 @@ Typora 提供丰富的数学公式, 化学式, 交叉引用等有用的[学术�
 截止0.9.70. 更多更新内容参见 [Release Notes](https://typora.io/windows/dev_release.html), 或者 [本地Change Log](C:\Program Files\Typora\resources\app\Docs\Change Log.md). 
 
 - 支持打开文件夹的**全文内容搜索**(Ctrl+Shift+F)
+
 - **快速打开**, 当前活动目录和最近文件可以通过 Ctrl+P 快速搜索跳转
+
 - 文件树的文件可以通过**拖拽移动**位置
+
 - 9.59 以后**拼写检查**可以使用
-- ~~设置取消 GPU 加速.~~
-- ~~可以在设置中统一调整文本字体为 `16pt`~~ 使用快捷键 `CS+-`即可.
+
+- 使用快捷键 `CS+-` 修改显示文本大小.
+
+- 选中标题, 不再显示源代码, 导致卡顿和误操作 (赞!)
+
+  
 
 ### Bugs
 
 - 有时候另存为 PDF 会有 Electron 的bug, 不能打印的话稍微修改一下再另存为即可. ==打印时, 光标不要停在标题上== (0.9.71 fixed? 仅不弹错误)
+
+  
 
 
 
