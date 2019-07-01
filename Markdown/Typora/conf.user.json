@@ -18,6 +18,8 @@
   "keyBinding": {
     // for example: 
     // "Always on Top": "Ctrl+Shift+P"
+    "Typewriter Mode": "F10",
+    "Highlight": "Ctrl+Shift+H"
   },
 
   "monocolorEmoji": false, //default false. Only work for Windows
