@@ -392,6 +392,20 @@
 			"Name": "保存并关闭",
 			"Sign": "DOWN-RIGHT",
 			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Ctrl+Shift+H"]
+			],
+			"Name": "高亮文本",
+			"Sign": "h",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Ctrl+Shift+I"]
+			],
+			"Name": "插入图片",
+			"Sign": "P",
+			"Valid": true
 		}],
 		"Match": ["Typora.exe"],
 		"Name": "Typora"
@@ -595,6 +609,13 @@
 		"Name": "Everything 超级搜索",
 		"Sign": "h",
 		"Valid": true
+	}, {
+		"Valid": true,
+		"Sign": "P",
+		"Name": "弹出 Listary 快捷菜单",
+		"Actions": [
+			["SendKeys", "Ctrl+Alt+M"]
+		]
 	}],
 	"MouseGesture": {
 		"AddMode": false,
