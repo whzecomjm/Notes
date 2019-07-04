@@ -1,11 +1,11 @@
 @echo off
 
-echo Çå¿ÕNvidiaÁÙÊ±ÎÄ¼şÄ¿Â¼...
+echo æ¸…ç©ºNvidiaä¸´æ—¶æ–‡ä»¶ç›®å½•...
 del /f /s /q "C:\NVIDIA\DisplayDriver\*.*"
 del /f /s /q "C:\ProgramData\NVIDIA Corporation\Netservice\*.exe"
 del /f /s /q "C:\Program Files\NVIDIA Corporation\Installer2\*.*"
 
 
-echo ÊÍ·ÅNvidia¿Õ¼äÍê³É£¡
+echo é‡Šæ”¾Nvidiaç©ºé—´å®Œæˆï¼
 
 echo. & pause
