@@ -82,10 +82,9 @@ cmd:cmd.exe /k ping yahoo.com
 - [优惠购](https://greasyfork.org/zh-CN/scripts/378081): 或者购物党
 - [复制为Markdown格式](https://greasyfork.org/zh-CN/scripts/370299): 复制网页为 Markdown (使用 turndown.js)
 - [知乎答案复制为markdown格式](https://greasyfork.org/zh-CN/scripts/370215): 方便复制知乎回答
-- [iciba划词翻译](https://greasyfork.org/zh-CN/scripts/6303): 网页翻译
+- [iciba划词翻译](https://greasyfork.org/zh-CN/scripts/6303): 非常好的网页翻译
 - [拒绝二维码登录](https://greasyfork.org/zh-CN/scripts/27183): 默认使用账号密码登录而不是二维码
 - [小说阅读脚本](https://greasyfork.org/scripts/292/): 小说阅读优化
 - [知乎重排for印象笔记](https://greasyfork.org/zh-CN/scripts/372064): 方便复制和打印的知乎问答和专栏
 - [解析 91](https://greasyfork.org/zh-CN/scripts/378608): 精力是有限的
-- [Github助手](https://greasyfork.org/zh-CN/scripts/37899): Github 单文件下载, 复制代码(此功能不可用)
 - [斗鱼去火箭横幅](https://greasyfork.org/zh-CN/scripts/381934): 斗鱼精简且去火箭横幅, 加很多小功能
