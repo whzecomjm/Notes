@@ -1,3 +1,7 @@
+html, body{
+  background-color: #f3f2ee;
+}
+
 @media print {
     html {
         max-width: 740px;
@@ -7,3 +11,5 @@
         text-align: justify;
     }
 }
+
+
