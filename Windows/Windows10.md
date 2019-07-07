@@ -32,7 +32,7 @@
 
 | 快捷键 | 快捷键作用 |
 |:---|:---|
-| Win+S/Q | 搜索应用功能 |
+| Win+Q | 搜索应用功能 |
 | Win+W | Windows Office Online |
 | Win+E|打开文档管理器|
 | Win+R|打开运行|
@@ -40,7 +40,7 @@
 | Win+I|打开 Windows 10设置|
 | Win+P|打开投影|
 | Win+D | 桌面与程序间切换(Win+M则只能单向切回桌面) |
-| Win+F|打开Everything搜索 (AHK)|
+| Win+F |打开Everything搜索 (AHK)|
 | Win+L|锁屏|
 | Win+X | 相当于右键开始图标，有不少系统高级功能 |
 | Win+O |打开 天若OCR (AHK)|
