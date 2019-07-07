@@ -38,6 +38,7 @@ Windows下有现成的Git for Windows，配置比较简单，详情参见参考�
     //git命令缩写
     git config --global alias.cm commit
     git config --global alias.st status
+    git config --global alias.ps push
     ```
 
 3. 配置SSH：详见[Github 官方帮助](https://help.github.com/articles/connecting-to-github-with-ssh/)。添加一个ssh密钥。 
