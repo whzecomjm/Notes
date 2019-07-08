@@ -32,8 +32,7 @@
 
 | 快捷键 | 快捷键作用 |
 |:---|:---|
-| Win+Q | 搜索应用功能 |
-| Win+W | Windows Office Online |
+| Win+Q/S | 搜索应用功能 |
 | Win+E|打开文档管理器|
 | Win+R|打开运行|
 | Win+T|打开任务栏|
@@ -41,9 +40,10 @@
 | Win+P|打开投影|
 | Win+D | 桌面与程序间切换(Win+M则只能单向切回桌面) |
 | Win+F |打开Everything搜索 (AHK)|
+| Win+Y |打开 Listary|
 | Win+L|锁屏|
 | Win+X | 相当于右键开始图标，有不少系统高级功能 |
-| Win+O |打开 天若OCR (AHK)|
+| Win+O |打开天若OCR (AHK)|
 | Win+V |剪贴板|
 | Win+B|打开选定任务栏中的状态栏图标|
 | Win+N |打开并新建 Notepad (AHK)|
@@ -64,10 +64,10 @@
 | Shift + Tab | 减少缩进 |
 | Alt+F4或Ctrl+W|退出，后者是强制退出更有用 |
 | Ctrl+Shift+C | 复制文件路径（Listary） |
-| Ctrl+Shift+E | 使用 Notepad 打开文件 |
-| Ctrl+Alt+M | 打开 Listary 快捷菜单 |
-| Ctrl+Shift+P | 使用 Sumatra PDF 打开 |
-| Ctrl+shift+A | ~~Cent 浏览器截图~~ 修改为系统自带截图 |
+| Ctrl+Shift+H | 隐藏/显示隐藏文件（Listary） |
+| Ctrl+Shift+R | 在当前文件夹打开命令行窗口（Listary） |
+| Ctrl+Shift+X | 隐藏/显示文件后缀名（Listary） |
+| Ctrl+Alt+M | 打开 Listary 快捷菜单（Listary） |
 | **Alt+ A** | 微信截图 (常用可以直接保存文件) |
 | Alt + P | 文件(图片)预览 |
 
