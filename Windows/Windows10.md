@@ -40,7 +40,7 @@
 | Win+P|打开投影|
 | Win+D | 桌面与程序间切换(Win+M则只能单向切回桌面) |
 | Win+F |打开Everything搜索 (AHK)|
-| Win+Y |打开 Listary|
+| Win |打开 Listary|
 | Win+L|锁屏|
 | Win+X | 相当于右键开始图标，有不少系统高级功能 |
 | Win+O |打开天若OCR (AHK)|
@@ -63,11 +63,6 @@
 | F2 | 重命名 |
 | Shift + Tab | 减少缩进 |
 | Alt+F4或Ctrl+W|退出，后者是强制退出更有用 |
-| Ctrl+Shift+C | 复制文件路径（Listary） |
-| Ctrl+Shift+H | 隐藏/显示隐藏文件（Listary） |
-| Ctrl+Shift+R | 在当前文件夹打开命令行窗口（Listary） |
-| Ctrl+Shift+X | 隐藏/显示文件后缀名（Listary） |
-| Ctrl+Alt+M | 打开 Listary 快捷菜单（Listary） |
 | **Alt+ A** | 微信截图 (常用可以直接保存文件) |
 | Alt + P | 文件(图片)预览 |
 
@@ -128,8 +123,6 @@ Win10作为微软的一个旗舰系统有了更多的性质，不过也会有相
 
 * [知乎: 如何优雅地使用 Windows](https://www.zhihu.com/question/20491886)
 
-* [如何彻底关闭win10的消息提醒](http://jingyan.baidu.com/article/9c69d48f981f1813c9024e09.html)
-
 * [win7中图片无法显示预览缩略图](http://jingyan.baidu.com/article/295430f12aeeec0c7e0050bf.html)
 
 * [用mklink同步任意文件夹](https://wzyboy.im/post/40.html)
@@ -142,17 +135,14 @@ Win10作为微软的一个旗舰系统有了更多的性质，不过也会有相
 
 * [如何修改Win7新建文件夹默认名称?](https://www.kafan.cn/edu/60998064.html)
 
-* [彻底禁用 Windows Update 服务](https://blog.csdn.net/c_lanxiaofang/article/details/79092521): Win10 会自动打开
-
 * [釋放NVIDIA愛用者的硬碟空間](https://tw.msi.com/blog/%E6%98%A5%E5%AD%A3%E5%A4%A7%E6%8E%83%E9%99%A4%EF%BC%9A%E9%87%8B%E6%94%BEnvidia%E6%84%9B%E7%94%A8%E8%80%85%E7%9A%84%E7%A1%AC%E7%A2%9F%E7%A9%BA%E9%96%93) 
 
 * [Windows 10 下 7zip 拖动鼠标选择时鼠标会瞬移/飞走](https://www.v2ex.com/t/411282)： SysListView32 的 bug。解决方案改用 Bandizip，减少显示属性内容。
 
-* [Win10开机出现svchost.exe-系统错误的修复方法](https://jingyan.baidu.com/article/6c67b1d65a0e602787bb1eda.html)
-
   
 
   
+
 
 
 
