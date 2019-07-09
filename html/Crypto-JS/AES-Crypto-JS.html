@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>AES 加密</title></head>
+<style type="text/css">
+td.class{
+	white-space: pre-line;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+	
+.button {
+    display: block;
+    height: 30px;
+    width: 100px;
+    background: green;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 0px;
+    font: 15px arial bold;
+    border: 1px solid black;
+    text-decoration: none;
+    list-style:none;
+    margin: 10px 0px 10px 0px;
+}
+</style>
+<script type="text/javascript">
+function encrypt(t)
+{
+	var Plaintext=t.value;
+       const ConstantKey= "Thisis4key"; // 密钥
+
+       //document.write("需要加密的文本: ", Plaintext);
+       //document.write("<br><br>") ;
+	var key = CryptoJS.enc.Utf8.parse(ConstantKey);
+	var options = {
+		mode: CryptoJS.mode.ECB,
+		padding: CryptoJS.pad.Pkcs7
+		};
+	var aesEncrypt = CryptoJS.AES.encrypt(Plaintext, key, options);
+	document.write("<span>" + aesEncrypt.toString() + "</span>");  
+}
+</script>
+
+<script type="text/javascript">
+function decrypt(t)
+{
+	var Encryptedtext=t.value;
+	const ConstantKey= "Thisis4key"; // 密钥
+	//document.write("需要解密的文本: ", Encryptedtext);
+	var key = CryptoJS.enc.Utf8.parse(ConstantKey);
+	var options = {
+		mode: CryptoJS.mode.ECB,
+		padding: CryptoJS.pad.Pkcs7
+		};
+	var aesDecrypt = CryptoJS.AES.decrypt(Encryptedtext, key, options);
+	document.write("<br/>", aesDecrypt.toString(CryptoJS.enc.Utf8));
+}
+</script>
+
+<script type="text/javascript">
+function toggle_visibility(id) 
+{
+    var e = document.getElementById(id);
+    if (e.style.display == 'block' || e.style.display=='')
+    {
+        e.style.display = 'none';
+    }
+    else 
+    {
+        e.style.display = 'block';
+    }
+}
+</script>
+
+<body><h1>使用CryptoJS加密解密</h1>
+
+<p class="button" onclick="toggle_visibility('encry')">加密</p>
+<p class="button" onclick="toggle_visibility('decry')">解密</p>
+
+<form id="encry" name="form1" method="post" action="" style="display:none">
+需要加密的文本: <br/>
+<textarea name="input1" style="width:800px;height:450px;" warp="virtual" id="input1"></textarea><br/>
+<input type="button" name="Submit" value="提交" onClick="encrypt(input1)">
+</form>
+
+<br/>
+
+<form id="decry" name="form2" method="post" action="" style="display:none">
+需要解密的文本: <br/>
+<textarea name="input2" style="width:800px;height:450px;" warp="virtual" id="input2"></textarea><br/>
+<input type="button" name="Submit" value="提交" onClick="decrypt(input2)">
+</form>
+
+<p>&nbsp;</p>
+</body>
+</html>
