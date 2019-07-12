@@ -45,7 +45,7 @@
 | Win |打开 Listary|
 | Win+L|锁屏|
 | Win+X | 相当于右键开始图标，有不少系统高级功能 |
-| Win+O |打开天若OCR (AHK)|
+| F4 |打开/运行天若OCR (AHK)|
 | Win+V |剪贴板|
 | Win+B|打开选定任务栏中的状态栏图标|
 | Win+N |打开并新建 Notepad (AHK)|
@@ -63,6 +63,7 @@
 | 快捷键 | 快捷键作用 |
 |:---|:---|
 | F2 | 重命名 |
+| Ctrl/ Ctrl+Space | 微软输入法切换中英文 |
 | Shift + Tab | 减少缩进 |
 | Alt+F4或Ctrl+W|退出，后者是强制退出更有用 |
 | Alt + P | 文件(图片)预览 |
@@ -71,7 +72,7 @@
 
 * [15 个一定要会的 Windows7 快捷键](http://www.appinn.com/windows-7-15-keyboard-shortcut/)
 * [没有鼠标的日子多亏了我精湛的手操，各种快捷键分享](http://www.cnblogs.com/Wayou/p/shortcuts.html)
-* [ListaryWithWinKey](https://github.com/KevinWang15/ListaryWithWinKey)：将快捷键改为Win键。更多listary的功能，参见[Listary 官方文档中文版](./Listary/Listary 官方文档中文版.md).
+* [ListaryWithWinKey](https://github.com/KevinWang15/ListaryWithWinKey)：将快捷键改为Win键。
 
 
 
