@@ -6,25 +6,24 @@
 
 更多内容可以参见：[Win10服务优化](http://www.w10zj.com/Win10xy/Win10yh_508.html)。下面是我自己总结的优化建议。
 
-1. ==使用Dism++优化系统及服务==: 不要用别的方法优化. 多次惨痛教训, 优化服务顶多设为`手动`就好啦.
+1. ==使用Dism++优化系统及服务==: 不要用别的方法优化. **不要关闭控制面板的搜索服务功能**, 搜索服务可以用 Dism++ 关闭explorer的蓝条加载bug! 
 
-2. 使用Dism++删除缓存以及不必要的预装应用
+2. 使用Dism++删除缓存以及不必要的预装应用(可以全部删除，包括没用的应用商店~)
 
-3. BIOS关闭Legacy启动，开启安全启动
+3. BIOS关闭 Legacy启动，开启安全启动
 
 4. Bios 关闭 Performance Intel SpeedStep, 提高 CPU 功率.
 
-5. **不要关闭搜索服务和功能**,explorer的蓝条加载bug! 
+5. 使用**彻底删除WIN10全家桶**删除一些Win不用的应用和服务, 比如 EDGE, 混合现实门户, 连接, Onedrive.
 
-6. 使用**彻底删除WIN10全家桶**删除一些Win不用的应用和服务, 比如 EDGE, 混合现实门户, 连接, Onedrive.
+6. Typora 和 Chrome 使用硬件加速, 解决了 Chrome 打开设置卡顿, 看视频卡顿的问题.
 
-7. Typora 和 Chrome 使用硬件加速, 解决了 Chrome 打开设置卡顿, 看视频卡顿的问题.
-
-8. 出现explorer的快速异常检测失败错误，可能是dism++优化了禁用组件堆栈日志和备份以及诊断服务。暂时解决方案是 alt+tab 然后关闭弹出框。
-
-9. explorer 不要开启单进程
+7. 出现explorer的快速异常检测失败错误，可能是dism++优化了禁用组件堆栈日志和备份以及诊断服务。暂时解决方案是 alt+tab 然后关闭弹出框。
 
    
+
+
+
 
 
 
@@ -125,17 +124,13 @@ Win10作为微软的一个旗舰系统有了更多的性质，不过也会有相
 
 * [知乎: 如何优雅地使用 Windows](https://www.zhihu.com/question/20491886)
 
-* [win7中图片无法显示预览缩略图](http://jingyan.baidu.com/article/295430f12aeeec0c7e0050bf.html)
-
 * [用mklink同步任意文件夹](https://wzyboy.im/post/40.html)
 
-* [win10搜索功能不能用](https://jingyan.baidu.com/article/5552ef47e1e789518efbc941.html)
+* [win10设置搜索功能不能用](https://jingyan.baidu.com/article/5552ef47e1e789518efbc941.html)
 
 * [Win10家庭版打开组策略方法](https://jingyan.baidu.com/article/647f0115eafbb67f2148a814.html)，记得重启。
 
 * [如何彻底删除或卸载OneDrive](https://jingyan.baidu.com/article/eb9f7b6d6c0183869364e827.html)
-
-* [如何修改Win7新建文件夹默认名称?](https://www.kafan.cn/edu/60998064.html)
 
 * [釋放NVIDIA愛用者的硬碟空間](https://tw.msi.com/blog/%E6%98%A5%E5%AD%A3%E5%A4%A7%E6%8E%83%E9%99%A4%EF%BC%9A%E9%87%8B%E6%94%BEnvidia%E6%84%9B%E7%94%A8%E8%80%85%E7%9A%84%E7%A1%AC%E7%A2%9F%E7%A9%BA%E9%96%93) 
 
@@ -144,6 +139,10 @@ Win10作为微软的一个旗舰系统有了更多的性质，不过也会有相
   
 
   
+
+Update by whzecomjm 
+
+2019-07-13 12:05:37
 
 
 

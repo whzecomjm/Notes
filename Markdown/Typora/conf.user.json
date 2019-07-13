@@ -19,7 +19,9 @@
     // for example: 
     // "Always on Top": "Ctrl+Shift+P"
     "Typewriter Mode": "F10",
-    "Highlight": "Ctrl+Shift+H"
+    "Highlight": "Ctrl+Shift+H",
+    "Delete Line/Sentence": "Ctrl+Shift+L",
+    "Toggle Sidebar": "Ctrl+Shift+B"
   },
 
   "monocolorEmoji": false, //default false. Only work for Windows
