@@ -134,7 +134,9 @@ Win10作为微软的一个旗舰系统有了更多的性质，不过也会有相
 
 * [釋放NVIDIA愛用者的硬碟空間](https://tw.msi.com/blog/%E6%98%A5%E5%AD%A3%E5%A4%A7%E6%8E%83%E9%99%A4%EF%BC%9A%E9%87%8B%E6%94%BEnvidia%E6%84%9B%E7%94%A8%E8%80%85%E7%9A%84%E7%A1%AC%E7%A2%9F%E7%A9%BA%E9%96%93) 
 
-* [Windows 10 下 7zip 拖动鼠标选择时鼠标会瞬移/飞走](https://www.v2ex.com/t/411282)： SysListView32 的 bug。解决方案改用 Bandizip，减少显示属性内容。
+* [Windows 10 鼠标选择时鼠标会瞬移/飞走](https://www.v2ex.com/t/411282)： SysListView32 的 bug。解决方案改用 Bandizip，减少显示属性内容。
+
+* [sfc /scannow是什么意思，有什么作用?](https://blog.csdn.net/cxk207017/article/details/78508344)
 
   
 

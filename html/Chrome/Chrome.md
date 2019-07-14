@@ -44,6 +44,16 @@ cmd:cmd.exe /k ping yahoo.com
 
 
 
+### 字体设置
+
+Chrome 在中文状态下的默认字体设置策略不恰当。实际上，四个默认字体选项都应该设定为西文字体，然后由操作系统 fallback 至中文字体。对于 Windows，我个人建议将四个默认字体选项设置为「Arial、Georgia、Arial、Consolas」或「Verdana、Georgia、Verdana、Consolas」。
+
+> 知乎：https://www.zhihu.com/question/20365811/answer/14908416
+
+我的方案: 微软雅黑、Candara、Verdana、Consolas。
+
+
+
 ## 浏览器扩展和插件
 
 ### Chrome 扩展

@@ -1,6 +1,6 @@
 # 科学上网
 
-科学上网太重要！特别是在国内用不了谷歌太难受。一个比较绿色的方法就是使用hosts。不过这个方法要经常更新，不一定保证一直有效。另外可以尝试一下无界科学上网和SSR，虽然比较麻烦。同样在海外又想要看国内视频听国内歌.
+科学上网太重要！特别是在国内用不了谷歌太难受。一个比较绿色的方法就是使用hosts。不过这个方法要经常更新，不一定保证一直有效。另外可以尝试一下无界科学上网和 SSR，虽然比较麻烦。同样在海外又想要看国内视频听国内歌。
 
 [TOC]
 
@@ -14,6 +14,8 @@ SSR免费节点推荐: [免费ss/ssr/vpn/brook账号密码分享free ssr ss vpn 
 这之后我也是用谷歌免费一年的vps: [Google Cloud Platform 搭建了一个SSR服务器](https://suiyuanjian.com/124.html). 不过不好使用, 然后遇到文卫哥, 他把他日本vps搭建的SS给我使用. 之后文卫哥的SS也失效了, 我自己也成功搭了一个GCP-SSR(因为之前没注意SSR和LNMP不兼容, 也就是博客和ssr不兼容), 现已过期.
 
 **iOS SSR APP**:  Potatso Lite,  红叶加速器(提供免费SSR账号)
+
+
 
 ### SSR 订阅地址
 
@@ -43,7 +45,7 @@ https://shadowsocks-share.herokuapp.com/subscribe?valid=1
 ## 网易云音乐海外播放限制破解
 
 
-如果点击播放，会提示“由于版权保护，您所在的地区暂时无法使用。” 可以通过下列方式破解： 用国内服务器反向代理网页端地址 music.163.com。下面有几个网友义务提供的服务器，你可以用hosts的方式将music.163.com指定到他们。相关解决方法可以参见: [网易云音乐的版权、海外播放限制及破解](https://fireattack.wordpress.com/2016/03/27/netease-music/)。桌面版的网易云音乐去除海外版权的唯一方法是修改hosts如下：
+如果点击播放，会提示“由于版权保护，您所在的地区暂时无法使用。” 可以通过下列方式破解： 用国内服务器反向代理网页端地址 music.163.com。下面有几个网友义务提供的服务器，你可以用hosts的方式将music.163.com指定到他们。桌面版的网易云音乐去除海外版权的唯一方法是修改hosts如下：
 
 ```bat
 # 网易云音乐服务器反代 (由 yizhiheng 赞助提供; 服务器位于纽约)
@@ -60,13 +62,13 @@ https://shadowsocks-share.herokuapp.com/subscribe?valid=1
 ```
 更多服务器ip参见由 [季寻梦](https://jixun.moe/) 赞助提供的: [通过修改 Hosts/DNS/PAC 实现海外收听网易云音乐](https://jixun.moe/post/oversea-netease-cloud-music-by-hosts/)。季寻梦还提供了反代的DNS的服务器以及一个 pac 文件.
 
-另外在以色列，服务商还屏蔽了一些国内网站，这可以通过修改DNS服务器移除效果，比如使用 Goole Public DNS。
+注: 以色列的服务商还屏蔽了一些国内网站，可以通过修改DNS服务器移除效果，比如 Google Public DNS。
 
 
 
 ## 利用 BIU 电脑账号使用 Putty Socket5 代理翻墙
 
-1. 下载putty, 新建一个 session: `BIU-putty-socket`. Hostname 为 `planet.cs.biu.ac.il`, Port 保持默认22.
+1. 下载putty, 新建一个 session: `BIU-putty`. Hostname 为 `planet.cs.biu.ac.il`, Port 保持默认22.
 2. 在左侧 Category-> Connection -> SSH -> Tunnels, 填入一个 Source port `4000`. 使用 Dynamic + Auto.
 3. Add 保存为一个 D4000, 切回 session 保存. Open 启用Putty, 输入账号`zhangwe1` 和密码.
 4. Chrome 下载 SwitchyOmega, 并新建一个代理, 协议为 `SOCKS5`, 代理服务器为 `127.0.0.1`, 端口为之前设定的 `4000`. 保存
@@ -82,6 +84,8 @@ https://shadowsocks-share.herokuapp.com/subscribe?valid=1
 
 1. BIU math CS help: <http://ezra.cs.biu.ac.il/>.
 2. [如何通过 Putty 连接 SSH 代理翻墙](https://jingpin.org/putty-ssh-tunnel/).
+
+
 
 ## 使用 Google Cloud Platform 安装SSR
 
