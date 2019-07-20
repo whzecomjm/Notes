@@ -21,20 +21,22 @@ WoX是适用于Windows的启动器，可以正常工作。它是Alfred和Launchy
 
 我安装的wox插件：
 
-4. [Clipboard History](http://www.wox.one/plugin/4/)
-6. [有道翻译](http://www.wox.one/plugin/78/)
-7. [YouTubeQuery](http://www.wox.one/plugin/245)
-9. [Wox.Plugin.Currency](http://www.wox.one/plugin/68/)
-10. [Todos](http://www.wox.one/plugin/77/)
-9. [IP Address](http://www.wox.one/plugin/43/)
-10. [Remove USB](http://www.wox.one/plugin/34/)
-8. [Weather.Open](http://www.wox.one/plugin/118)
+- [有道翻译](http://www.wox.one/plugin/78/)
+- [YouTubeQuery](http://www.wox.one/plugin/245)
+- [Wox.Plugin.Currency](http://www.wox.one/plugin/68/)
+- [IP Address](http://www.wox.one/plugin/43/)
+- [Remove USB](http://www.wox.one/plugin/34/)
+- [Weather.Open](http://www.wox.one/plugin/118)
 
-
+  
 
 其他好的插件：
 
+- [Todos](http://www.wox.one/plugin/77/)
+
 - [ProcessKiller](http://www.wox.one/plugin/21)
+
+- [Clipboard History](http://www.wox.one/plugin/4/)
 
 - [Switcheroo for Wox](http://www.wox.one/plugin/52/)
 
@@ -43,3 +45,4 @@ WoX是适用于Windows的启动器，可以正常工作。它是Alfred和Launchy
 - [bili](http://www.wox.one/plugin/207)，需要 python
 
   
+

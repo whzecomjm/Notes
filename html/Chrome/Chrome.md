@@ -73,6 +73,7 @@ Chrome 在中文状态下的默认字体设置策略不恰当。实际上，四�
 * [Zotero Connector](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc)
 * [Makedown](https://chrome.google.com/webstore/detail/makedown/hjhdlmnpinhhbonjckafaeaacblilpkc): 知乎专栏和知乎输入公式
 * [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif): 代理切换
+* [NetEaseMusicWorld+](https://chrome.google.com/webstore/detail/neteasemusicworld%20/pjcgkmiglhiambjngnljkdpoggonlnfe): 网易云音乐海外
 * Grammarly for chrome
 
 
