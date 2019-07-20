@@ -20,10 +20,9 @@
 
 7. 出现explorer的快速异常检测失败错误，可能是dism++优化了禁用组件堆栈日志和备份以及诊断服务。暂时解决方案是 alt+tab 然后关闭弹出框。
 
+8. 一些不配置高分屏的程序可以使用 `系统(增强)缩放等级` 让其更清晰，比如SpeqMath， SyncFolders，ReNamer，RegOwnershipEx 等等。但注意，虽然 Listary 使用这一缩放也能更清晰，但是使用后会导致所有使用 Listary 打开的程序都会使用这一缩放等级打开，比如 typora，显示效果不如人意。
+
    
-
-
-
 
 
 
@@ -88,19 +87,17 @@
 
 
 
-## 解决Windows 10祖传 日志 DistributedCOM 10016 错误
+## 解决Windows 10祖传日志 DistributedCOM 10016 错误
 
 这个错误会会导致 Windows 10 死机, 我们需要使用 `RegOwnershipEx` 这一软件。
 
 1. 首先打开事件查看器定位10016错误信息，我们有如下日志：
 
-   > 应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (不可用)中运行的地址 LocalHost (使用 LRPC) 中的用户 PC\whzecomjm SID (blabla)授予针对 CLSID 为 
-   > {2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
-   > 、APPID 为 
-   > {15C20B67-12E7-4BB6-92BB-7AFF07997402}
-   >  的 COM 服务器应用程序的 本地 激活 权限。此安全权限可以使用组件服务管理工具进行修改。
-
-   我们需要记住，用户名， APPID。
+   > 应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (不可用)中运行的地址 LocalHost (使用 LRPC) 中的用户 PC\whzecomjm SID (blabla)授予针对 CLSID 为 {2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}、
+   > APPID 为 {15C20B67-12E7-4BB6-92BB-7AFF07997402}
+   > 的 COM 服务器应用程序的 本地 激活 权限。此安全权限可以使用组件服务管理工具进行修改。
+   
+   我们需要记住，用户名和 APPID。
 
 2. 用注册表编辑器找到 APPID，比如 `HKEY_CLASSES_ROOT\AppID\{15C20B67-12E7-4BB6-92BB-7AFF07997402}`, 查看其对应的组件服务名称。
 
@@ -144,10 +141,5 @@ Win10作为微软的一个旗舰系统有了更多的性质，不过也会有相
 
 Update by whzecomjm 
 
-2019-07-13 12:05:37
-
-
-
-
-
+2019-07-20 09:59:24
 
