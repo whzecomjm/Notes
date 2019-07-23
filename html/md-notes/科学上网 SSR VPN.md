@@ -89,14 +89,22 @@ ping cdnetworks.com
 因为通过Sockets 5代理, 所以查找文献时候会自动登录 Bar-Ilan 的公共账号. 
 
 1. 下载putty, 新建一个 session: `BIU-putty`. HostName 为 `planet.cs.biu.ac.il`, Port 保持默认22.
-2. 在左侧 Category> Connection > SSH > Tunnels, 填入一个 Source port `4000`. 使用 Dynamic + Auto.
+
+2. 在左侧 Connection > SSH > Tunnels, 填入一个 Source port `4000`. 使用 Dynamic + Auto.
+
 3. Add 保存为一个 D4000, 切回 session 保存. Open 启用Putty, 输入账号`zhangwe1` 和密码.
-4. Chrome 下载 SwitchyOmega, 并新建一个代理, 协议为 `SOCKS5`, 代理服务器为 `127.0.0.1`, 端口为之前设定的 `4000`. 保存
-5. 现在启用代理就可以开始畅游网络~
-6. 如果putty需要自动登录, 参见[PUTTY设置不用密码直接登录linux服务器](https://blog.csdn.net/lincy100/article/details/7007939). 用puttygen生成ppk私钥. 选择Connection>SSH>Auth，在“Private key file for authentication”输入密钥的路径. 然后在链接>数据>自动登录用户名输入登陆的用户名，比如`zhangwe1`. 
-7. 之后需要添加 "authorized_keys" 到学校根目录中的 .ssh 目录中.
 
+4. Chrome 下载 SwitchyOmega, 并新建一个代理, 协议为 `SOCKS5`, 代理服务器为 `127.0.0.1`, 端口为之前设定的 `4000`. 
 
+6. 如果putty需要自动登录, 参见[PUTTY设置不用密码直接登录linux服务器](https://blog.csdn.net/lincy100/article/details/7007939). 用puttygen生成ppk私钥. 选择Connection>SSH>Auth，在“Private key file...” 输入密钥的路径. 然后在Connection>Data>Auto-login username 中输入登陆的用户名`zhangwe1`. 
+
+6. 为了防止putty自动断线，选择 Connection，把 seconds between keepalives 设为 10；low-level TCP connection options 的两个选项都勾上。
+
+7. 需要添加 "authorized_keys" 到学校根目录中的 .ssh 目录中.
+
+8. 现在启用代理就可以开始畅游网络~
+
+   
 
 参考链接: 
 
