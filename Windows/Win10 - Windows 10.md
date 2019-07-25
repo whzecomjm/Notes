@@ -6,23 +6,27 @@
 
 更多内容可以参见：[Win10服务优化](http://www.w10zj.com/Win10xy/Win10yh_508.html)。下面是我自己总结的优化建议。
 
-1. ==使用Dism++优化系统及服务==: 不要用别的方法优化. **不要关闭控制面板的搜索服务功能**, 搜索服务可以用 Dism++ 关闭explorer的蓝条加载bug! 
+1. ==使用Dism++优化系统及服务==: 尽量不要用别的方法优化. **不要关闭控制面板的搜索功能**, 搜索服务可以用 Dism++ 关闭. 可关闭的[服务](https://www.zhihu.com/question/36192602)有 Search、Connected User Experiences and Telemetry、Superfetch（改名为SysMain）.优化方法参见[这个知乎回答](https://www.zhihu.com/question/33855201/answer/382534840)。
 
 2. 使用Dism++删除缓存以及不必要的预装应用(可以全部删除，包括没用的应用商店~)
 
 3. BIOS关闭 Legacy启动，开启安全启动
 
-4. Bios 关闭 Performance Intel SpeedStep, 提高 CPU 功率.
+4. BIOS关闭 Performance Intel SpeedStep, 提高 CPU 功率.
 
-5. 使用**彻底删除WIN10全家桶**删除一些Win不用的应用和服务, 比如 EDGE, 混合现实门户, 连接, Onedrive.
+6. 使用 Windows Update Blocker 关闭系统更新
 
-6. Typora 和 Chrome 使用硬件加速, 解决了 Chrome 打开设置卡顿, 看视频卡顿的问题.
+7. 使用**彻底删除WIN10全家桶**删除一些Win不用的应用和服务, 比如 EDGE, 混合现实门户, 连接, Onedrive.(尽量不要删除 Cortana，会影响系统)
 
-7. 出现explorer的快速异常检测失败错误，可能是dism++优化了禁用组件堆栈日志和备份以及诊断服务。暂时解决方案是 alt+tab 然后关闭弹出框。
+8. Typora 和 Chrome 尽量使用硬件加速, 解决了 Chrome 打开设置卡顿, 看视频卡顿的问题.
 
-8. 一些不配置高分屏的程序可以使用 `系统(增强)缩放等级` 让其更清晰，比如SpeqMath， SyncFolders，ReNamer，RegOwnershipEx 等等。但注意，虽然 Listary 使用这一缩放也能更清晰，但是使用后会导致所有使用 Listary 打开的程序都会使用这一缩放等级打开，比如 typora，显示效果不如人意。
+9. 出现explorer的快速异常检测失败错误，~~可能是dism++优化了禁用组件堆栈日志和备份以及诊断服务。~~暂时解决方案是 alt+tab 然后关闭弹出框。
 
-   
+10. 一些不配置高分屏的程序可以使用 `系统(增强)缩放等级` 让其更清晰，比如SpeqMath，ReNamer，RegOwnershipEx 等等。但注意，虽然 Listary 使用这一缩放也能更清晰，但是使用后会导致所有使用 Listary 打开的程序都会使用这一缩放等级打开，比如 typora，显示效果不如人意。
+
+    
+
+    
 
 
 
