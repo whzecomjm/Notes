@@ -4,6 +4,7 @@
 @echo off
 start "MouseInc" "D:\Shortcuts\MouseInc.lnk"
 start "ProcessLasso" "D:\Shortcuts\ProcessLasso.lnk"
+start "MemReduct" "D:\Program Files\Dism++\memreduct\memreduct.exe"
 start "whz.ahk" "E:\Program Docs\AutoHotKey\whz.ahk"
 start "TrafficMonitor" "D:\Program Files\Dism++\TrafficMonitor\TrafficMonitor.exe"
 start "Minipad2" "D:\Shortcuts\minipad2.lnk"
