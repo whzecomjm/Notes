@@ -6,7 +6,7 @@
 
 更多内容可以参见：[Win10服务优化](http://www.w10zj.com/Win10xy/Win10yh_508.html)。下面是我自己总结的优化建议。
 
-1. ==使用Dism++优化系统及服务==: 尽量不要用别的方法优化. **不要关闭控制面板的搜索功能**, 搜索服务可以用 Dism++ 关闭. 可关闭的[服务](https://www.zhihu.com/question/36192602)有 Search、Connected User Experiences and Telemetry、Superfetch（改名为SysMain）.优化方法参见[这个知乎回答](https://www.zhihu.com/question/33855201/answer/382534840)。
+1. ==使用Dism++优化系统及服务==: 尽量不要用别的方法优化. **不要关闭控制面板的搜索功能**, 搜索服务可以用 Dism++ 关闭. 可关闭的[服务](https://www.zhihu.com/question/36192602)有 Search、Connected User Experiences and Telemetry、Superfetch（改名为SysMain, 关闭以后会影响程序打开速度）.优化方法参见[这个知乎回答](https://www.zhihu.com/question/33855201/answer/382534840)。
 
 2. 使用Dism++删除缓存以及不必要的预装应用(可以全部删除，包括没用的应用商店~)
 
