@@ -99,3 +99,4 @@ Chrome 在中文状态下的默认字体设置策略不恰当。实际上，四�
 - [知乎重排for印象笔记](https://greasyfork.org/zh-CN/scripts/372064): 方便复制和打印的知乎问答和专栏
 - [解析 91](https://greasyfork.org/zh-CN/scripts/378608): 精力是有限的
 - [斗鱼去火箭横幅](https://greasyfork.org/zh-CN/scripts/381934): 斗鱼精简且去火箭横幅, 加很多小功能
+- [斗鱼自动发弹幕、领取观看鱼丸、清爽模式](https://greasyfork.org/zh-CN/scripts/380546)
