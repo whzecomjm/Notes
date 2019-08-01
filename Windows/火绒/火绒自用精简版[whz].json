@@ -163,6 +163,16 @@
             "mt":1,
             "at":21,
             "res_path":"*Com.Tencent.taotao*"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"qqcall*.exe"
+          },
+          {
+            "mt":1,
+            "at":29,
+            "res_path":"*.tlg"
           }
         ]
       },
@@ -170,53 +180,13 @@
     },
     {
       "power":1,
-      "name":"净化360浏览器 BY Smile",
+      "name":"Ad Local",
       "policies":{
         "*":[
           {
             "mt":1,
-            "at":21,
-            "res_path":"*\\360bdoctor*"
-          },
-          {
-            "mt":1,
-            "at":21,
-            "res_path":"*\\sesvc*"
-          },
-          {
-            "mt":1,
-            "at":21,
-            "res_path":"*\\360Game*"
-          },
-          {
-            "mt":1,
-            "at":21,
-            "res_path":"*\\GameCenter.dll"
-          },
-          {
-            "mt":1,
-            "at":21,
-            "res_path":"*\\ExtYouxi*"
-          },
-          {
-            "mt":1,
-            "at":21,
-            "res_path":"*\\ExtFeedWeibo*"
-          },
-          {
-            "mt":1,
-            "at":21,
-            "res_path":"*\\Extwebmail*"
-          },
-          {
-            "mt":1,
-            "at":21,
-            "res_path":"*\\components\\gameplugin*"
-          },
-          {
-            "mt":1,
-            "at":21,
-            "res_path":"*\\components\\bankmode*"
+            "at":12,
+            "res_path":"*\\AnyDesk\\ad.trace"
           }
         ]
       },
