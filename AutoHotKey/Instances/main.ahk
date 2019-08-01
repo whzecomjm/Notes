@@ -130,6 +130,20 @@ else
 run "D:\Shortcuts\Everything.lnk"
 Return
 
+#m:: ;打开 Minipad2
+IfWinNotExist ahk_exe minipad2.exe
+run "D:\Shortcuts\minipad2.lnk"
+Else IfWinExist 
+WinActivate
+Return
+
+#k:: ;打开 KeePass
+IfWinNotExist ahk_exe KeePass.exe
+run "D:\Shortcuts\KeePass.lnk"
+Else IfWinExist 
+WinActivate
+Return
+
 ^+a:: ;使用微信时用微信截图, 否则使用系统自带截图
 IfWinActive, ahk_exe WeChat.exe
 Send !a
