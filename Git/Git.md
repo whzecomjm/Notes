@@ -36,7 +36,7 @@ Windows下有现成的Git for Windows，配置比较简单，详情参见参考�
     git config --global i18n.commit.encoding utf-8 
     git config --global i18n.logoutputencoding utf-8 
     //git命令缩写
-    git config --global alias.cm commit
+    git config --global alias.cm commit -am
     git config --global alias.st status
     git config --global alias.ps push
     ```

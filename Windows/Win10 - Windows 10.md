@@ -6,29 +6,32 @@
 
 更多内容可以参见：[Win10服务优化](http://www.w10zj.com/Win10xy/Win10yh_508.html)。下面是我自己总结的优化建议。
 
-1. ==使用Dism++优化系统及服务==: 尽量不要用别的方法优化. **不要关闭控制面板的搜索功能**, 搜索服务可以用 Dism++ 关闭. 可关闭的[服务](https://www.zhihu.com/question/36192602)有 Search、Connected User Experiences and Telemetry、Superfetch（改名为SysMain, 关闭以后会影响程序打开速度）.优化方法参见[这个知乎回答](https://www.zhihu.com/question/33855201/answer/382534840)。
+1. ==使用Dism++优化系统及服务==: 尽量不要用别的方法优化. **不要关闭控制面板的搜索功能**, 搜索服务可以用 Dism++ 关闭. 其他可关闭的[服务](https://www.zhihu.com/question/36192602)有 Connected User Experiences and Telemetry、SysMain （原名为Superfetch，关闭以后会影响应用程序打开速度）. 优化方法参见[这个知乎回答](https://www.zhihu.com/question/33855201/answer/382534840)。
 
-2. 使用Dism++删除缓存以及不必要的预装应用(可以全部删除，包括没用的应用商店~)
+2. 使用Dism++删除缓存以及不必要的预装应用(可以全部删除，包括应用商店)
 
-3. BIOS关闭 Legacy启动，开启安全启动
-
-4. BIOS关闭 Performance Intel SpeedStep, 提高 CPU 功率.
+3. **BIOS**关闭 Legacy启动，开启安全启动; 关闭 Performance Intel SpeedStep, 提高 CPU 功率.
 
 6. 使用 Windows Update Blocker 关闭系统更新
 
-7. 使用**彻底删除WIN10全家桶**删除一些Win不用的应用和服务, 比如 EDGE, 混合现实门户, 连接, Onedrive.(尽量不要删除 Cortana，会影响系统)
+7. 使用**彻底删除WIN10全家桶**删除一些Win不用的应用和服务, 比如 EDGE, 混合现实门户, 连接, Onedrive. (删除 Cortana 会影响系统稳定)
 
 8. Typora 和 Chrome 尽量使用硬件加速, 解决了 Chrome 打开设置卡顿, 看视频卡顿的问题.
 
-9. 出现explorer的快速异常检测失败错误，~~可能是dism++优化了禁用组件堆栈日志和备份以及诊断服务。~~暂时解决方案是 alt+tab 然后关闭弹出框。
+9. 出现explorer的快速异常检测失败错误，暂时解决方案是 alt+tab 然后关闭弹出框。
 
-10. 一些不配置高分屏的程序可以使用 `系统(增强)缩放等级` 让其更清晰，比如SpeqMath，ReNamer，RegOwnershipEx 等等。但注意，虽然 Listary 使用这一缩放也能更清晰，但是使用后会导致所有使用 Listary 打开的程序都会使用这一缩放等级打开，比如 typora，显示效果不如人意。
+10. 一些不配置高分屏的程序可以使用 `系统(增强)缩放等级` 让其更清晰，比如SpeqMath，ReNamer，RegOwnershipEx 等等。虽然 Listary 使用该方法也能更清晰，但是缩放等级会继承在所有用 Listary 打开的程序: 比如 Typora，到这后者显示效果不佳。
 
-    
+9. *Distributed Transaction Coordinator 服务由于下列服务特定错误而终止*. 实际上这个分布式的服务对于家庭用户[完全不需要](https://www.experts-exchange.com/questions/23039086/The-Distributed-Transaction-Coordinator-service-terminated.html), 可以禁用或者卸载: `MSDTC -uninstall`, 再删掉注册表
 
-    
+   ```shell
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDTC]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSDTC]
+   ```
 
+   
 
+   
 
 ## Windows常用快捷键
 
