@@ -32,12 +32,14 @@ https://shadowsocks-share.herokuapp.com/subscribe?valid=1
 https://muma16fx.netlify.com
 ## 敲门砖：
 https://qiaomenzhuanfx.netlify.com
-## t.me/SSRSUB：
+## t.me/SSRSUB(反馈很好)：
 https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
 ## SSRTOOL.COM：
 https://yzzz.ml/freessr/
 ## 羊王免费SSR：
 https://lasting-pal-tuesday-fighting.trycloudflare.com/
+## voken100g
+https://raw.githubusercontent.com/voken100g/AutoSSR/master/online
 ```
 
 
