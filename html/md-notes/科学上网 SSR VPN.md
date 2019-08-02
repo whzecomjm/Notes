@@ -17,27 +17,35 @@ SSR免费节点推荐: [免费ss/ssr/vpn/brook账号密码分享free ssr ss vpn 
 
 
 
-### 订阅地址
+### SSR订阅地址
 
 很多免费SSR会一段时间后更改密码, 有的提供[SSR地址订阅](https://dax309.club/SSRdy.html), 更加方便.
 
-[SSRShare](https://ssrshare.com/) 网站提供的 [SSCAP/SSTAP 小工具](https://www.ssrtool.com/tool/free_ssr ) 可以使用无密码的非实时订阅如下:
+[SSRShare](https://ssrshare.com/) 网站提供的可以使用无密码的非实时订阅如下:
 
 ```bash
-## SSRShare
+## SSRShare (被删除)
 https://raw.githubusercontent.com/AmazingDM/sub/master/ssrshare.com 
-## 其他
-https://aoxuaudaadaoeu.herokuapp.com/subscribe
+## shadowsocks-share
 https://shadowsocks-share.herokuapp.com/subscribe?valid=1
+## muma16fx
+https://muma16fx.netlify.com
+## 敲门砖：
+https://qiaomenzhuanfx.netlify.com
+## t.me/SSRSUB：
+https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
+## SSRTOOL.COM：
+https://yzzz.ml/freessr/
+## 羊王免费SSR：
+https://lasting-pal-tuesday-fighting.trycloudflare.com/
 ```
 
 
 
+参考链接:
 
-
-## 手机在海外翻墙回国
-
-以色列的服务商还屏蔽了一些国内网站，可以通过修改DNS服务器移除效果，比如 Google Public DNS。手机翻墙回国推荐下面这三款app: [解锁通](https://www.jiesuotong.com), [穿梭](https://www.transocks.com)(有广告), 快帆.
+- 碧海小站. [SSR免费节点订阅地址](https://bhqt.ltd/?p=240)
+- [SSCAP/SSTAP 小工具](https://www.ssrtool.com/tool/free_ssr )
 
 
 
@@ -45,8 +53,10 @@ https://shadowsocks-share.herokuapp.com/subscribe?valid=1
 
 ## 网易云音乐海外播放限制破解
 
+以色列的服务商屏蔽了一些国内网站，可以通过修改DNS服务器移除效果，比如 Google Public DNS。
 
-如果点击播放，会提示“由于版权保护，您所在的地区暂时无法使用。” 可以通过下列方式破解： 用国内服务器反向代理网页端地址 music.163.com。桌面版的网易云音乐去除海外版权的一种方法是修改hosts如下：
+
+在网易云音乐中，有时我们点击播放，会提示“由于版权保护，您所在的地区暂时无法使用。” 可以通过下列方式破解： 用国内服务器反向代理网页端地址 music.163.com。桌面版的网易云音乐去除海外版权的一种方法是修改hosts如下：
 
 ```shell
 # 网易云音乐服务器反代 (yizhiheng 提供，服务器位于纽约)
@@ -58,11 +68,11 @@ https://shadowsocks-share.herokuapp.com/subscribe?valid=1
 # m10 服务器
 125.39.1.27 m10.music.126.net
 ```
-更多服务器ip参见由季寻梦赞助提供的: [通过修改 Hosts/DNS/PAC 实现海外收听网易云音乐](https://jixun.moe/post/oversea-netease-cloud-music-by-hosts/)。~~季寻梦还提供了反代的DNS的服务器以及一个 pac 文件~~. 这一方法的缺点是服务器远，用的人多，导致有点卡；且不能使用浏览器在线收听和下载。
+更多服务器ip参见由季寻梦赞助提供的: [通过修改 Hosts/DNS/PAC 实现海外收听网易云音乐](https://jixun.moe/post/oversea-netease-cloud-music-by-hosts/)。这一方法的缺点是服务器远，用的人多以后会有点卡；且不能使用浏览器在线收听和下载。
 
 
 
-### 更好的方式
+### 更好的方式：Chrome 插件
 
 使用 Chrome 插件 [NetEaseMusicWorldPlus](https://github.com/nondanee/NetEaseMusicWorldPlus)。使用普通模式，导入[^1]最适合的 CDN：
 
@@ -84,9 +94,15 @@ ping cdnetworks.com
 
 
 
-## 利用 BIU 电脑账号使用 Putty Sockets 5 代理翻墙
+### 手机在海外享受国内影音
 
-因为通过Sockets 5代理, 所以查找文献时候会自动登录 Bar-Ilan 的公共账号. 
+手机翻墙回国推荐下面这三款app: [解锁通](https://www.jiesuotong.com), [穿梭](https://www.transocks.com)(有广告), 快帆.
+
+
+
+## 使用 Putty 创建 SOCKS5 代理
+
+使用BIU的ssh账号做代理。通过此代理, 查找文献时候会自动登录 Bar-Ilan 的公共账号. 步骤如下：
 
 1. 下载putty, 新建一个 session: `BIU-putty`. HostName 为 `planet.cs.biu.ac.il`, Port 保持默认22.
 
@@ -94,34 +110,31 @@ ping cdnetworks.com
 
 3. Add 保存为一个 D4000, 切回 session 保存. Open 启用Putty, 输入账号`zhangwe1` 和密码.
 
-4. Chrome 下载 SwitchyOmega, 并新建一个代理, 协议为 `SOCKS5`, 代理服务器为 `127.0.0.1`, 端口为之前设定的 `4000`. 
+4. 为了防止putty自动断线，选择 Connection，把 seconds between keepalives 设为 10；low-level TCP connection options 的两个选项都勾上。
 
-6. 如果putty需要自动登录, 参见[PUTTY设置不用密码直接登录linux服务器](https://blog.csdn.net/lincy100/article/details/7007939). 用puttygen生成ppk私钥. 选择Connection>SSH>Auth，在“Private key file...” 输入密钥的路径. 然后在Connection>Data>Auto-login username 中输入登陆的用户名`zhangwe1`. 
+5. Chrome 下载 SwitchyOmega 扩展, 并新建一个代理, 协议为 `SOCKS5`, 代理服务器为 `127.0.0.1`, 端口为之前设定的 `4000`. 
 
-6. 为了防止putty自动断线，选择 Connection，把 seconds between keepalives 设为 10；low-level TCP connection options 的两个选项都勾上。
+6. 进一步地，可以设置putty自动登录. 用puttygen生成并保存ppk私钥. 选择Connection>SSH>Auth,在“Private key file” 输入密钥的路径. 然后在Connection>Data>Auto-login username 中输入登陆的用户名`zhangwe1`. 
 
-7. 需要添加 "authorized_keys" 到学校根目录中的 .ssh 目录中.
+7. 添加 "authorized_keys" 到学校根目录中的 .ssh 目录中.
 
-8. 现在启用代理就可以开始畅游网络~
+8. 现在启用Putty连接打开SwitchyOmega 对应代理就可以开始畅游网络~
 
    
 
 参考链接: 
 
 1. BIU math CS help: <http://ezra.cs.biu.ac.il/>.
-2. [如何通过 Putty 连接 SSH 代理翻墙](https://jingpin.org/putty-ssh-tunnel/).
+2. Putty SSH 代理：[如何通过 Putty 连接 SSH 代理翻墙](https://jingpin.org/putty-ssh-tunnel/).
+3. Putty的自动登录：[PUTTY设置不用密码直接登录linux服务器](https://blog.csdn.net/lincy100/article/details/7007939)
 
 
 
-## 使用 Google Cloud Platform 安装SSR
-
-注意安装 SSR 之后，用Oneclickstack搭建LNMP以后将导致 SSR 不可用. 因此 LNMP 和 SSR 要分开用两个vm实例!
-
-
+## 使用 GCP 安装SSR
 
 ### 创建VM实例
 
-申请好GCP以后, 创建VM实例. 通过`创建实例`来创建一个虚拟机。名称：随意输入; 地区：建议asia-east1-c; 机器类型：小型（建议）/微型. 启动磁盘单击更改 – Ubuntu 16.04 LTS; 防火墙：允许HTTP流量，允许HTTPS流量
+申请好 Google Cloud Platform 账号以后, 创建VM实例. 通过`创建实例`来创建一个虚拟机。名称：随意输入; 地区：建议asia-east1-c; 机器类型：小型（建议）/微型. 启动磁盘单击更改 – Ubuntu 16.04 LTS; 防火墙：允许HTTP流量，允许HTTPS流量
 
 
 
@@ -163,7 +176,13 @@ ping cdnetworks.com
 
    
 
-> 参考链接: [使用Google Cloud Platform(GCP)安装SS教程](http://www.mzh.ren/gcp-free-ss.html).
+参考链接: 
+
+- [使用Google Cloud Platform(GCP)安装SS教程](http://www.mzh.ren/gcp-free-ss.html).
+
+
+
+> 注意：安装 SSR 之后，用Oneclickstack搭建LNMP (PHP+SQL环境) 将导致 SSR 不可用. 因此这两者要使用两个vm实例!
 
 
 
@@ -173,4 +192,4 @@ ping cdnetworks.com
 
 1. ExpressVPN，来自潘登和张殷达的推荐。
 2. [Baacloud](http://www.baavpn.net/)：杨思源的推荐
-3. 翻墙回国内首选：[PureVPN](https://www.vpndada.com/go/purevpn) 
+3. 翻墙回国首选：[PureVPN](https://www.vpndada.com/go/purevpn) 
