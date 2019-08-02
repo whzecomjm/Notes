@@ -187,6 +187,11 @@
             "mt":1,
             "at":12,
             "res_path":"*\\AnyDesk\\ad.trace"
+          },
+          {
+            "mt":1,
+            "at":13,
+            "res_path":"MSG0_*.bakdb"
           }
         ]
       },

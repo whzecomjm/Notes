@@ -7,39 +7,31 @@
 
 ## 酸酸乳——SSR
 
-SSR可以使用ssr链接快速配置，一些很好的SSR免费账号分享网站：[FreeSS](https://ssx.re/), [poro](http://poro.dog/) , [ssrtool](https://www.ssrtool.com/tool/free_ssr)。
+iOS版本可以使用**APP**:  Potatso Lite. PC 可以在Github或者ssrtool下载ssr. SSR可以使用ssr链接快速配置，可用地SSR免费账号分享网站：
 
-SSR免费节点推荐: [免费ss/ssr/vpn/brook账号密码分享free ssr ss vpn brook](https://darrenliuwei.com/%E5%85%8D%E8%B4%B9ss-ssr%E5%88%86%E4%BA%AB.html), 或者[免费ss/ssr分享](https://sphard2.github.io/gfw/free/ssr.html).
-
-这之后我也是用谷歌免费一年的vps: [Google Cloud Platform 搭建了一个SSR服务器](https://suiyuanjian.com/124.html). 不过不好使用, 然后遇到文卫哥, 他把他日本vps搭建的SS给我使用. 之后文卫哥的SS也失效了, 我自己也成功搭了一个GCP-SSR, 现已过期.
-
-**iOS SSR APP**:  Potatso Lite,  红叶加速器(提供免费SSR账号)
+- [poro](http://poro.cz/)
+- [SSRTool](https://www.ssrtool.com/tool/free_ssr)
+- [刘伟](https://darrenliuwei.com/%E5%85%8D%E8%B4%B9ss-ssr%E5%88%86%E4%BA%AB.html)
+- [FreeSS](https://ssx.re/)
+- https://free-ss.site/
 
 
 
 ### SSR订阅地址
 
-很多免费SSR会一段时间后更改密码, 有的提供[SSR地址订阅](https://dax309.club/SSRdy.html), 更加方便.
-
-[SSRShare](https://ssrshare.com/) 网站提供的可以使用无密码的非实时订阅如下:
+很多免费SSR会一段时间后更改密码, 有的提供SSR地址订阅, 更加方便. 测试可用订阅如下:
 
 ```bash
-## SSRShare (被删除)
+## SSRTool (被攻击后删除)
 https://raw.githubusercontent.com/AmazingDM/sub/master/ssrshare.com 
-## shadowsocks-share
-https://shadowsocks-share.herokuapp.com/subscribe?valid=1
+## t.me/SSRSUB(反馈很好)：
+https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
+## voken100g
+https://raw.githubusercontent.com/voken100g/AutoSSR/master/online
 ## muma16fx
 https://muma16fx.netlify.com
 ## 敲门砖：
 https://qiaomenzhuanfx.netlify.com
-## t.me/SSRSUB(反馈很好)：
-https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
-## SSRTOOL.COM：
-https://yzzz.ml/freessr/
-## 羊王免费SSR：
-https://lasting-pal-tuesday-fighting.trycloudflare.com/
-## voken100g
-https://raw.githubusercontent.com/voken100g/AutoSSR/master/online
 ```
 
 
@@ -181,6 +173,7 @@ ping cdnetworks.com
 参考链接: 
 
 - [使用Google Cloud Platform(GCP)安装SS教程](http://www.mzh.ren/gcp-free-ss.html).
+- [使用Google Cloud Platform(GCP GCE)安装SSR+BBR教程](https://suiyuanjian.com/124.html)
 
 
 
@@ -192,6 +185,6 @@ ping cdnetworks.com
 
 [VPN大大](https://www.vpndada.com/best-vpns-for-china-cn/)是翻墙VPN推荐的好网站, 他推荐 [ExpressVPN](https://www.vpndada.com/go/expressvpn-cn), [VyprVPN](https://www.vpndada.com/go/vyprvpn-cn), [PureVPN](https://www.vpndada.com/go/purevpn), [NordVPN](https://www.vpndada.com/go/nordvpn-cn) 翻墙软件, 并提供优惠券.
 
-1. ExpressVPN，来自潘登和张殷达的推荐。
-2. [Baacloud](http://www.baavpn.net/)：杨思源的推荐
+1. ExpressVPN，来自Panda和Yinda的推荐。
+2. [Baacloud](http://www.baavpn.net/)：Siyuan的推荐
 3. 翻墙回国首选：[PureVPN](https://www.vpndada.com/go/purevpn) 
