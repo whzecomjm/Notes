@@ -17,6 +17,24 @@ iOS版本可以使用**APP**:  Potatso Lite. PC 可以在Github或者ssrtool下�
 
 
 
+### SSR 配合 SwitchyOmega 使用
+
+1. SSR设置系统代理模式：`直连模式`
+2. SwitchOmega 插件情景模式中添加一个代理服务器`SSR`，协议为 `SOCKS5`, 代理服务器为 `127.0.0.1`, 端口为 `1080`. （SSR的默认本地端口）
+3. 打开规则列表设置中选择`AutoProxy`，填入：
+
+```html
+https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
+```
+
+4. 切换规则中的规则列表规则选定为`SSR`，应用更改即可。
+
+
+
+参考连接: [Google浏览器配置SwitchyOmega模式为auto switch](https://blog.csdn.net/u011068702/article/details/86624940).
+
+
+
 ### SSR订阅地址
 
 很多免费SSR会一段时间后更改密码, 有的提供SSR地址订阅, 更加方便. 测试可用订阅如下:
