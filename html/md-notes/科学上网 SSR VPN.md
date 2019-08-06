@@ -26,7 +26,7 @@ iOS版本可以使用**APP**:  Potatso Lite. PC 可以在Github或者ssrtool下�
 https://raw.githubusercontent.com/AmazingDM/sub/master/ssrshare.com 
 ## t.me/SSRSUB(反馈很好)：
 https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
-## voken100g
+## voken100g AutoSSR
 https://raw.githubusercontent.com/voken100g/AutoSSR/master/online
 ## muma16fx
 https://muma16fx.netlify.com
