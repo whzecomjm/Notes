@@ -171,8 +171,23 @@
           },
           {
             "mt":1,
-            "at":29,
+            "at":21,
             "res_path":"*.tlg"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"*Com.Tencent.dingdong*"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"*Com.Tencent.soso*"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"*Com.Tencent.wireless*"
           }
         ]
       },
@@ -185,13 +200,32 @@
         "*":[
           {
             "mt":1,
-            "at":12,
+            "at":13,
             "res_path":"*\\AnyDesk\\ad.trace"
           },
           {
             "mt":1,
             "at":13,
             "res_path":"MSG0_*.bakdb"
+          }
+        ]
+      },
+      "verdict":0
+    },
+    {
+      "power":1,
+      "name":"微信 Wechat",
+      "policies":{
+        "*":[
+          {
+            "mt":1,
+            "at":5,
+            "res_path":"*.xlog"
+          },
+          {
+            "mt":1,
+            "at":5,
+            "res_path":"MM.mmap2"
           }
         ]
       },
