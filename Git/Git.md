@@ -174,6 +174,22 @@ git push --tags
 
 
 
+## 加速国内 clone 和 push
+
+首先需要了解的是，在进行push或clone操作时慢是因为 `github.global.ssl.fastly.net` 域名被墙，解决方案就是用 [IPAddress.com](https://www.ipaddress.com/) 查询出这个域名的IP地址。
+
+访问 http://github.global.ssl.fastly.net.ipaddress.com/#ipinfo 即可查询。
+
+查询到的IP为： `151.101.185.194` 。
+
+修改hosts即可:
+
+```shell
+151.101.185.194 github.global.ssl.fastly.net 
+```
+
+
+
 ## 参考文献
 
 1. [Git 魔法（教程）](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/ch02.html)
