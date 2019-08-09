@@ -1,0 +1,940 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     38077,        930]
+NotebookOptionsPosition[     36636,        876]
+NotebookOutlinePosition[     37271,        901]
+CellTagsIndexPosition[     37228,        898]
+WindowTitle->Collatz Paths - Source
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Collatz Paths", "Section",
+ CellFrame->{{0, 0}, {0, 0}},
+ ShowCellBracket->False,
+ FontColor->RGBColor[0.597406, 0, 0.0527047]],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[CompressedData["
+1:eJztnVuSozgWQDNiPqa3MJ+zpVlCbaB3WlGVNV9dvYH6TQRUph/ZGIHQmwvG
+xoZzQu3Aku7VfUj4Nk53//fLn//78q+Xl5f/NP/88e+Xl8v154Xj5+fp89y0
+4+X63L7VnQu02XqOt9FzjRK5qtRMoYZFpk11/Ji+WDye92+r7+fFfbnGkuu9
+eIQ4LBVJ+YRo5DPnRdITDp0TLRg6m/62nY/n08f5+H461G37fWqum57z4Xy2
+jby0prMZOh4/jodLOx2bt6fzRSEA3B/KMKGSBy/DSKVcyYOn8krHqajvqed6
+G6iol4qkfAIVNQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADsizPA/lj72AEA
+AMCmWLu0AXh01j6jAAAAcdb+hNwUJ5e1zZnPDEeey/e1jx0AAABsirVLm03x
+XFVlhs1X1JNY+4wCAAB02B9PJ4BdsvYpBAAAgOeGihpADo9GAUDIr+Lnr7ef
+a9vw16/i73VtMPx6+2v1gGwMijeAE89FAQA2DRW1BxX14lBRA0wi+lx0baMA
+AAAAAAAAAAAAbkj0uegR4L4cDoe1TYA1YQMAbIaDy9rm3JU9+w4AjwB3np3D
+BgDYDHuuKu/su3k0ynNRACGLHMy93dm2ijCPpHvD7LliAQAAmA0VNRioqIGK
+GlYk9Vz0AAAAAAAAAAAAALBR9KPR8Kf0a9sFAAAAAAAAAAAAcCt4LgoAAAAA
+AAAAAAB7I/Vc9ONheH9/X9uEzUJsZ0PoAGBZ3gNuLQgggR21GUjl7SC2syF0
+ALAsVNQgxMv14XAI/xOja9sIAAAAT0lYWM5jbT/msGffAQAAAGAp9lxV3sF3
+b1r0uehSZgAAAAAAAAAAAAA8Ar9b6rpuXpu3+tf0PBcFWJcFvxYBAAAAANgh
+VNQAADCK5LnobwAAAAAAAAAAAIANUbcPRav+wehH7LmoUqpsqKqmNTSXRVE0
+by593mtRXlrfo7mImTlVN6ebUOhR07q3jmxVWXqquqxVOUjZq1eDVNe662ro
+Nxe1Xr5o2lt5cUc7VWr3BpGindNL6TkDl5nVIGWtbuaXWbwJo/OVKjSX68oL
+shMTO4ylHf+yy5GbhU5EubJJPeWgx5ayBfvOIR2qD5QJXWmFtJs2pLsLvu40
+4oOesh/tJ3TKW/3DomZONgVdVPtNXvVXYWydyBRl/NWNWNW62L06G344TcNW
+L/SVpaTqcmeOWGWOm3W+TFPWsbL8dE1yklUal73ghDtBH+Hu1dE/HBM7/t7h
+sjNoN29Calrl2GadWfsMeoc0elcR584clrm5qzO5a+5mQe4imy2Tu1qcu+g2
+7od7mkvVtqJtajgInQuqzUrRtWFCzIAkzQdK0/RR1U33JEhtgOhosnmLKtX0
+DArVhaJHtZOlmgPbVN+mWZhRGzNvEc13MD61kIRcEPS2WciRp/C97a0ow569
+DCOVRurZU0lFnUoBFbWkKiv7I0xFLc4dFXUAFfVUtVTUYRD2V1EnfTd7u920
+v+va/NXoSXM86qXVwFtzgNvS7vJG3730Ga76Wkq/6lFz3dlWOa+69XpUOSix
+ixQtrrVV1pxBleO+uesMsv6QjenXF+bViFjGO5rtObaUp7bVoENe21Kqy1Un
+1M8xOaxNftysOh61q5joKStQpbkIQ2p54HRWXcqsOsbVU7oZNBr8Fbv+yotk
+GBkvbuFbu9/LkY6DF3ZvTvqtOVXdBi0dlN6WZekEsHfQ2flmjpnQ+25vfn//
+2yH1eswnokp/tNkpsJNrTqJruX4tzAkKBJXJVdUbbJmtrwtrUfuoGm2Ru5S3
+AcrEGQyPld3jzbFTH+oP+is3d+XVuev2wI1zN9w8rZM1I3dFf203xxKvuUyT
+TevJkd8JSzF7iVHBzJa+D0vFZJLapawNh6xiQ91ixaf03R+lDHvaMqwPCKl8
++lRGgkZF3W3Q0oGKmoq685yKmoo6L5jZ0vdhqZhMUruUteEQFfUk37VU98C8
+qRvq+uPjQz8UPZ/P+snoZYIqVAwtaFY0r+E0+8l8VIM3Gs70JkelUoLR0XBm
+2X5dldcmWS5lQ2r1jDue+DBaRvrzvidVpc2WOKJicRvVZu+HaFqjgpngC/MS
+Fek2rRvSjKCy9rnxfepWFFKokVMzWaEsU9GDbEYnbfuoYOpGkdcwql/Sv+fc
+CVdJcY1a+Yo3WuUaZsfE+9S+j3mTRuFZoAxL9eTtFK6ecccTH0bnlmGkMtXz
+dKnMLCTpifZTUUfnyNOR4QGrstQuHTXGFqSiXiV3wlVSXKNWvuKNVrmG2TGh
+ooZb0+T0rUWf/br9e1HvuWjR/z1/+JOUIujKPxYu+l9YCEX0kGVARDxjjHxa
+ygZv6ejF6KiE0cfp0eUk6JMrmVamQx1qkPTIRzNSo4LC0OnbV7S/tD7WRw32
+ElFYP1/y7EkZn09lPhHedej7vDiHSkbzq79YsWcWfUUUzYgXf7mdqa04eiK0
+ebYxe86d9yE+T3n+OzuVqHbMx01Up/kkCud7Q0ZJ5uvCRQhNGvVCoueayK9O
+mKP8qDDd9szol7b5AM5LSup0P7LvxXBX8dWGvlCGTTJm1IBwianK3QySyo2k
+clR/KtShBkmPfDQjNSpIRS0xexJRy8NjS0UtMfVBcmegoh6FijrkEarKPVfU
+Gd89w+rwd/Tt34uq/kuT6C2xsG5WhXvLsu+KUb+8/kxsvQMryUIxdp8PLc/c
+FiblXaJEcgvKuODFf54N8yYXwYejZ2fUbO8i5b7kXwRSPfJtFu1JWZ7BtlZu
+eRg9XXJEbcuriorIU2xkjYjQi2hJFjXeFvFmhjeNUWu9HhO3/LQoe8tdSKqC
+ys+f+tE5aZVoBSU0T87U+sr2emq4Ur7k9eQrhydiaqiF3LqSX4QFfacMk684
+yaT7l2GkUr7iJJOoqKMrUlGPritxZ9RyT9aIUFHn133e3IVQUQvVUlHPhor6
+1r6r/k9G9X1A/47+dDrZ/9+lb9++vbr8+PHDe7X7w077rafHU+JNTo1GF/Wu
+U52hhtCjqGEZJVGdoZsp5ZmZoRe2kc3Fd0tnKGKvJQ9UKr8pRh15dY0MZTOO
+e/pTa43OSUmFpn5Pbzzv7agveTNCJRnZ70FCX4OU5ZWn9KfiELrpLZ3aIZn0
+RYmGN+NRPsIpd7y19pa7qIhQZ15coicVmamMLjpb1SLmLUgmzlOtzau6RRAm
+bYxFTJoh9Vy+U4aNKonqDN1MKc/MDL2wjXydWIaRylElz5LKVExSS2Scigqm
+HHl1jQxlM457+lNrjc5JSYWmUlF7jqQ2RmqHZNIXJRrejEf5CKfc8dbaW+6i
+IkKdeXGJnlRkpjK66GxVi5i3IJk4T7U2r+oWQZi0MRYxaYbUZnyPLvH/lte2
+FP/69esnAAAAAAAAAAAAwM74B4thROM=
+   "], {{0, 0}, {1800, 25}}, {0, 255},
+   ColorFunction->RGBColor],
+  ImageSize->{1800, 25},
+  PlotRange->{{0, 1800}, {0, 25}}]], "Section",
+ CellFrame->{{0, 0}, {0, 0}},
+ ShowCellBracket->False],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Options", "[", "NestTree", "]"}], "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"GivePaths", "\[Rule]", "False"}], ",", 
+     RowBox[{"ConciseForm", "\[Rule]", "False"}]}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"NestTree", "[", 
+   RowBox[{"f_", ",", "start_", ",", "steps_", ",", 
+    RowBox[{"opts___", "?", "OptionQ"}]}], "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"memoryFunction", ",", 
+      RowBox[{"options", "=", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"GivePaths", ",", "ConciseForm"}], "}"}], "/.", 
+        RowBox[{"Flatten", "[", 
+         RowBox[{"{", 
+          RowBox[{"opts", ",", 
+           RowBox[{"Options", "[", "NestTree", "]"}]}], "}"}], "]"}]}]}]}], 
+     "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"Switch", "[", 
+     RowBox[{"options", ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"False", ",", "False"}], "}"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"memoryFunction", "[", "expr_", "]"}], ":=", 
+        RowBox[{
+         RowBox[{"memoryFunction", "[", "expr", "]"}], "=", 
+         RowBox[{"f", "[", "expr", "]"}]}]}], ";", 
+       RowBox[{"NestList", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Map", "[", 
+           RowBox[{"memoryFunction", ",", 
+            RowBox[{"Flatten", "[", "#", "]"}]}], "]"}], "&"}], ",", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Head", "[", "start", "]"}], "=!=", "List"}], ",", 
+           RowBox[{"{", "start", "}"}], ",", "start"}], "]"}], ",", "steps"}],
+         "]"}]}], ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"False", ",", "True"}], "}"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"memoryFunction", "[", "expr_", "]"}], ":=", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"memoryFunction", "[", "expr", "]"}], "=", 
+           RowBox[{"Sequence", "[", "]"}]}], ";", 
+          RowBox[{"f", "[", "expr", "]"}]}], ")"}]}], ";", 
+       RowBox[{"NestList", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Map", "[", 
+           RowBox[{"memoryFunction", ",", 
+            RowBox[{"Flatten", "[", "#", "]"}]}], "]"}], "&"}], ",", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Head", "[", "start", "]"}], "=!=", "List"}], ",", 
+           RowBox[{"{", "start", "}"}], ",", "start"}], "]"}], ",", "steps"}],
+         "]"}]}], ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"True", ",", "False"}], "}"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"memoryFunction", "[", "expr_", "]"}], ":=", 
+        RowBox[{
+         RowBox[{"memoryFunction", "[", "expr", "]"}], "=", 
+         RowBox[{"Thread", "[", 
+          RowBox[{"Distribute", "[", 
+           RowBox[{
+            RowBox[{"expr", "\[Rule]", 
+             RowBox[{"f", "[", "expr", "]"}]}], ",", "List"}], "]"}], 
+          "]"}]}]}], ";", 
+       RowBox[{"Rest", "[", 
+        RowBox[{"NestList", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"Map", "[", 
+            RowBox[{"memoryFunction", ",", 
+             RowBox[{
+              RowBox[{"Flatten", "[", "#", "]"}], "[", 
+              RowBox[{"[", 
+               RowBox[{"All", ",", "2"}], "]"}], "]"}]}], "]"}], "&"}], ",", 
+          RowBox[{"Distribute", "[", 
+           RowBox[{
+            RowBox[{"Null", "\[Rule]", "start"}], ",", "List"}], "]"}], ",", 
+          "steps"}], "]"}], "]"}]}], ",", "\[IndentingNewLine]", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"True", ",", "True"}], "}"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"memoryFunction", "[", "expr_", "]"}], ":=", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"memoryFunction", "[", "expr", "]"}], "=", 
+           RowBox[{"Sequence", "[", "]"}]}], ";", 
+          RowBox[{"Thread", "[", 
+           RowBox[{"Distribute", "[", 
+            RowBox[{
+             RowBox[{"expr", "\[Rule]", 
+              RowBox[{"f", "[", "expr", "]"}]}], ",", "List"}], "]"}], 
+           "]"}]}], ")"}]}], ";", 
+       RowBox[{"Rest", "[", 
+        RowBox[{"NestList", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"Map", "[", 
+            RowBox[{"memoryFunction", ",", 
+             RowBox[{
+              RowBox[{"Flatten", "[", "#", "]"}], "[", 
+              RowBox[{"[", 
+               RowBox[{"All", ",", "2"}], "]"}], "]"}]}], "]"}], "&"}], ",", 
+          RowBox[{"Distribute", "[", 
+           RowBox[{
+            RowBox[{"Null", "\[Rule]", "start"}], ",", "List"}], "]"}], ",", 
+          "steps"}], "]"}], "]"}]}]}], "]"}]}], "]"}]}]}], "Input",
+ CellID->1767997160],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"collatz", "[", "1", "]"}], "=", "1"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"collatz", "[", 
+   RowBox[{"n_", "?", "EvenQ"}], "]"}], ":=", 
+  FractionBox["n", "2"]}], "\n", 
+ RowBox[{
+  RowBox[{"collatz", "[", 
+   RowBox[{"n_", "?", "OddQ"}], "]"}], ":=", 
+  RowBox[{
+   RowBox[{"3", "n"}], "+", "1"}]}]}], "Input",
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.3800345876471453`*^9, 3.380034648968402*^9}, 
+   3.380034694564715*^9, {3.380034740419528*^9, 3.380034816375128*^9}, {
+   3.380034891257125*^9, 3.3800348944461203`*^9}, 3.380046102374078*^9, 
+   3.380046769037623*^9, {3.380046858366262*^9, 3.380046859941689*^9}},
+ CellID->1119859217],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"With", "[", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"graph", "=", 
+        RowBox[{"Rest", "[", 
+         RowBox[{"Flatten", "@", 
+          RowBox[{"NestTree", "[", 
+           RowBox[{"collatz", ",", 
+            RowBox[{"Range", "[", "i", "]"}], ",", "150", ",", 
+            RowBox[{"GivePaths", "\[Rule]", "True"}], ",", 
+            RowBox[{"ConciseForm", "\[Rule]", "True"}]}], "]"}]}], "]"}]}], 
+       ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+       RowBox[{"graphOptions", "=", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"VertexRenderingFunction", "\[Rule]", 
+           RowBox[{"If", "[", 
+            RowBox[{"label", ",", 
+             RowBox[{"Which", "[", 
+              RowBox[{
+               RowBox[{"i", "\[LessEqual]", "26"}], ",", 
+               RowBox[{"(", 
+                RowBox[{
+                 RowBox[{"If", "[", 
+                  RowBox[{
+                   RowBox[{"MatchQ", "[", 
+                    RowBox[{"#2", ",", "1"}], "]"}], ",", 
+                   RowBox[{"Style", "[", 
+                    RowBox[{
+                    RowBox[{"Text", "[", 
+                    RowBox[{"#2", ",", "#", ",", 
+                    RowBox[{"Background", "\[Rule]", "White"}]}], "]"}], ",", 
+                    "14"}], "]"}], ",", 
+                   RowBox[{"Text", "[", 
+                    RowBox[{"#2", ",", "#1", ",", 
+                    RowBox[{"Background", "\[Rule]", "White"}]}], "]"}]}], 
+                  "]"}], "&"}], ")"}], ",", "True", ",", 
+               RowBox[{"(", 
+                RowBox[{
+                 RowBox[{"If", "[", 
+                  RowBox[{
+                   RowBox[{"MatchQ", "[", 
+                    RowBox[{"#2", ",", 
+                    RowBox[{"1", "|", "i"}]}], "]"}], ",", 
+                   RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"Point", "[", "#", "]"}], ",", 
+                    RowBox[{"Style", "[", 
+                    RowBox[{
+                    RowBox[{"Text", "[", 
+                    RowBox[{"#2", ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{
+                    "#", "\[LeftDoubleBracket]", "1", 
+                    "\[RightDoubleBracket]"}], ",", 
+                    RowBox[{
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{"MatchQ", "[", 
+                    RowBox[{"#2", ",", "1"}], "]"}], ",", "Plus", ",", 
+                    "Subtract"}], "]"}], "[", 
+                    RowBox[{
+                    RowBox[{
+                    "#", "\[LeftDoubleBracket]", "2", 
+                    "\[RightDoubleBracket]"}], ",", "3"}], "]"}]}], "}"}]}], 
+                    "]"}], ",", "14"}], "]"}]}], "}"}], ",", 
+                   RowBox[{"{", "}"}]}], "]"}], "&"}], ")"}]}], "]"}], ",", 
+             "None"}], "]"}]}], ",", 
+          RowBox[{"ImageSize", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{"600", ",", "450"}], "}"}]}]}], "}"}]}]}], "}"}], ",", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"\[Piecewise]", GridBox[{
+        {
+         RowBox[{"TreePlot", "[", 
+          RowBox[{"graph", ",", "Top", ",", "1", ",", 
+           RowBox[{"Sequence", "@@", "graphOptions"}]}], "]"}], 
+         RowBox[{"method", "===", "\"\<LayeredDrawing\>\""}]},
+        {
+         RowBox[{"GraphPlot", "[", 
+          RowBox[{"graph", ",", 
+           RowBox[{"Sequence", "@@", "graphOptions"}], ",", 
+           RowBox[{"Method", "\[Rule]", "method"}]}], "]"}], "True"}
+       },
+       GridBoxAlignment->{
+        "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}},
+          "RowsIndexed" -> {}},
+       GridBoxItemSize->{
+        "Columns" -> {{Automatic}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+         "RowsIndexed" -> {}},
+       GridBoxSpacings->{"Columns" -> {
+           Offset[0.27999999999999997`], {
+            Offset[0.84]}, 
+           Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+           Offset[0.2], {
+            Offset[0.4]}, 
+           Offset[0.2]}, "RowsIndexed" -> {}}]}]}], "\[IndentingNewLine]", 
+    "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"i", ",", "252", ",", 
+       RowBox[{"Dynamic", "[", 
+        RowBox[{"Row", "[", 
+         RowBox[{"{", 
+          RowBox[{"\"\<paths for all numbers up to \>\"", ",", "i"}], "}"}], 
+         "]"}], "]"}]}], "}"}], ",", "2", ",", "3000", ",", "1", ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Large"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"label", ",", "False", ",", "\"\<label nodes\>\""}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"True", ",", "False"}], "}"}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "method", ",", "\"\<LayeredDrawing\>\"", ",", 
+       "\"\<graph drawing method\>\""}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\"\<RadialDrawing\>\"", "\[Rule]", "\"\<radial drawing\>\""}],
+        ",", 
+       RowBox[{
+       "\"\<SpringElectricalEmbedding\>\"", "\[Rule]", 
+        "\"\<spring electrical embedding\>\""}], ",", 
+       RowBox[{
+       "\"\<LayeredDrawing\>\"", "\[Rule]", "\"\<layered drawing\>\""}]}], 
+      "}"}]}], "}"}], ",", 
+   RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
+   RowBox[{"AutorunSequencing", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"1", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", "5"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"3", ",", "7"}], "}"}]}], "}"}]}], ",", 
+   RowBox[{"TrackedSymbols", "\[RuleDelayed]", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", "label", ",", "method"}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.380029338494041*^9, 3.3800293805264387`*^9}, {
+   3.3800294546038227`*^9, 3.3800295894558687`*^9}, {3.380029628026952*^9, 
+   3.380029643728849*^9}, {3.3800296738858213`*^9, 3.380029725883659*^9}, {
+   3.380029794752942*^9, 3.3800298141029053`*^9}, {3.380029851242075*^9, 
+   3.380029994651764*^9}, {3.380030034801858*^9, 3.380030063815962*^9}, {
+   3.380030127884285*^9, 3.380030220756913*^9}, {3.3800304806690493`*^9, 
+   3.38003052888759*^9}, {3.380030564661429*^9, 3.38003062114686*^9}, 
+   3.380030670266788*^9, {3.380030719352597*^9, 3.3800307410230703`*^9}, {
+   3.3800307810330477`*^9, 3.3800308286933403`*^9}, {3.380030896710532*^9, 
+   3.380030897084272*^9}, {3.380031267722693*^9, 3.380031324088578*^9}, {
+   3.380031404432864*^9, 3.3800314047746267`*^9}, {3.38003143907384*^9, 
+   3.380031555788413*^9}, {3.380031593965211*^9, 3.3800316334221163`*^9}, {
+   3.38003168218683*^9, 3.38003174943493*^9}, {3.380031787072891*^9, 
+   3.380031811532247*^9}, {3.380031903506513*^9, 3.380031991146058*^9}, {
+   3.380032043237414*^9, 3.380032161795497*^9}, {3.380032198292377*^9, 
+   3.380032200184922*^9}, {3.380032289091464*^9, 3.38003229734006*^9}, {
+   3.380032328143652*^9, 3.380032347470406*^9}, {3.3800324144597197`*^9, 
+   3.380032530614264*^9}, {3.380032588128001*^9, 3.380032739374946*^9}, {
+   3.380032943322639*^9, 3.380033034356736*^9}, {3.380033111087291*^9, 
+   3.380033138767981*^9}, {3.3800332763309097`*^9, 3.380033292047127*^9}, {
+   3.38003334283077*^9, 3.380033347111803*^9}, {3.3800334228604937`*^9, 
+   3.380033435731474*^9}, {3.380033477441712*^9, 3.380033614648394*^9}, {
+   3.380033664103065*^9, 3.3800336645140247`*^9}, {3.380033710711699*^9, 
+   3.380033711062586*^9}, {3.380033824473489*^9, 3.3800338596649513`*^9}, {
+   3.380034270919715*^9, 3.380034345824153*^9}, {3.3800344003865423`*^9, 
+   3.380034517934875*^9}, {3.3800347030008173`*^9, 3.380034705660364*^9}, 
+   3.380034874931548*^9, {3.3800462064138927`*^9, 3.380046216864736*^9}, {
+   3.38004666603141*^9, 3.3800466670874434`*^9}, 3.380046731436092*^9, {
+   3.380046788069303*^9, 3.3800467890994997`*^9}, 3.380046838495916*^9, {
+   3.380052365392693*^9, 3.380052366061022*^9}, {3.380052444553603*^9, 
+   3.380052468895444*^9}, {3.380052504096405*^9, 3.380052544528696*^9}, {
+   3.380052580219124*^9, 3.380052644562443*^9}, {3.380052676112207*^9, 
+   3.380052676479886*^9}, {3.3800527517531147`*^9, 3.380052794574539*^9}, {
+   3.3800529316061153`*^9, 3.380052942724868*^9}, {3.380053030362939*^9, 
+   3.380053059726595*^9}, {3.380053098734168*^9, 3.380053143810275*^9}, {
+   3.3800531895336637`*^9, 3.3800532474727182`*^9}, 3.380054345928637*^9, {
+   3.380055018159604*^9, 3.3800550290078897`*^9}, {3.380055068065786*^9, 
+   3.380055114048526*^9}, {3.383655148323058*^9, 3.383655166164074*^9}, {
+   3.38365615946933*^9, 3.383656311144989*^9}, {3.383656413381838*^9, 
+   3.383656475287324*^9}, {3.3836565192268353`*^9, 3.383656527761347*^9}, {
+   3.3836565761298532`*^9, 3.383656592034432*^9}, {3.3836566243511267`*^9, 
+   3.383656707767577*^9}, {3.383656750370625*^9, 3.383656763698099*^9}, {
+   3.383656846925047*^9, 3.383656969336328*^9}, 3.383657079516387*^9, {
+   3.3836571282643547`*^9, 3.383657166479211*^9}, {3.383657365169024*^9, 
+   3.383657365638193*^9}, {3.383657403599763*^9, 3.383657539650733*^9}, {
+   3.3836576393697*^9, 3.3836576561477423`*^9}, {3.383657707802977*^9, 
+   3.383657707883079*^9}, {3.383662370824944*^9, 3.383662447885303*^9}, {
+   3.38643295137085*^9, 3.38643298109807*^9}, {3.386433022165773*^9, 
+   3.3864330507374887`*^9}, {3.386433124473485*^9, 3.386433125926173*^9}, {
+   3.386433264232791*^9, 3.386433289704874*^9}, {3.386690472634111*^9, 
+   3.3866905125309477`*^9}, {3.38669058093734*^9, 3.386690620031617*^9}, {
+   3.386690672698103*^9, 3.386690777998557*^9}, {3.386691285588738*^9, 
+   3.3866912926791477`*^9}, {3.3871145512600617`*^9, 3.387114551338112*^9}, {
+   3.387114600181802*^9, 3.3871146215987215`*^9}, {3.3871277429062347`*^9, 
+   3.387127743968464*^9}, {3.38712793601643*^9, 3.387127936635756*^9}, {
+   3.3871281290057573`*^9, 3.387128130970083*^9}, {3.387128168677593*^9, 
+   3.387128169529056*^9}},
+ CellID->886288877]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`i$$ = 252, $CellContext`label$$ = 
+    False, $CellContext`method$$ = "LayeredDrawing", Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`i$$], 252, 
+       Dynamic[
+        Row[{"paths for all numbers up to ", $CellContext`i$$}]]}, 2, 3000, 
+      1}, {{
+       Hold[$CellContext`label$$], False, "label nodes"}, {True, False}}, {{
+       Hold[$CellContext`method$$], "LayeredDrawing", 
+       "graph drawing method"}, {
+      "RadialDrawing" -> "radial drawing", "SpringElectricalEmbedding" -> 
+       "spring electrical embedding", "LayeredDrawing" -> 
+       "layered drawing"}}}, Typeset`size$$ = {600., {223., 227.}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    False, $CellContext`i$677989$$ = 0, $CellContext`label$677990$$ = 
+    False, $CellContext`method$677991$$ = False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`i$$ = 252, $CellContext`label$$ = 
+        False, $CellContext`method$$ = "LayeredDrawing"}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`i$$, $CellContext`i$677989$$, 0], 
+        Hold[$CellContext`label$$, $CellContext`label$677990$$, False], 
+        Hold[$CellContext`method$$, $CellContext`method$677991$$, False]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> With[{$CellContext`graph$ = Rest[
+           Flatten[
+            $CellContext`NestTree[$CellContext`collatz, 
+             Range[$CellContext`i$$], 150, $CellContext`GivePaths -> 
+             True, $CellContext`ConciseForm -> 
+             True]]], $CellContext`graphOptions$ = {
+          VertexRenderingFunction -> If[$CellContext`label$$, 
+             Which[$CellContext`i$$ <= 26, If[
+               MatchQ[#2, 1], 
+               Style[
+                Text[#2, #, Background -> White], 14], 
+               Text[#2, #, Background -> White]]& , True, If[
+               MatchQ[#2, 
+                Alternatives[1, $CellContext`i$$]], {
+                Point[#], 
+                Style[
+                 Text[#2, {
+                   Part[#, 1], 
+                   If[
+                    MatchQ[#2, 1], Plus, Subtract][
+                    Part[#, 2], 3]}], 14]}, {}]& ], None], 
+           ImageSize -> {600, 450}}}, 
+        Piecewise[{{
+           TreePlot[$CellContext`graph$, Top, 1, 
+            Apply[
+            Sequence, $CellContext`graphOptions$]], $CellContext`method$$ === 
+           "LayeredDrawing"}, {
+           GraphPlot[$CellContext`graph$, 
+            Apply[Sequence, $CellContext`graphOptions$], 
+            Method -> $CellContext`method$$], True}}]], 
+      "Specifications" :> {{{$CellContext`i$$, 252, 
+          Dynamic[
+           Row[{"paths for all numbers up to ", $CellContext`i$$}]]}, 2, 3000,
+          1, ImageSize -> 
+         Large}, {{$CellContext`label$$, False, "label nodes"}, {
+         True, False}}, {{$CellContext`method$$, "LayeredDrawing", 
+          "graph drawing method"}, {
+         "RadialDrawing" -> "radial drawing", "SpringElectricalEmbedding" -> 
+          "spring electrical embedding", "LayeredDrawing" -> 
+          "layered drawing"}}}, 
+      "Options" :> {
+       AutorunSequencing -> {{1, 10}, {2, 5}, {3, 7}}, 
+        TrackedSymbols :> {$CellContext`i$$, $CellContext`label$$, \
+$CellContext`method$$}}, "DefaultOptions" :> {ControllerLinking -> True}],
+     ImageSizeCache->{645., {288., 293.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>(({$CellContext`NestTree[
+          Pattern[$CellContext`f, 
+           Blank[]], 
+          Pattern[$CellContext`start, 
+           Blank[]], 
+          Pattern[$CellContext`steps, 
+           Blank[]], 
+          PatternTest[
+           Pattern[$CellContext`opts, 
+            BlankNullSequence[]], OptionQ]] := 
+        Module[{$CellContext`memoryFunction, $CellContext`options = 
+           ReplaceAll[{$CellContext`GivePaths, $CellContext`ConciseForm}, 
+             Flatten[{$CellContext`opts, 
+               Options[$CellContext`NestTree]}]]}, 
+          
+          Switch[$CellContext`options, {
+           False, False}, $CellContext`memoryFunction[
+              Pattern[$CellContext`expr, 
+               
+               Blank[]]] := ($CellContext`memoryFunction[$CellContext`expr] = \
+$CellContext`f[$CellContext`expr]); 
+           NestList[Map[$CellContext`memoryFunction, 
+              Flatten[#]]& , 
+             If[
+             Head[$CellContext`start] =!= 
+              List, {$CellContext`start}, $CellContext`start], \
+$CellContext`steps], {False, True}, $CellContext`memoryFunction[
+              Pattern[$CellContext`expr, 
+               Blank[]]] := ($CellContext`memoryFunction[$CellContext`expr] = 
+              Sequence[]; $CellContext`f[$CellContext`expr]); 
+           NestList[Map[$CellContext`memoryFunction, 
+              Flatten[#]]& , 
+             If[
+             Head[$CellContext`start] =!= 
+              List, {$CellContext`start}, $CellContext`start], \
+$CellContext`steps], {True, False}, $CellContext`memoryFunction[
+              Pattern[$CellContext`expr, 
+               Blank[]]] := ($CellContext`memoryFunction[$CellContext`expr] = 
+             Thread[
+               
+               Distribute[$CellContext`expr -> \
+$CellContext`f[$CellContext`expr], List]]); Rest[
+             NestList[Map[$CellContext`memoryFunction, 
+               Part[
+                Flatten[#], All, 2]]& , 
+              Distribute[
+              Null -> $CellContext`start, List], $CellContext`steps]], {
+           True, True}, $CellContext`memoryFunction[
+              Pattern[$CellContext`expr, 
+               Blank[]]] := ($CellContext`memoryFunction[$CellContext`expr] = 
+              Sequence[]; Thread[
+               
+               Distribute[$CellContext`expr -> \
+$CellContext`f[$CellContext`expr], List]]); Rest[
+             NestList[Map[$CellContext`memoryFunction, 
+               Part[
+                Flatten[#], All, 2]]& , 
+              Distribute[
+              Null -> $CellContext`start, List], $CellContext`steps]]]], 
+        Options[$CellContext`NestTree] = {$CellContext`GivePaths -> 
+          False, $CellContext`ConciseForm -> False}, $CellContext`collatz[1] = 
+        1, $CellContext`collatz[
+          PatternTest[
+           Pattern[$CellContext`n, 
+            Blank[]], EvenQ]] := $CellContext`n/2, $CellContext`collatz[
+          PatternTest[
+           Pattern[$CellContext`n, 
+            Blank[]], OddQ]] := 3 $CellContext`n + 1, $CellContext`collatz[
+          Pattern[$CellContext`n, 
+           Blank[]]] := 3 $CellContext`n + 1}; Typeset`initDone$$ = True); 
+     ReleaseHold[{{
+         HoldComplete[
+         Options[$CellContext`NestTree] = {$CellContext`GivePaths -> 
+             False, $CellContext`ConciseForm -> False}; Null], 
+         HoldComplete[Null], 
+         HoldComplete[$CellContext`NestTree[
+            Pattern[$CellContext`f, 
+             Blank[]], 
+            Pattern[$CellContext`start, 
+             Blank[]], 
+            Pattern[$CellContext`steps, 
+             Blank[]], 
+            PatternTest[
+             Pattern[$CellContext`opts, 
+              BlankNullSequence[]], OptionQ]] := 
+          Module[{$CellContext`memoryFunction, $CellContext`options = 
+             ReplaceAll[{$CellContext`GivePaths, $CellContext`ConciseForm}, 
+               Flatten[{$CellContext`opts, 
+                 Options[$CellContext`NestTree]}]]}, 
+            
+            Switch[$CellContext`options, {
+             False, False}, $CellContext`memoryFunction[
+                Pattern[$CellContext`expr, 
+                 
+                 Blank[]]] := ($CellContext`memoryFunction[$CellContext`expr] = \
+$CellContext`f[$CellContext`expr]); 
+             NestList[Map[$CellContext`memoryFunction, 
+                Flatten[#]]& , 
+               If[
+               Head[$CellContext`start] =!= 
+                List, {$CellContext`start}, $CellContext`start], \
+$CellContext`steps], {False, True}, $CellContext`memoryFunction[
+                Pattern[$CellContext`expr, 
+                 Blank[]]] := ($CellContext`memoryFunction[$CellContext`expr] = 
+                Sequence[]; $CellContext`f[$CellContext`expr]); 
+             NestList[Map[$CellContext`memoryFunction, 
+                Flatten[#]]& , 
+               If[
+               Head[$CellContext`start] =!= 
+                List, {$CellContext`start}, $CellContext`start], \
+$CellContext`steps], {True, False}, $CellContext`memoryFunction[
+                Pattern[$CellContext`expr, 
+                 Blank[]]] := ($CellContext`memoryFunction[$CellContext`expr] = 
+               Thread[
+                 
+                 Distribute[$CellContext`expr -> \
+$CellContext`f[$CellContext`expr], List]]); Rest[
+               NestList[Map[$CellContext`memoryFunction, 
+                 Part[
+                  Flatten[#], All, 2]]& , 
+                Distribute[
+                Null -> $CellContext`start, List], $CellContext`steps]], {
+             True, True}, $CellContext`memoryFunction[
+                Pattern[$CellContext`expr, 
+                 Blank[]]] := ($CellContext`memoryFunction[$CellContext`expr] = 
+                Sequence[]; Thread[
+                 
+                 Distribute[$CellContext`expr -> \
+$CellContext`f[$CellContext`expr], List]]); Rest[
+               NestList[Map[$CellContext`memoryFunction, 
+                 Part[
+                  Flatten[#], All, 2]]& , 
+                Distribute[
+                Null -> $CellContext`start, List], $CellContext`steps]]]]]}, {
+        
+         HoldComplete[$CellContext`collatz[1] = 1; Null], 
+         HoldComplete[Null], 
+         HoldComplete[$CellContext`collatz[
+            PatternTest[
+             Pattern[$CellContext`n, 
+              Blank[]], EvenQ]] := $CellContext`n/2], 
+         HoldComplete[Null], 
+         HoldComplete[$CellContext`collatz[
+            PatternTest[
+             Pattern[$CellContext`n, 
+              Blank[]], OddQ]] := 3 $CellContext`n + 1]}}]; 
+     Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellID->1413431987],
+
+Cell[CellGroupData[{
+
+Cell["CAPTION", "Section",
+ CellFrame->{{0, 0}, {1, 0}},
+ CellFrameColor->RGBColor[0.87, 0.87, 0.87],
+ FontFamily->"Helvetica",
+ FontSize->12,
+ FontWeight->"Bold",
+ FontColor->RGBColor[0.597406, 0, 0.0527047]],
+
+Cell[TextData[{
+ "The Collatz conjecture states that for every positive integer ",
+ Cell[BoxData[
+  FormBox["n", TraditionalForm]], "InlineMath"],
+ ", repeating the simple algorithm"
+}], "Text"]
+}, Close]]
+}, Open  ]],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"n", " ", "\[RightTeeArrow]"}], TraditionalForm]], "InlineMath"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Piecewise]", GridBox[{
+      {
+       FractionBox["n", "2"], 
+       RowBox[{"n", " ", "is", " ", "even"}]},
+      {
+       RowBox[{
+        RowBox[{"3", " ", "n"}], "+", "1"}], 
+       RowBox[{"n", " ", "is", " ", "odd"}]}
+     },
+     GridBoxAlignment->{
+      "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+       "RowsIndexed" -> {}},
+     GridBoxItemSize->{
+      "Columns" -> {{Automatic}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+       "RowsIndexed" -> {}},
+     GridBoxSpacings->{"Columns" -> {
+         Offset[0.27999999999999997`], {
+          Offset[0.84]}, 
+         Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+         Offset[0.2], {
+          Offset[0.4]}, 
+         Offset[0.2]}, "RowsIndexed" -> {}}]}], TraditionalForm]], 
+  "InlineMath"]
+}], "Text"],
+
+Cell["\<\
+always eventually reaches the number 1. The conjecture remains unproven since \
+1937 when it was first proposed by Lothar Collatz.\
+\>", "Text"],
+
+Cell["\<\
+This Demonstration shows the eventual merging of paths to 1, for all positive \
+integers up to a given maximum. Because the algorithm has two cases, the \
+graph is always a binary tree.\
+\>", "Text"],
+
+Cell[CellGroupData[{
+
+Cell["THIS NOTEBOOK IS THE SOURCE CODE FROM", "Text",
+ CellFrame->{{0, 0}, {0, 0}},
+ CellMargins->{{48, 10}, {4, 28}},
+ CellGroupingRules->{"SectionGrouping", 25},
+ CellFrameMargins->{{48, 48}, {6, 5}},
+ CellFrameColor->RGBColor[0.87, 0.87, 0.87],
+ FontFamily->"Helvetica",
+ FontSize->10,
+ FontWeight->"Bold",
+ FontColor->RGBColor[0.597406, 0, 0.0527047]],
+
+Cell[TextData[{
+ "\"",
+ ButtonBox["Collatz Paths",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/CollatzPaths/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/CollatzPaths/"],
+ "\"",
+ " from ",
+ ButtonBox["the Wolfram Demonstrations Project",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/"],
+ "\[ParagraphSeparator]\[NonBreakingSpace]",
+ ButtonBox["http://demonstrations.wolfram.com/CollatzPaths/",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/CollatzPaths/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/CollatzPaths/"]
+}], "Text",
+ CellMargins->{{48, Inherited}, {0, Inherited}},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.5]],
+
+Cell[TextData[{
+ "Contributed by: ",
+ ButtonBox["Jesse Nochella",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/author.html?author=Jesse+Nochella"]\
+, None},
+  ButtonNote->
+   "http://demonstrations.wolfram.com/author.html?author=Jesse+Nochella"]
+}], "Text",
+ CellDingbat->"\[FilledSmallSquare]",
+ CellMargins->{{66, 48}, {2, 4}},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.6],
+ CellID->1177133197],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "A full-function Wolfram ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " system (Version 6 or higher) is required to edit this notebook.\n",
+ StyleBox[ButtonBox["GET WOLFRAM MATHEMATICA \[RightGuillemet]",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://www.wolfram.com/products/mathematica/"], None},
+  ButtonNote->"http://www.wolfram.com/products/mathematica/"],
+  FontFamily->"Helvetica",
+  FontWeight->"Bold",
+  FontSlant->"Italic",
+  FontColor->RGBColor[1, 0.42, 0]]
+}], "Text",
+ CellFrame->True,
+ CellMargins->{{48, 68}, {8, 28}},
+ CellFrameMargins->12,
+ CellFrameColor->RGBColor[0.87, 0.87, 0.87],
+ CellChangeTimes->{3.3750111182355957`*^9},
+ ParagraphSpacing->{1., 1.},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.411765],
+ Background->RGBColor[1, 1, 1]],
+
+Cell[TextData[{
+ "\[Copyright] ",
+ StyleBox[ButtonBox["Wolfram Demonstrations Project & Contributors",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/"],
+  FontColor->GrayLevel[0.6]],
+ "\[ThickSpace]\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+ StyleBox[ButtonBox["Terms of Use",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/termsofuse.html"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/termsofuse.html"],
+  FontColor->GrayLevel[0.6]],
+ "\[ThickSpace]\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+ StyleBox[ButtonBox["Make a new version of this Demonstration \
+\[RightGuillemet]",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/participate/upload.jsp?id=\
+CollatzPaths"], None},
+  ButtonNote->None],
+  FontColor->GrayLevel[0.6]]
+}], "Text",
+ CellFrame->{{0, 0}, {0, 0.5}},
+ CellMargins->{{48, 10}, {20, 50}},
+ CellFrameMargins->{{6, 0}, {6, 6}},
+ CellFrameColor->GrayLevel[0.6],
+ FontFamily->"Verdana",
+ FontSize->9,
+ FontColor->GrayLevel[0.6]]
+}, Open  ]]
+}, Open  ]]
+},
+Editable->True,
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+CellInsertionPointCell->None,
+WindowSize->{780, 650},
+WindowMargins->{{Inherited, Inherited}, {Inherited, 0}},
+WindowElements->{
+ "StatusArea", "MemoryMonitor", "MagnificationPopUp", "VerticalScrollBar", 
+  "MenuBar"},
+WindowTitle->"Collatz Paths - Source",
+DockedCells->{},
+CellContext->Notebook,
+FrontEndVersion->"8.0 for Microsoft Windows (32-bit) (November 7, 2010)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[615, 23, 133, 3, 70, "Section"],
+Cell[751, 28, 3700, 64, 70, "Section"],
+Cell[4454, 94, 4876, 129, 70, "Input",
+ CellID->1767997160],
+Cell[9333, 225, 691, 18, 70, "Input",
+ CellID->1119859217],
+Cell[10027, 245, 10247, 207, 70, "Input",
+ CellID->886288877]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20311, 457, 10767, 234, 70, "Output",
+ CellID->1413431987],
+Cell[CellGroupData[{
+Cell[31103, 695, 209, 6, 70, "Section"],
+Cell[31315, 703, 194, 5, 70, "Text"]
+}, Close]]
+}, Open  ]],
+Cell[31535, 712, 984, 30, 70, "Text"],
+Cell[32522, 744, 154, 3, 70, "Text"],
+Cell[32679, 749, 209, 4, 70, "Text"],
+Cell[CellGroupData[{
+Cell[32913, 757, 355, 9, 70, "Text",
+ CellGroupingRules->{"SectionGrouping", 25}],
+Cell[33271, 768, 850, 24, 70, "Text"],
+Cell[34124, 794, 457, 15, 70, "Text",
+ CellID->1177133197],
+Cell[CellGroupData[{
+Cell[34606, 813, 815, 24, 70, "Text"],
+Cell[35424, 839, 1184, 33, 70, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+(* NotebookSignature fSz8EzDvv1AyfCDGm28wtyTe *)
