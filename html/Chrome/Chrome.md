@@ -87,6 +87,7 @@ Chrome 在中文状态下的默认字体设置策略不恰当。实际上，四�
 - [Baidu Encyclopedia to wikipedia](https://greasyfork.org/zh-CN/scripts/20134)
 - [Yet Another Weibo Filter 看真正想看的微博](https://greasyfork.org/zh-CN/scripts/3249): 过滤微博；修改版面
 - [网盘助手](https://greasyfork.org/zh-CN/scripts/378301): 下载, 播放, 自动填写密码
+- [百度网盘超级助手](https://greasyfork.org/zh-CN/scripts/383501): 下载, 自动填写密码, 搜索栏
 - [简悦-轻阅版](https://greasyfork.org/zh-CN/scripts/39998): 暴力猴需要安装github的[simpread.js](https://raw.githubusercontent.com/Kenshin/simpread-little/master/src/userscript/simpread.js).
 - [豆瓣资源下载大师](https://greasyfork.org/zh-CN/scripts/329484): 豆瓣电影, 图书等资源下载
 - [AC-baidu](https://greasyfork.org/zh-CN/scripts/14178): 百度谷歌优化
