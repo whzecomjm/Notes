@@ -1,0 +1,17 @@
+html, body{
+  background-color: #f3f2ee;
+}
+
+@media print {
+    html {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 20px 30px 40px 30px;
+        padding-top: 20px;
+        text-align: justify;
+    }
+}
+
+h1  {
+    font-size: 2.0em;
+}

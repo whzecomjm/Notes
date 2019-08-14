@@ -1,0 +1,695 @@
+{
+   "actions": {
+      "base": [ "{44eca225-98f6-489c-b97a-03163e83ce7e}", "{b7e56ba3-2042-4ff7-a499-62d861e2aa69}", "{6ee550e1-8ef3-4025-a673-88d96a48bbc8}", "{81927428-1534-44c4-88aa-f119f682339d}", "{284ecbe8-1ef2-49c9-bd93-f7025519402b}", "{35c0504f-b1a8-4c82-8e32-aa1e68520972}", "{4025f3ed-47e1-4212-9276-de3fbb0786e8}", "{6d2b6aa4-67e5-4dd6-b7ea-c4b30ae8c9a5}", "{edf97959-2c24-47ed-bd7b-3dc5e76b7752}", "{170e8be1-80fa-4afb-a6d7-7bcb1a1eba19}", "{112b153c-23ec-463a-bcae-9eeba93802d8}", "{7971bb91-830f-474b-a976-8bfc9fc001d1}", "{06457068-a652-4c0d-9c3c-a4056dde1f67}", "{e5d9da93-b1dd-4401-8ba1-25f10fca9f93}", "{f56585dd-3f13-4305-8f00-e5599e3f20fe}" ],
+      "items": [ {
+         "command_string": "_action_open_folder",
+         "enabled": true,
+         "guid": "{44eca225-98f6-489c-b97a-03163e83ce7e}",
+         "hotkey": 3330,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_open_with",
+         "enabled": false,
+         "guid": "{6d2b6aa4-67e5-4dd6-b7ea-c4b30ae8c9a5}",
+         "hotkey": 20225,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_send_to",
+         "enabled": false,
+         "guid": "{b7e56ba3-2042-4ff7-a499-62d861e2aa69}",
+         "hotkey": 21249,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_set_keyword",
+         "enabled": false,
+         "guid": "{6ee550e1-8ef3-4025-a673-88d96a48bbc8}",
+         "hotkey": 0,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_copy",
+         "enabled": true,
+         "guid": "{81927428-1534-44c4-88aa-f119f682339d}",
+         "hotkey": 17154,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_cut",
+         "enabled": false,
+         "guid": "{284ecbe8-1ef2-49c9-bd93-f7025519402b}",
+         "hotkey": 0,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_copy_path",
+         "enabled": true,
+         "guid": "{35c0504f-b1a8-4c82-8e32-aa1e68520972}",
+         "hotkey": 17158,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_copy_folder_path",
+         "enabled": false,
+         "guid": "{4025f3ed-47e1-4212-9276-de3fbb0786e8}",
+         "hotkey": 0,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_copy_to_current_folder",
+         "enabled": true,
+         "guid": "{edf97959-2c24-47ed-bd7b-3dc5e76b7752}",
+         "hotkey": 0,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_move_to_current_folder",
+         "enabled": true,
+         "guid": "{170e8be1-80fa-4afb-a6d7-7bcb1a1eba19}",
+         "hotkey": 0,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_open",
+         "enabled": false,
+         "guid": "{112b153c-23ec-463a-bcae-9eeba93802d8}",
+         "hotkey": 0,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "enabled": true,
+         "guid": "{7971bb91-830f-474b-a976-8bfc9fc001d1}",
+         "hotkey": 17670,
+         "keyword": "not",
+         "param": "\"{action_path}\"",
+         "path": "D:\\Program Files\\NotePad3\\Notepad3\\Notepad3.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "title": "Edit with Notepad3",
+         "type": "custom"
+      }, {
+         "enabled": false,
+         "guid": "{06457068-a652-4c0d-9c3c-a4056dde1f67}",
+         "hotkey": 0,
+         "keyword": "",
+         "param": "\"{action_path}\"",
+         "path": "gvim.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "title": "Edit with Vim",
+         "type": "custom"
+      }, {
+         "enabled": false,
+         "guid": "{f56585dd-3f13-4305-8f00-e5599e3f20fe}",
+         "hotkey": 0,
+         "keyword": "",
+         "param": "/K \"cd /d \"{action_path}\" & \"C:\\Program Files (x86)\\Git\\bin\\sh.exe\" --login\"",
+         "path": "cmd.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "title": "Git Bash",
+         "type": "custom"
+      } ]
+   },
+   "app_settings": {
+      "by_path": [  ],
+      "by_type": {
+         "desktop": {
+            "enable_hot_key_when_toolbar_hidden": true
+         },
+         "listary_launcher": {
+            "toolbar_position": 5,
+            "x": 380,
+            "x_from_left": true,
+            "y": 168,
+            "y_from_top": true
+         }
+      }
+   },
+   "appearance": {
+      "theme": {
+         "file": "Cobalt2.listarytheme.json"
+      }
+   },
+   "check_update": {
+      "last_check_local_version": "5.00.2843",
+      "last_check_time": "13207003711747202"
+   },
+   "general": {
+      "check_updates": false,
+      "default_file_manager": {
+
+      },
+      "language_file": "zh-CN.ini"
+   },
+   "history": {
+
+   },
+   "hotkey": {
+      "hit_ctrl_twice_hotkey": false,
+      "main": 17935,
+      "popup_menu": 19715
+   },
+   "keywords": {
+      "builtin_commands": [  ],
+      "custom_commands": [ {
+         "enabled": false,
+         "guid": "{7313132d-cc4b-4f04-94a1-030dc2db5413}"
+      }, {
+         "enabled": false,
+         "guid": "{bddf0f57-c6f4-4504-af56-06cff3dcffae}"
+      }, {
+         "enabled": false,
+         "guid": "{945277a1-858f-4bc8-879a-db3aa926c6e1}"
+      }, {
+         "enabled": false,
+         "guid": "{1bba6227-4dcd-40d9-bfc1-064c280e3b4a}"
+      }, {
+         "guid": "{8b65b236-49ac-422a-918c-5e66accd0a2c}",
+         "keyword": "conn"
+      }, {
+         "guid": "{ab25fbca-fe9e-4ca8-9ced-80840ceb2078}",
+         "keyword": "ps"
+      }, {
+         "guid": "{da3d0d67-84df-45bd-b793-6e27e7891bab}",
+         "path": "D:\\Program Files\\NotePad3\\Notepad3\\Notepad3.exe"
+      }, {
+         "description": "\u5728\u6B64\u76EE\u5F55\u6253\u5F00 Git",
+         "display_title": "Git Here",
+         "enabled": true,
+         "keyword": "git",
+         "only_show_in_launcher": false,
+         "param": "/K cd /d \"{current_folder}\" & git status",
+         "path": "cmd.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "\u6253\u5F00\u56DE\u6536\u7AD9",
+         "display_title": "Recycle Bin",
+         "enabled": true,
+         "keyword": "rec",
+         "only_show_in_launcher": false,
+         "param": "::{645FF040-5081-101B-9F08-00AA002F954E}",
+         "path": "explorer.exe ",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "\u4F7F\u7528 Everything \u641C\u7D22",
+         "display_title": "Everything",
+         "enabled": true,
+         "keyword": "s",
+         "only_show_in_launcher": true,
+         "param": "-s {query}",
+         "path": "D:\\Program Files\\Everything\\Everything.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "\u5728\u6B64\u76EE\u5F55\u4F7F\u7528 Everything \u641C\u7D22",
+         "display_title": "Everything Here",
+         "enabled": true,
+         "keyword": "ee",
+         "only_show_in_launcher": false,
+         "param": "-search {query} -path . ",
+         "path": "D:\\Program Files\\Everything\\Everything.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "\u6253\u5F00Python\u76EE\u5F55",
+         "enabled": true,
+         "keyword": "python",
+         "only_show_in_launcher": false,
+         "param": "/K cd /d \"D:\\Program Files\\Python\"",
+         "path": "cmd.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      } ],
+      "folder": [  ],
+      "web_search": [ {
+         "guid": "{dd896809-2af4-405b-834f-45816615e3e3}",
+         "keyword": "zh",
+         "title": "Search Zhihu for '{query}'",
+         "url": "https://www.zhihu.com/search?type=content&q={query}"
+      }, {
+         "guid": "{4ed886fb-1df0-4fd0-abc1-810fc180e647}",
+         "keyword": "gen",
+         "title": "Search ebook in Libgen for '{query}'",
+         "url": "http://gen.lib.rus.ec/search.php?req={query}"
+      }, {
+         "guid": "{5014b42a-884d-40d3-835d-69079dd9fc51}",
+         "keyword": "yt",
+         "title": "Search Youtube  for '{query}'",
+         "url": "https://www.youtube.com/results?search_query={query}"
+      }, {
+         "guid": "{95147e79-6274-4127-98bb-09d9ffa2a39a}",
+         "keyword": "map"
+      }, {
+         "guid": "{610a486d-0028-4739-8eb6-50f5247c918f}",
+         "keyword": "wx",
+         "title": "Search \u5FAE\u4FE1\u516C\u4F17\u53F7 for '{query}'",
+         "url": "https://weixin.sogou.com/weixin?type=2&query={query}"
+      }, {
+         "guid": "{2db0261a-1114-4c8d-8cc8-62a89aeb1a35}",
+         "keyword": "tb",
+         "title": "Search Taobao for '{query}'",
+         "url": "https://s.taobao.com/search?q={query}"
+      }, {
+         "guid": "{455e1dc4-5e38-4b00-85da-d0bf46c68f4f}",
+         "keyword": "db",
+         "title": "Search Douban for '{query}'",
+         "url": "https://www.douban.com/search?q={query}"
+      }, {
+         "enabled": false,
+         "guid": "{1744aa0c-751a-495f-aac5-6910e7406229}",
+         "keyword": "ip",
+         "title": "\u663E\u793A\u6211\u7684\u516C\u5171 IP",
+         "url": "https://www.ipaddress.com/what-is-my-ip-address/"
+      } ]
+   },
+   "launch_apps": {
+      "file_extensions": "lnk;exe;bat;ahk;url",
+      "search_folders": {
+         "default_overrides": [ {
+            "enabled": false,
+            "path": "%start_menu%"
+         }, {
+            "enabled": false,
+            "path": "%common_start_menu%"
+         }, {
+            "enabled": false,
+            "path": "%desktop%"
+         }, {
+            "enabled": false,
+            "path": "%common_desktop%"
+         }, {
+            "enabled": false,
+            "path": "%quick_launch%"
+         }, {
+            "enabled": false,
+            "path": "%default_quick_launch%"
+         } ],
+         "user": [ {
+            "enabled": true,
+            "path": "D:\\Shortcuts\\"
+         }, {
+            "enabled": true,
+            "path": "D:\\Program Files\\Single File\\"
+         } ]
+      }
+   },
+   "menu_lists": {
+      "items": [ {
+         "id": 10,
+         "root_item": {
+            "items": [ {
+               "anchor": "submenu_favorite",
+               "items": [ {
+                  "anchor": "menu_list_tc_fav_menu",
+                  "id": 400,
+                  "type": "menu_list"
+               }, {
+                  "anchor": "menu_list_favorite_global",
+                  "id": 100,
+                  "type": "menu_list"
+               }, {
+                  "anchor": "menu_list_favorite_application",
+                  "id": 101,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            }, {
+               "anchor": "submenu_recent",
+               "items": [ {
+                  "anchor": "menu_list_recent",
+                  "id": 200,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            }, {
+               "anchor": "submenu_smart_commands",
+               "items": [ {
+                  "anchor": "menu_list_smart_commands",
+                  "id": 300,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            } ],
+            "type": "submenu"
+         }
+      }, {
+         "id": 11,
+         "root_item": {
+            "items": [ {
+               "anchor": "menu_list_tc_fav_menu",
+               "id": 400,
+               "type": "menu_list"
+            }, {
+               "anchor": "menu_list_favorite_global",
+               "id": 100,
+               "type": "menu_list"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "submenu_recent",
+               "items": [ {
+                  "anchor": "menu_list_recent",
+                  "id": 200,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_OpenedFolders",
+               "command": "_OpenedFolders",
+               "type": "command"
+            }, {
+               "anchor": "submenu_smart_commands",
+               "items": [ {
+                  "anchor": "menu_list_smart_commands",
+                  "id": 300,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            }, {
+               "anchor": "command_Options",
+               "command": "_Options",
+               "type": "command"
+            } ],
+            "type": "submenu"
+         }
+      }, {
+         "id": 100,
+         "root_item": {
+            "items": [ {
+               "name": "PhD",
+               "path": "E:\\Study\\Courses\\PhD",
+               "type": "favorite_folder"
+            }, {
+               "name": "AppData",
+               "path": "C:\\Users\\whzec\\AppData",
+               "type": "favorite_folder"
+            }, {
+               "name": "Program Docs",
+               "path": "E:\\Program Docs",
+               "type": "favorite_folder"
+            } ],
+            "type": "submenu"
+         }
+      }, {
+         "id": 300,
+         "root_item": {
+            "items": [ {
+               "anchor": "command_QuickSwitch",
+               "command": "_QuickSwitch",
+               "type": "command"
+            }, {
+               "anchor": "command_OpenSelectedFile",
+               "command": "_OpenSelectedFile",
+               "type": "command"
+            }, {
+               "command": "_Explore",
+               "deleted": true,
+               "type": "command"
+            }, {
+               "anchor": "command_OpenedFolders",
+               "command": "_OpenedFolders",
+               "deleted": true,
+               "type": "command"
+            }, {
+               "command": "_Explore",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "deleted": true,
+               "type": "separator"
+            }, {
+               "anchor": "command_Explore",
+               "command": "_Explore",
+               "deleted": true,
+               "type": "command"
+            }, {
+               "anchor": "command_Cmd",
+               "command": "_Cmd",
+               "type": "command"
+            }, {
+               "anchor": "command_CopyFolderPath",
+               "command": "_CopyFolderPath",
+               "type": "command"
+            }, {
+               "command": "_ExportToExcel",
+               "deleted": true,
+               "type": "command"
+            }, {
+               "anchor": "command_CopyFilePaths",
+               "command": "_CopyFilePaths",
+               "type": "command"
+            }, {
+               "anchor": "command_GoToAppFolder",
+               "command": "_GoToAppFolder",
+               "deleted": true,
+               "type": "command"
+            }, {
+               "anchor": "command_ExploreAppFolder",
+               "command": "_ExploreAppFolder",
+               "deleted": true,
+               "type": "command"
+            }, {
+               "anchor": "command_ExportToExcel",
+               "command": "_ExportToExcel",
+               "deleted": true,
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_ToggleFileExt",
+               "command": "_ToggleFileExt",
+               "type": "command"
+            }, {
+               "anchor": "command_ToggleHidden",
+               "command": "_ToggleHidden",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_DisableListary",
+               "command": "_DisableListary",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "deleted": true,
+               "type": "separator"
+            }, {
+               "anchor": "command_Options",
+               "command": "_Options",
+               "type": "command"
+            } ],
+            "type": "submenu"
+         }
+      }, {
+         "id": 500,
+         "root_item": {
+            "items": [ {
+               "anchor": "menu_list_favorite_global",
+               "id": 100,
+               "type": "menu_list"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "submenu_recent",
+               "items": [ {
+                  "anchor": "menu_list_recent",
+                  "id": 200,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_Options",
+               "command": "_Options",
+               "type": "command"
+            } ],
+            "type": "submenu"
+         }
+      }, {
+         "id": 501,
+         "root_item": {
+            "items": [ {
+               "anchor": "command_Options",
+               "command": "_Options",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "deleted": true,
+               "type": "separator"
+            }, {
+               "anchor": "command_Tutorial",
+               "command": "_Tutorial",
+               "deleted": true,
+               "type": "command"
+            }, {
+               "anchor": "command_OnlineHelp",
+               "command": "_OnlineHelp",
+               "deleted": true,
+               "type": "command"
+            }, {
+               "anchor": "command_CheckUpdates",
+               "command": "_CheckUpdates",
+               "deleted": true,
+               "type": "command"
+            }, {
+               "anchor": "command_About",
+               "command": "_About",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_Exit",
+               "command": "_Exit",
+               "type": "command"
+            } ],
+            "type": "submenu"
+         }
+      } ],
+      "version": 0
+   },
+   "pro_license": {
+      "email": "whzecomjm@foxmail.com",
+      "name": "Wenchao Zhang",
+      "regcode": "K4D3N84LRKFLX45B7PQFRRNVCBWL64ZSSFEL6L3HWRMTTX2JCG7BG9JGNHR4D38LK59FUQ7SHW4R6H2FFU8QXH8W5WXRRTEXGLA6AASUNTPL8X7EWSXSXMCPBVA5D769S6GVX4AWMUJU8GBZT5AJ57NTSUFFQ4SKR7H5V8A87AERUTMM2J2AEQZJN64ME9E6"
+   },
+   "projects": {
+      "items": [ {
+         "keyword": "wiki",
+         "name": "Math Wikipedia",
+         "path": "E:\\Study\\Math Wikipedia"
+      }, {
+         "keyword": "how",
+         "name": "wikiHow",
+         "path": "E:\\\u6211\u7684\u575A\u679C\u4E91\\\u751F\u6D3B\\wikiHow"
+      }, {
+         "keyword": "91",
+         "name": "91\u8001\u53F8\u673A",
+         "path": "G:\\\u8F6F\u4EF6\\91\u8001\u53F8\u673A"
+      } ]
+   },
+   "search": {
+      "exclude": [ {
+         "type": "folder",
+         "value": "C:\\ProgramData\\"
+      }, {
+         "type": "folder",
+         "value": "C:\\Windows\\"
+      }, {
+         "type": "folder",
+         "value": "C:\\Users\\whzec\\Documents\\Cent\\Data\\"
+      }, {
+         "type": "folder",
+         "value": "C:\\Users\\whzec\\AppData\\Local\\Packages\\"
+      }, {
+         "type": "folder",
+         "value": "C:\\Program Files\\"
+      }, {
+         "type": "folder",
+         "value": "C:\\Program Files (x86)\\"
+      }, {
+         "type": "folder",
+         "value": "C:\\Users\\Default\\"
+      }, {
+         "type": "filter",
+         "value": ".git"
+      }, {
+         "type": "filter",
+         "value": "$RECYCLE.BIN"
+      }, {
+         "type": "filter",
+         "value": "recovery"
+      }, {
+         "type": "filter",
+         "value": "System Volume Information"
+      }, {
+         "type": "filter",
+         "value": "Reference Assemblies"
+      } ],
+      "filters": {
+         "items": [ {
+            "file_extensions": "",
+            "keyword": "fol",
+            "name": "Folder",
+            "search_for_files": false,
+            "search_for_folders": true,
+            "search_in": ""
+         }, {
+            "file_extensions": "md;",
+            "keyword": "md",
+            "name": "Markdown",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "djvu;doc;docx;mobi;pdf;ppt;pptx;tex;txt;wps;xls;xlsx",
+            "keyword": "doc",
+            "name": "Document",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "png;jpg;jpeg;ico;bmp;svg",
+            "keyword": "pic",
+            "name": "Picture",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "mp3;m4a;mp4;mkv;mov",
+            "keyword": "mp3",
+            "name": "Media",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "zip;rar;7z;lzma;tar;gz",
+            "keyword": "zip",
+            "name": "Zip",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "pdf",
+            "keyword": "pdf",
+            "name": "PDF",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         } ],
+         "use_defaults": false
+      }
+   },
+   "status": {
+      "disk_search_started_successfully_last_time": true
+   },
+   "tip": {
+      "action_hotkey": false,
+      "space_to_only_search_files": false,
+      "tutorial_listary5": false
+   },
+   "version": 2,
+   "window_types": {
+
+   }
+}
