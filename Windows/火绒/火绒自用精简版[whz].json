@@ -167,7 +167,7 @@
           {
             "mt":1,
             "at":21,
-            "res_path":"qqcall*.exe"
+            "res_path":"QQCall*.exe"
           },
           {
             "mt":1,
@@ -188,6 +188,26 @@
             "mt":1,
             "at":21,
             "res_path":"*Com.Tencent.wireless*"
+          },
+          {
+            "mt":1,
+            "at":5,
+            "res_path":"*:\\ProgramData\\Tencent*"
+          },
+          {
+            "mt":1,
+            "at":5,
+            "res_path":"*LocalLow\\TENCENT*"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"*\\Tencent\\TIM\\AuTemp*"
+          },
+          {
+            "mt":1,
+            "at":16,
+            "res_path":"QQLiveInstaller.exe"
           }
         ]
       },
@@ -195,18 +215,63 @@
     },
     {
       "power":1,
-      "name":"Ad Local",
+      "name":"Logs and Ads",
       "policies":{
         "*":[
           {
             "mt":1,
-            "at":13,
+            "at":21,
             "res_path":"*\\AnyDesk\\ad.trace"
           },
           {
             "mt":1,
-            "at":13,
+            "at":21,
             "res_path":"MSG0_*.bakdb"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"*\\MicrosoftEdgeBackups*"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"*\\Roaming\\CentBrowser*"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"*\\Roaming\\Daum*"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"*ProgramData\\ProcessLasso*"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"*CloudMusic\\ad*"
+          },
+          {
+            "mt":1,
+            "at":5,
+            "res_path":"*Wise Care 365\\Themes\\*"
+          },
+          {
+            "mt":1,
+            "at":5,
+            "res_path":"*Wise Care 365\\MoreThemes\\*"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"*\\Roaming\\TrafficMonitor*"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"*\\ProgramData\\NetEaseWinDA*"
           }
         ]
       },
@@ -219,13 +284,37 @@
         "*":[
           {
             "mt":1,
-            "at":5,
-            "res_path":"*.xlog"
+            "at":21,
+            "res_path":"*.mmap2"
           },
           {
             "mt":1,
-            "at":5,
-            "res_path":"MM.mmap2"
+            "at":21,
+            "res_path":"MM2_20*.xlog"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"spt_20*.log"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"MSG0_*.bakdb"
+          }
+        ]
+      },
+      "verdict":0
+    },
+    {
+      "power":1,
+      "name":"坚果云",
+      "policies":{
+        "*":[
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"DriverService.*log"
           }
         ]
       },

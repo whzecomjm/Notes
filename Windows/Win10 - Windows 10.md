@@ -33,6 +33,15 @@
 
    
 
+## Office 密钥
+
+你的产品: Microsoft Office Pro Plus 2019
+你的产品密钥: `GRBR4-J4N3M-KTX9C-JM4PJ-J8HPT`
+
+下载地址: <https://setup.office.com/home/getoffice>
+
+
+
 ## Windows常用快捷键
 
 ### Win相关快捷键
