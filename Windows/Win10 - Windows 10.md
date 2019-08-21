@@ -62,7 +62,7 @@
 | F4 |打开/运行天若OCR (AHK)|
 | Win+V |剪贴板|
 | Win+B|打开选定任务栏中的状态栏图标|
-| Win+N |打开并新建 Notepad (AHK)|
+| Win+N |新建 Notepad3 或使用 Notepad3 打开 (AHK+Listary)|
 | **Win+Shift+S**/ Ctrl+Shift+A |新的系统快捷截图, 保存在剪贴板. (AHK)|
 | Win+Tab|切换窗口，有预览可看到最近打开的文档|
 | Win+1～9 | 启动对应任务栏锁定程序程序 |
