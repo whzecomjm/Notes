@@ -226,11 +226,6 @@
           {
             "mt":1,
             "at":21,
-            "res_path":"MSG0_*.bakdb"
-          },
-          {
-            "mt":1,
-            "at":21,
             "res_path":"*\\MicrosoftEdgeBackups*"
           },
           {
@@ -301,6 +296,11 @@
             "mt":1,
             "at":21,
             "res_path":"MSG0_*.bakdb"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"C:\\Users\\whzec\\AppData\\Roaming\\Tencent\\WeChat\\log\\2019*"
           }
         ]
       },
@@ -313,8 +313,8 @@
         "*":[
           {
             "mt":1,
-            "at":21,
-            "res_path":"DriverService.*log"
+            "at":23,
+            "res_path":"DriverService.*"
           }
         ]
       },
