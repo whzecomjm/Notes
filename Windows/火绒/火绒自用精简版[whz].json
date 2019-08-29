@@ -308,13 +308,18 @@
     },
     {
       "power":1,
-      "name":"坚果云",
+      "name":"净化优酷 BY Smile",
       "policies":{
         "*":[
           {
             "mt":1,
-            "at":23,
-            "res_path":"DriverService.*"
+            "at":21,
+            "res_path":"*\\recommendwnd*"
+          },
+          {
+            "mt":1,
+            "at":21,
+            "res_path":"*\\CrashDumper*"
           }
         ]
       },

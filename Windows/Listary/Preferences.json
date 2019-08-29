@@ -81,7 +81,7 @@
       }, {
          "enabled": true,
          "guid": "{7971bb91-830f-474b-a976-8bfc9fc001d1}",
-         "hotkey": 17670,
+         "hotkey": 19976,
          "keyword": "not",
          "param": "\"{action_path}\"",
          "path": "D:\\Program Files\\NotePad3\\Notepad3\\Notepad3.exe",
@@ -101,15 +101,15 @@
          "title": "Edit with Vim",
          "type": "custom"
       }, {
-         "enabled": false,
+         "enabled": true,
          "guid": "{f56585dd-3f13-4305-8f00-e5599e3f20fe}",
          "hotkey": 0,
-         "keyword": "",
-         "param": "/K \"cd /d \"{action_path}\" & \"C:\\Program Files (x86)\\Git\\bin\\sh.exe\" --login\"",
+         "keyword": "git",
+         "param": "/K \"cd /d \"{action_path}\" & git status\"",
          "path": "cmd.exe",
          "run_as_admin": false,
          "slient": false,
-         "title": "Git Bash",
+         "title": "Git Here",
          "type": "custom"
       } ]
    },
@@ -153,7 +153,10 @@
       "popup_menu": 19715
    },
    "keywords": {
-      "builtin_commands": [  ],
+      "builtin_commands": [ {
+         "guid": "{f60f63ab-1d2e-470e-ba34-482cb50dadc5}",
+         "keyword": "set"
+      } ],
       "custom_commands": [ {
          "enabled": false,
          "guid": "{7313132d-cc4b-4f04-94a1-030dc2db5413}"
@@ -216,17 +219,6 @@
          "only_show_in_launcher": false,
          "param": "-search {query} -path . ",
          "path": "D:\\Program Files\\Everything\\Everything.exe",
-         "run_as_admin": false,
-         "slient": false,
-         "working_dir": ""
-      }, {
-         "description": "",
-         "display_title": "\u6253\u5F00Python\u76EE\u5F55",
-         "enabled": true,
-         "keyword": "python",
-         "only_show_in_launcher": false,
-         "param": "/K cd /d \"D:\\Program Files\\Python\"",
-         "path": "cmd.exe",
          "run_as_admin": false,
          "slient": false,
          "working_dir": ""
@@ -420,8 +412,8 @@
          "id": 100,
          "root_item": {
             "items": [ {
-               "name": "PhD",
-               "path": "E:\\Study\\Courses\\PhD",
+               "name": "PhD Thesis",
+               "path": "E:\\Research\\Theses\\PhD Thesis",
                "type": "favorite_folder"
             }, {
                "name": "AppData",
@@ -608,13 +600,9 @@
          "name": "Math Wikipedia",
          "path": "E:\\Study\\Math Wikipedia"
       }, {
-         "keyword": "how",
-         "name": "wikiHow",
-         "path": "E:\\\u6211\u7684\u575A\u679C\u4E91\\\u751F\u6D3B\\wikiHow"
-      }, {
          "keyword": "91",
          "name": "91\u8001\u53F8\u673A",
-         "path": "G:\\\u8F6F\u4EF6\\91\u8001\u53F8\u673A"
+         "path": "G:\\\u4FDD\u5065\u64CD\\91"
       } ]
    },
    "search": {
@@ -639,6 +627,12 @@
       }, {
          "type": "folder",
          "value": "C:\\Users\\Default\\"
+      }, {
+         "type": "folder",
+         "value": "C:\\Users\\whzec\\AppData\\Roaming\\Nutstore\\"
+      }, {
+         "type": "folder",
+         "value": "D:\\Program Files\\MikTeX\\"
       }, {
          "type": "filter",
          "value": ".git"
