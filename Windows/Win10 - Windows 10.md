@@ -56,7 +56,6 @@
 | Win+P|打开投影|
 | Win+D | 桌面与程序间切换(Win+M则只能单向切回桌面) |
 | Win+F |打开Everything搜索 (AHK)|
-| Win |打开 Listary|
 | Win+L|锁屏|
 | Win+X | 相当于右键开始图标，有不少系统高级功能 |
 | F4 |打开/运行天若OCR (AHK)|

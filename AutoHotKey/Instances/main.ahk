@@ -192,7 +192,7 @@ Return
 
 ;========================书写环境========================
 
-#If WinActive("ahk_exe Typora.exe") or WinActive("ahk_exe Notepad3.exe")
+#If WinActive("ahk_exe Typora.exe") or WinActive("ahk_exe Notepad3.exe") or WinActive("ahk_exe miktex-texworks.exe") or WinActive("ahk_exe texstudio.exe") or WinActive("ahk_exe Chrome.exe")
 ; 在Typora 和 Notepad3 中使用数学快捷键
 ; 我们将在本地输入好 latex 文件再放到在线预览编译
 
