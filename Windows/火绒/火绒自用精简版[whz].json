@@ -167,7 +167,7 @@
           {
             "mt":1,
             "at":21,
-            "res_path":"QQCall*.exe"
+            "res_path":"QQCall*"
           },
           {
             "mt":1,
@@ -285,22 +285,17 @@
           {
             "mt":1,
             "at":21,
-            "res_path":"MM2_20*.xlog"
+            "res_path":"*.xlog"
           },
           {
             "mt":1,
             "at":21,
-            "res_path":"spt_20*.log"
+            "res_path":"spt_20*"
           },
           {
             "mt":1,
             "at":21,
-            "res_path":"MSG0_*.bakdb"
-          },
-          {
-            "mt":1,
-            "at":21,
-            "res_path":"C:\\Users\\whzec\\AppData\\Roaming\\Tencent\\WeChat\\log\\2019*"
+            "res_path":"MSG0_*"
           }
         ]
       },

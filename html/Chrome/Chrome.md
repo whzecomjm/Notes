@@ -62,12 +62,11 @@ Chrome 在中文状态下的默认字体设置策略不恰当。实际上，四�
 
 * [uBlock Origin](https://github.com/gorhill/uBlock)：网页去广告
 * [Vimium](https://vimium.github.io/): 全键盘的Chrome
-* [Markdown Previewer](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk?hl=en): 预览Markdown文件
-* [简悦](https://chrome.google.com/webstore/detail/simpread-reader-view/ijllcpnolfcooahcekpamkbidhejabll/): 沉浸阅读模式, 也可以识别阅览 Markdown 和 LateX.
+* [简悦](https://chrome.google.com/webstore/detail/simpread-reader-view/ijllcpnolfcooahcekpamkbidhejabll/): 沉浸阅读模式, 也可以识别阅览 Markdown 和 LaTeX.
 * [暴力猴](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag): 更好的[Tampermonkey](http://tampermonkey.net/)替换品
 * [LastPass](https://www.lastpass.com/zh)：密码管理
 * [Stylish](https://userstyles.org/)：更改网站的样式。
-* [Aria2 for Chrome](https://chrome.google.com/webstore/detail/aria2-for-chrome/mpkodccbngfoacfalldjimigbofkhgjn)：Aria2下载界面, 后者更高效
+* [Aria2 for Chrome](https://chrome.google.com/webstore/detail/aria2-for-chrome/mpkodccbngfoacfalldjimigbofkhgjn)：Aria2高效的下载界面
 * [Google Mail Checker](https://chrome.google.com/webstore/detail/google-mail-checker/mihcahmgecmbnbcchbopgniflfhgnkff)
 * [Markdown Here](https://markdown-here.com)
 * [Zotero Connector](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc)
@@ -82,12 +81,11 @@ Chrome 在中文状态下的默认字体设置策略不恰当。实际上，四�
 
 下述全部插件可以在[Greasy Fork](https://greasyfork.org/zh-CN)的[我的收藏列表](https://greasyfork.org/zh-CN/scripts?set=323311)中查看, 绑定谷歌登录. 
 
-暴力猴的网盘同步有时候会出现问题, 可能是某些插件名的`非合法`字符引起的.
+暴力猴的网盘同步(使用 onedrive 比较好, 国内外通用) 有时候会出现问题, 可能是某些插件名的`非合法`字符引起的.
 
 - [Baidu Encyclopedia to wikipedia](https://greasyfork.org/zh-CN/scripts/20134)
-- [Yet Another Weibo Filter 看真正想看的微博](https://greasyfork.org/zh-CN/scripts/3249): 过滤微博；修改版面
-- [网盘助手](https://greasyfork.org/zh-CN/scripts/378301): 下载, 播放, 自动填写密码
-- [百度网盘超级助手](https://greasyfork.org/zh-CN/scripts/383501): 下载, 自动填写密码, 搜索栏
+- [药方 (YAWF)](https://greasyfork.org/zh-CN/scripts/3249): 过滤微博；修改版面
+- [网盘助手](https://greasyfork.org/zh-CN/scripts/378301) 等等
 - [简悦-轻阅版](https://greasyfork.org/zh-CN/scripts/39998): 暴力猴需要安装github的[simpread.js](https://raw.githubusercontent.com/Kenshin/simpread-little/master/src/userscript/simpread.js).
 - [豆瓣资源下载大师](https://greasyfork.org/zh-CN/scripts/329484): 豆瓣电影, 图书等资源下载
 - [AC-baidu](https://greasyfork.org/zh-CN/scripts/14178): 百度谷歌优化
@@ -97,7 +95,13 @@ Chrome 在中文状态下的默认字体设置策略不恰当。实际上，四�
 - [iciba划词翻译](https://greasyfork.org/zh-CN/scripts/6303): 非常好的网页翻译
 - [拒绝二维码登录](https://greasyfork.org/zh-CN/scripts/27183): 默认使用账号密码登录而不是二维码
 - [小说阅读脚本](https://greasyfork.org/scripts/292/): 小说阅读优化
-- [知乎重排for印象笔记](https://greasyfork.org/zh-CN/scripts/372064): 方便复制和打印的知乎问答和专栏
 - [解析 91](https://greasyfork.org/zh-CN/scripts/378608): 精力是有限的
-- [斗鱼去火箭横幅](https://greasyfork.org/zh-CN/scripts/381934): 斗鱼精简且去火箭横幅, 加很多小功能
-- [斗鱼自动发弹幕、领取观看鱼丸、清爽模式](https://greasyfork.org/zh-CN/scripts/380546)
+
+
+
+
+
+whzecomjm 
+
+2019-08-31
+
