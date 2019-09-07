@@ -5,4 +5,5 @@
 start "MouseInc" "D:\Shortcuts\MouseInc.lnk"
 start "whz.ahk" "E:\我的坚果云\whz.ahk"
 start "ProcessLasso" "D:\Program Files\Dism++\ProcessLasso64\ProcessLasso.exe"
-start "MemReduct" "D:\Program Files\Dism++\memreduct\memreduct.exe"
+start "MemReduct" "D:\Program Files\Single File\Memreduct3.3.exe"
+start "SSR" "D:\Shortcuts\SSR.lnk"

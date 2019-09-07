@@ -70,7 +70,7 @@ Chrome 在中文状态下的默认字体设置策略不恰当。实际上，四�
 * [Google Mail Checker](https://chrome.google.com/webstore/detail/google-mail-checker/mihcahmgecmbnbcchbopgniflfhgnkff)
 * [Markdown Here](https://markdown-here.com)
 * [Zotero Connector](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc)
-* [Makedown](https://chrome.google.com/webstore/detail/makedown/hjhdlmnpinhhbonjckafaeaacblilpkc): 知乎专栏和知乎输入公式
+* [Makedown](https://chrome.google.com/webstore/detail/makedown/hjhdlmnpinhhbonjckafaeaacblilpkc): 知乎专栏和知乎输入公式 (0.1.2 已失效)
 * [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif): 代理切换
 * [NetEaseMusicWorld+](https://chrome.google.com/webstore/detail/neteasemusicworld%20/pjcgkmiglhiambjngnljkdpoggonlnfe): 网易云音乐海外
 * Grammarly for chrome
@@ -83,19 +83,21 @@ Chrome 在中文状态下的默认字体设置策略不恰当。实际上，四�
 
 暴力猴的网盘同步(使用 onedrive 比较好, 国内外通用) 有时候会出现问题, 可能是某些插件名的`非合法`字符引起的.
 
-- [Baidu Encyclopedia to wikipedia](https://greasyfork.org/zh-CN/scripts/20134)
+- [Baidu Encyclopedia to wikipedia](https://greasyfork.org/zh-CN/scripts/20134)、[干他凉的百度百科](https://greasyfork.org/zh-CN/scripts/380543)
 - [药方 (YAWF)](https://greasyfork.org/zh-CN/scripts/3249): 过滤微博；修改版面
-- [网盘助手](https://greasyfork.org/zh-CN/scripts/378301) 等等
+- [网盘助手](https://greasyfork.org/zh-CN/scripts/378301), [百度云限速破解](https://greasyfork.org/zh-CN/scripts/380664) 等等
 - [简悦-轻阅版](https://greasyfork.org/zh-CN/scripts/39998): 暴力猴需要安装github的[simpread.js](https://raw.githubusercontent.com/Kenshin/simpread-little/master/src/userscript/simpread.js).
 - [豆瓣资源下载大师](https://greasyfork.org/zh-CN/scripts/329484): 豆瓣电影, 图书等资源下载
 - [AC-baidu](https://greasyfork.org/zh-CN/scripts/14178): 百度谷歌优化
 - [优惠购](https://greasyfork.org/zh-CN/scripts/378081): 或者购物党
 - [复制为Markdown格式](https://greasyfork.org/zh-CN/scripts/370299): 复制网页为 Markdown (使用 turndown.js)
-- [知乎答案复制为markdown格式](https://greasyfork.org/zh-CN/scripts/370215): 方便复制知乎回答
+- [知乎网页助手](https://greasyfork.org/zh-CN/scripts/384172)、[知乎答案复制为markdown格式](https://greasyfork.org/zh-CN/scripts/370215)
 - [iciba划词翻译](https://greasyfork.org/zh-CN/scripts/6303): 非常好的网页翻译
 - [拒绝二维码登录](https://greasyfork.org/zh-CN/scripts/27183): 默认使用账号密码登录而不是二维码
 - [小说阅读脚本](https://greasyfork.org/scripts/292/): 小说阅读优化
 - [解析 91](https://greasyfork.org/zh-CN/scripts/378608): 精力是有限的
+
+  
 
 
 
