@@ -79,7 +79,7 @@ Chrome 在中文状态下的默认字体设置策略不恰当。实际上，四�
 
 ### 暴力猴脚本
 
-下述全部插件可以在[Greasy Fork](https://greasyfork.org/zh-CN)的[我的收藏列表](https://greasyfork.org/zh-CN/scripts?set=323311)中查看, 绑定谷歌登录. 
+下述全部插件可以在[Greasy Fork](https://greasyfork.org/zh-CN)的[我的收藏列表](https://greasyfork.org/zh-CN/scripts?set=323311)中查看, 绑定谷歌登录. 另一个下载脚本的地方：[Sleazy Fork](https://sleazyfork.org/zh-CN/scripts).
 
 暴力猴的网盘同步(使用 onedrive 比较好, 国内外通用) 有时候会出现问题, 可能是某些插件名的`非合法`字符引起的.
 
