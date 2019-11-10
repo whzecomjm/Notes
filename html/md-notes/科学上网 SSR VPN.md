@@ -142,10 +142,10 @@ ping cdnetworks.com
 使用上述ping 分别寻找最优的音乐资源CDN服务器和最优的图片资源CDN服务器。然后将其 ip 地址写入 hosts：
 
 ```shell
-14.0.41.190 m10.music.126.net
-148.253.238.205 p1.music.126.net
-148.253.238.205 p3.music.126.net
-148.253.238.205 p4.music.126.net
+163.171.129.140 m10.music.126.net
+163.171.213.79 p1.music.126.net
+163.171.213.79 p3.music.126.net
+163.171.213.79 p4.music.126.net
 ```
 
 [^1]: 方法参见：https://github.com/acgotaku/NetEaseMusicWorld。
