@@ -118,19 +118,12 @@
       "by_type": {
          "desktop": {
             "enable_hot_key_when_toolbar_hidden": true
-         },
-         "listary_launcher": {
-            "toolbar_position": 5,
-            "x": 383,
-            "x_from_left": true,
-            "y": 207,
-            "y_from_top": true
          }
       }
    },
    "appearance": {
       "theme": {
-         "file": "Cobalt2.listarytheme.json"
+         "file": "Listary Turquoise.listarytheme.json"
       }
    },
    "check_update": {
@@ -190,7 +183,7 @@
          "keyword": "rec",
          "only_show_in_launcher": false,
          "param": "::{645FF040-5081-101B-9F08-00AA002F954E}",
-         "path": "explorer.exe ",
+         "path": "C:\\Windows\\explorer.exe",
          "run_as_admin": false,
          "slient": false,
          "working_dir": ""
@@ -224,6 +217,28 @@
          "only_show_in_launcher": true,
          "param": "{query}",
          "path": "D:\\Program Files\\GoldenDict\\GoldenDict.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "\u63A7\u5236\u9762\u677F",
+         "enabled": true,
+         "keyword": "kz",
+         "only_show_in_launcher": true,
+         "param": "",
+         "path": "control.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "\u6253\u5F00 BIU Math",
+         "enabled": true,
+         "keyword": "biu",
+         "only_show_in_launcher": true,
+         "param": "\"BIU-Math\" /Desktop /UploadIfAny",
+         "path": "D:\\Program Files\\AirExplorer\\WinSCP\\WinSCP.exe",
          "run_as_admin": false,
          "slient": false,
          "working_dir": ""
@@ -302,7 +317,7 @@
             "png_data": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAH3SURBVGiB7ZnLSsNAFIb/aapg7UJdunOhS3etK59J30B9A134GKIVhCJIRbroTYpCEayhSiHUWNKbrTXm4kIsxWhSM1Mmgfl2nTnMydeTHA4JsW0bYSbC+wJoCb1A1CvgoKhP5R6zbextJ2d3ac/hUoHYDAEh2Nkv6Lu0Z3ER2FyRmElwqwArCW4PMSsJrl2IhQT3NkorwV0AoJMIhADgXyIwAoA/iUAJAE4Jr3jPUWIaHFc+mJ0VuAr8FyHAGyHAGyHAGyHwk4rcREVuesYV71s4PJNRvG9R5WMq0O3rSGdrSGdr6PZ119hCVcPrm4FCVaPKyVTg9PIBQ93AUDdwevngGptcXUJ8Lork6hJVTmazUP5WwZPSGf1+UjrI3yrYWF8erbX7XzPQwvwMEmuLSKwtUudlUgFVGyBTqjvWM6U6VG0AADAtG6mcglROgWmxe9VELWCaFlKZKkzTct27uFHRaA3RaA1xcaPSph1BLTD+L/+Gqg1wdPWIstwerZXlNu7qPdrUACgFvu9zN4gkodZ0dqT0dQNaz71TTYJvgUk6DQhBZD4OEOLY0g0LJzkFhkn3PPgWmKTXR2IxEEn6c/+l847z8rPfSwAAEK8PHNN6Oz0pW4lZZ/nGELMQb4QAb4QAb4QAb4QAb0Iv4DkLBZ3QVyD0Ap+8j9shbegufwAAAABJRU5ErkJggg",
             "type": "png_data"
          },
-         "keyword": "icon",
+         "keyword": "ico",
          "title": "Search icon for '{query}'",
          "url": "https://www.easyicon.net/iconsearch/{query}"
       }, {
@@ -350,6 +365,15 @@
          "keyword": "xe",
          "title": "XE '{query}' Shekels in CNY",
          "url": "https://www.xe.com/currencyconverter/convert/?Amount={query}&From=ILS&To=CNY"
+      }, {
+         "enabled": true,
+         "icon": {
+            "png_data": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAAAKAAAACgACp5izUAAAAHdElNRQfjAQkEBCPdbrkcAAAB1ElEQVQ4y33SzUtUURzG8c+9M6P4FihqEGSQC8GXiCAkozYRWPtaFVFQ0Cb6A1oEFUKrWggtEtq0KigiaBNI0KLQoqAsowSxFkbq+DY5ZXNbjDPemWF87ubcw/me3+/3nCeQV0KrhGoKrFjML5MbW2ftl90CSBr2oQAMGLTPJbOCKsC6Uw4WgGZnvLTLglXVldZWaKnemuf6hUhJVRyNZOU2f5MigciUvzjuqH+iWO+BjGEzcQD+eC2LUeMlfq1YkvMrXjCJSL2TPstasqTFOc0iJLzwsLzDgq1hcWfejaJbOaoBee3WEZsgMmlOjynL1YAOB0puXZDW7adlREKRqBRIm45VYEXOrCxyDunz1r2wBEipK/mSArVC1Oj0xICW0gpjxiqmfIZGA67qMGEuVF0JXdrBeV9l7TUil9wCOOaEVdf12WnEZbeky13q1bUx9JpRO4z7bsi620576mOlrQ3aRBICGbUeueaNV77o15APdzkQSvnhcfEt7rrgim493jniWx4IKCZ00Yw5YREY12lI5KZe2wsVfqtzWJMIEybKBn/gk0XT9mxGY959g9o1yag0OTIpUGNbIQGFXF7UK7OFxY3ueB8HklolSnIUVyBjIb/8D1BUiCak27AwAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE5LTAxLTA5VDA0OjA0OjM1KzA4OjAwDtpZzgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOS0wMS0wOVQwNDowNDozNSswODowMH+H4XIAAABDdEVYdHNvZnR3YXJlAC91c3IvbG9jYWwvaW1hZ2VtYWdpY2svc2hhcmUvZG9jL0ltYWdlTWFnaWNrLTcvL2luZGV4Lmh0bWy9tXkKAAAAY3RFWHRzdmc6Y29tbWVudAAgR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICDOSJALAAAAGHRFWHRUaHVtYjo6RG9jdW1lbnQ6OlBhZ2VzADGn/7svAAAAGXRFWHRUaHVtYjo6SW1hZ2U6OkhlaWdodAAxMjUx24lumwAAABh0RVh0VGh1bWI6OkltYWdlOjpXaWR0aAAxMjUxzsCyggAAABl0RVh0VGh1bWI6Ok1pbWV0eXBlAGltYWdlL3BuZz+yVk4AAAAXdEVYdFRodW1iOjpNVGltZQAxNTQ2OTc3ODc15dj+9wAAABJ0RVh0VGh1bWI6OlNpemUAMjIxMzZC3NeNTQAAAGJ0RVh0VGh1bWI6OlVSSQBmaWxlOi8vL2hvbWUvd3d3cm9vdC9uZXdzaXRlL3d3dy5lYXN5aWNvbi5uZXQvY2RuLWltZy5lYXN5aWNvbi5jbi9maWxlcy8xMjAvMTIwNzMyOS5wbmdwdsXFAAAAAElFTkSuQmCC",
+            "type": "png_data"
+         },
+         "keyword": "sci",
+         "title": "Search in Axiv with Scirate for '{query}'",
+         "url": "https://scirate.com/search?q={query}"
       } ]
    },
    "launch_apps": {
@@ -657,10 +681,6 @@
          "keyword": "wiki",
          "name": "Math Wikipedia",
          "path": "E:\\Study\\Math Wikipedia"
-      }, {
-         "keyword": "91",
-         "name": "91\u8001\u53F8\u673A",
-         "path": "G:\\\u4FDD\u5065\u64CD\\91"
       } ]
    },
    "search": {

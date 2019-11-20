@@ -40,11 +40,6 @@
                     "res_path":"*\\Roaming\\TrafficMonitor*"
                 },
                 {
-                    "montype":0,
-                    "action_type":16,
-                    "res_path":"*\\ProgramData\\NetEaseWinDA*"
-                },
-                {
                     "montype":1,
                     "action_type":5,
                     "res_path":"*\\ProgramData\\NetEaseWinDA*"
@@ -299,7 +294,7 @@
                 {
                     "montype":1,
                     "action_type":5,
-                    "res_path":"spt_20>"
+                    "res_path":"spt_20*"
                 },
                 {
                     "montype":1,
@@ -310,25 +305,6 @@
                     "montype":1,
                     "action_type":13,
                     "res_path":"*.bakdb"
-                }
-            ]
-        },
-        {
-            "id":2,
-            "power":1,
-            "name":"禁用应用宝 BY Smile",
-            "procname":"*",
-            "treatment":3,
-            "policies":[
-                {
-                    "montype":1,
-                    "action_type":1,
-                    "res_path":"*\\qqphonemanager*"
-                },
-                {
-                    "montype":2,
-                    "action_type":1,
-                    "res_path":"*\\qqphonemanager*"
                 }
             ]
         },
@@ -346,11 +322,6 @@
                 },
                 {
                     "montype":1,
-                    "action_type":5,
-                    "res_path":"*\\qqpcmgr*"
-                },
-                {
-                    "montype":2,
                     "action_type":5,
                     "res_path":"*\\qqpcmgr*"
                 },
