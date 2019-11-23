@@ -13,6 +13,8 @@ Listary Notes
 
 4. 更多参考内容参见 [Listary 官方文档中文版- 知乎](https://zhuanlan.zhihu.com/p/24897629).
 
+5. 一个关于搜索的好文章 [打造一款像谷歌那样的本地搜索引擎]( https://www.runningcheese.com/local-search ).
+
    
 
 ## Listary 5 自定义参数设置

@@ -116,8 +116,38 @@
    "app_settings": {
       "by_path": [  ],
       "by_type": {
+         "autocad": {
+            "enable": false
+         },
          "desktop": {
             "enable_hot_key_when_toolbar_hidden": true
+         },
+         "directory_opus": {
+            "enable": false
+         },
+         "efcommander": {
+            "enable": false
+         },
+         "filezilla": {
+            "enable": false
+         },
+         "flashfxp": {
+            "enable": false
+         },
+         "freecommander": {
+            "enable": false
+         },
+         "onecommander": {
+            "enable": false
+         },
+         "speedcommander": {
+            "enable": false
+         },
+         "xplorer2": {
+            "enable": false
+         },
+         "xyplorer": {
+            "enable": false
          }
       }
    },
@@ -133,7 +163,8 @@
    "general": {
       "check_updates": false,
       "default_file_manager": {
-
+         "param": "/O /T \"%1\"",
+         "path": "D:\\Program Files\\TotalCMD\\Totalcmd64.exe"
       },
       "language_file": "zh-CN.ini"
    },
@@ -141,7 +172,6 @@
 
    },
    "hotkey": {
-      "hit_ctrl_twice_hotkey": false,
       "main": 8193,
       "popup_menu": 19715
    },
@@ -191,7 +221,7 @@
          "description": "\u4F7F\u7528 Everything \u641C\u7D22",
          "display_title": "Everything",
          "enabled": true,
-         "keyword": "s",
+         "keyword": "e",
          "only_show_in_launcher": true,
          "param": "-s {query}",
          "path": "D:\\Program Files\\Everything\\Everything.exe",
@@ -210,8 +240,8 @@
          "slient": false,
          "working_dir": ""
       }, {
-         "description": "\u4F7F\u7528 GoldenDIct \u7FFB\u8BD1 '{query}'",
-         "display_title": "GoldenDIct",
+         "description": "\u4F7F\u7528 GoldenDict \u7FFB\u8BD1 '{query}'",
+         "display_title": "GoldenDict",
          "enabled": true,
          "keyword": "gd",
          "only_show_in_launcher": true,
@@ -232,14 +262,47 @@
          "slient": false,
          "working_dir": ""
       }, {
-         "description": "",
-         "display_title": "\u6253\u5F00 BIU Math",
+         "description": "\u6253\u5F00 BIU-Math \u5185\u5BB9",
+         "display_title": "\u6253\u5F00 BIU-Math",
          "enabled": true,
          "keyword": "biu",
          "only_show_in_launcher": true,
          "param": "\"BIU-Math\" /Desktop /UploadIfAny",
          "path": "D:\\Program Files\\AirExplorer\\WinSCP\\WinSCP.exe",
          "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "\u4F7F\u7528 FileLocator \u5728\u641C\u7D22\u5185\u5BB9 \"{query}\"",
+         "display_title": "\u641C\u7D22\u5185\u5BB9",
+         "enabled": true,
+         "keyword": "f",
+         "only_show_in_launcher": true,
+         "param": "-c {query}",
+         "path": "D:\\Program Files\\FileLocator\\FileLocatorPro.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "\u4F7F\u7528 FileLocator \u5728\u5F53\u524D\u76EE\u5F55\u641C\u7D22\u5185\u5BB9 \"{query}\"",
+         "display_title": "\u5728\u5F53\u524D\u76EE\u5F55\u641C\u7D22\u5185\u5BB9",
+         "enabled": true,
+         "keyword": "ff",
+         "only_show_in_launcher": false,
+         "param": "-d \"%path%\" -c \"{query}\"",
+         "path": "D:\\Program Files\\FileLocator\\FileLocatorPro.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "SpeedyFox \u4F18\u5316 Cent Chrome",
+         "enabled": true,
+         "keyword": "speed",
+         "only_show_in_launcher": true,
+         "param": "/k \"\"D:\\Program Files\\Single File\\SpeedyFox.exe\" \"/Chrome:C:\\Users\\whzec\\Documents\\Cent\\Data\"\"",
+         "path": "cmd",
+         "run_as_admin": true,
          "slient": false,
          "working_dir": ""
       } ],
@@ -505,6 +568,10 @@
                "name": "Program Docs",
                "path": "E:\\Program Docs",
                "type": "favorite_folder"
+            }, {
+               "name": "\u6211\u7684\u7167\u7247",
+               "path": "G:\\\u6211\u7684\u7167\u7247",
+               "type": "favorite_folder"
             } ],
             "type": "submenu"
          }
@@ -677,40 +744,24 @@
       "regcode": "K4D3N84LRKFLX45B7PQFRRNVCBWL64ZSSFEL6L3HWRMTTX2JCG7BG9JGNHR4D38LK59FUQ7SHW4R6H2FFU8QXH8W5WXRRTEXGLA6AASUNTPL8X7EWSXSXMCPBVA5D769S6GVX4AWMUJU8GBZT5AJ57NTSUFFQ4SKR7H5V8A87AERUTMM2J2AEQZJN64ME9E6"
    },
    "projects": {
-      "items": [ {
-         "keyword": "wiki",
-         "name": "Math Wikipedia",
-         "path": "E:\\Study\\Math Wikipedia"
-      } ]
+
    },
    "search": {
       "exclude": [ {
          "type": "folder",
-         "value": "C:\\ProgramData\\"
-      }, {
-         "type": "folder",
-         "value": "C:\\Windows\\"
-      }, {
-         "type": "folder",
-         "value": "C:\\Users\\whzec\\Documents\\Cent\\Data\\"
-      }, {
-         "type": "folder",
-         "value": "C:\\Users\\whzec\\AppData\\Local\\Packages\\"
-      }, {
-         "type": "folder",
-         "value": "C:\\Program Files\\"
-      }, {
-         "type": "folder",
-         "value": "C:\\Program Files (x86)\\"
-      }, {
-         "type": "folder",
-         "value": "C:\\Users\\Default\\"
-      }, {
-         "type": "folder",
-         "value": "C:\\Users\\whzec\\AppData\\Roaming\\Nutstore\\"
-      }, {
-         "type": "folder",
          "value": "D:\\Program Files\\MikTeX\\"
+      }, {
+         "type": "folder",
+         "value": "D:\\Program Files\\TIM\\"
+      }, {
+         "type": "folder",
+         "value": "C:\\"
+      }, {
+         "type": "folder",
+         "value": "D:\\Program Files\\Wechat\\"
+      }, {
+         "type": "folder",
+         "value": "D:\\Program Files\\TotalCMD\\"
       }, {
          "type": "filter",
          "value": ".git"
@@ -744,7 +795,7 @@
             "name": "Markdown",
             "search_for_files": true,
             "search_for_folders": false,
-            "search_in": ""
+            "search_in": "E:\\"
          }, {
             "file_extensions": "djvu;doc;docx;mobi;pdf;ppt;pptx;tex;txt;wps;xls;xlsx",
             "keyword": "doc",
