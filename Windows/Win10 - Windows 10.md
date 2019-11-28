@@ -8,21 +8,23 @@
 
 1. ==使用Dism++优化系统及服务==: 尽量不要用别的方法优化. **不要关闭控制面板的搜索功能**, 搜索服务可以用 Dism++ 关闭. 其他可关闭的[服务](https://www.zhihu.com/question/36192602)有 Connected User Experiences and Telemetry、SysMain （原名为Superfetch，关闭以后会影响应用程序打开速度）. 优化方法参见[这个知乎回答](https://www.zhihu.com/question/33855201/answer/382534840)。
 
-2. 使用Dism++删除缓存以及不必要的预装应用(可以全部删除，包括应用商店)
+2. 桌面使用暗色主题+亮色应用模式; 任务栏使用小任务栏+不合并
 
-3. **BIOS**关闭 Legacy启动，开启安全启动; 关闭 Performance Intel SpeedStep, 提高 CPU 功率.
+3. 使用Dism++删除缓存以及不必要的预装应用(可以全部删除，包括应用商店)
 
-6. 使用 Windows Update Blocker 关闭系统更新
+4. **BIOS**关闭 Legacy启动，开启安全启动; 关闭 Performance Intel SpeedStep, 提高 CPU 功率.
 
-7. 使用**彻底删除WIN10全家桶**删除一些Win不用的应用和服务, 比如 EDGE, 混合现实门户, 连接, Onedrive. (删除 Cortana 会影响系统稳定)
+5. 使用 Windows Update Blocker 关闭系统更新
 
-8. Typora 和 Chrome 尽量使用硬件加速, 解决了 Chrome 打开设置卡顿, 看视频卡顿的问题.
+6. 使用**彻底删除WIN10全家桶**删除一些Win不用的应用和服务, 比如 EDGE, 混合现实门户, 连接, Onedrive. (删除 Cortana 会影响系统稳定)
 
-9. 出现explorer的快速异常检测失败错误，暂时解决方案是 alt+tab 然后关闭弹出框。
+7. Typora 和 Chrome 尽量使用硬件加速, 解决了 Chrome 打开设置卡顿, 看视频卡顿的问题.
 
-10. 一些不配置高分屏的程序可以使用 `系统(增强)缩放等级` 让其更清晰，比如SpeqMath，ReNamer，RegOwnershipEx 等等。虽然 Listary 使用该方法也能更清晰，但是缩放等级会继承在所有用 Listary 打开的程序: 比如 Typora，到这后者显示效果不佳。
+8. 出现explorer的快速异常检测失败错误，暂时解决方案是 alt+tab 然后关闭弹出框。
 
-9. *Distributed Transaction Coordinator 服务由于下列服务特定错误而终止*. 实际上这个分布式的服务对于家庭用户[完全不需要](https://www.experts-exchange.com/questions/23039086/The-Distributed-Transaction-Coordinator-service-terminated.html), 可以禁用或者卸载: `MSDTC -uninstall`, 再删掉注册表
+9. 一些不配置高分屏的程序可以使用 `系统(增强)缩放等级` 让其更清晰，比如SpeqMath，ReNamer，RegOwnershipEx 等等。虽然 Listary 使用该方法也能更清晰，但是缩放等级会继承在所有用 Listary 打开的程序: 比如 Typora，到这后者显示效果不佳。
+
+10. *Distributed Transaction Coordinator 服务由于下列服务特定错误而终止*. 实际上这个分布式的服务对于家庭用户[完全不需要](https://www.experts-exchange.com/questions/23039086/The-Distributed-Transaction-Coordinator-service-terminated.html), 可以禁用或者卸载: `MSDTC -uninstall`, 再删掉注册表
 
    ```shell
    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDTC]
