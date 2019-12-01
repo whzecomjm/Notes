@@ -7,34 +7,33 @@ Listary Notes
 
 1. 5.0版本不要使用管理员权限启动 Listary。
 
-2. 出现感叹号的历史纪录可以选择清除历史纪录(重启Listary会自动删除错误记录)
+2. 出现感叹号的历史纪录可以选择清除历史纪录(重启Listary)
 
 3. 搜索文件时在最后**插入空格**就会排除应用.
 
 4. 更多参考内容参见 [Listary 官方文档中文版- 知乎](https://zhuanlan.zhihu.com/p/24897629).
 
-5. 一个关于搜索的好文章 [打造一款像谷歌那样的本地搜索引擎]( https://www.runningcheese.com/local-search ).
+5. [Listary 中文网](https://www.listarypro.com/): 包括 FAQ 教程等等
+
+6. 一个关于搜索的好文章 [打造一款像谷歌那样的本地搜索引擎]( https://www.runningcheese.com/local-search ).
 
    
 
 ## Listary 5 自定义参数设置
 
 - WinSCP 的自定义BIU打开设置参数: `"BIU-putty" /Desktop /UploadIfAny`
-
 - 在当前目录打开 Git Status (运行cmd) 参数: `/K cd /d "{current_folder}" & git status`
-
 - 打开回收站 (explorer) 参数: `::{645FF040-5081-101B-9F08-00AA002F954E}`
-
 - 在此目录使用 Everything 搜索参数: `-search {query} -path . `
+- 默认文件管理器 TC 参数: `/O /T /L="%1"` 
+- 默认文件管理器 xyplorer 参数 : `"%1"`
 
-  
+
 
 ## Listary 自带快捷键
 
 | 快捷键       | 快捷键作用                         |
 | ------------ | ---------------------------------- |
-| Win          | 打开 Listary 工具条                |
-| Ctrl+Alt+M   | 显示弹出菜单                       |
 | Ctrl+O       | 动作                               |
 | Ctrl+N/P     | 下一个/上一个项目                  |
 | Ctrl+G       | 切换到文件管理器中正在浏览的文件夹 |
@@ -73,14 +72,3 @@ Listary Notes
 参考链接: [ListaryWithWinKey](https://github.com/KevinWang15/ListaryWithWinKey/blob/master/auto_hot_key_solution.ahk).
 
 
-
-## 配置 XYplorer 等其他文件管理器
-
-在 Listary 常规设置中的"默认文件管理器"自定义, 填写路径和参数:
-
-```bash
-D:\Program Files\XYPlorer\XYplorer.exe
-"%1"
-```
-
-注意在 Listary - XYplorer 设置中要关闭 Listary 快捷键.
