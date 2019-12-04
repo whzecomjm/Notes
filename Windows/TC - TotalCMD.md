@@ -49,20 +49,13 @@
 
 使用 `Alt+F5` 压缩对应类型
 
-1. DiskDir (创建lst目录文件)
-2. ISO
-3. RAR
-4. Total7zip
-5. TotalRSZ (压缩图片)
+> DiskDir (创建lst目录文件), ISO, RAR, Total7zip, TotalRSZ (压缩图片)
 
 
 
 ### 内容插件 wdx
 
-1. CDocProp
-2. Exif
-3. FileDiz
-4. ShellDetails
+> CDocProp, Exif, FileDiz, ShellDetails
 
 
 
@@ -70,10 +63,7 @@
 
 在`网络`文件夹中打开
 
-1. cloudplugin
-2. Porocfs (任务管理器)
-3. Registry
-4. Webdav
+> cloudplugin, Registry, Webdav, Porocfs (任务管理器)
 
 
 
@@ -81,11 +71,13 @@
 
 使用 F3 查看
 
-1. Fileinfo
-2. HTMLView
-3. ICLView
-4. Imagine
-5. MarkdownView
-6. sLister
-7. SqLiteViewer
-8. uLister
+> Fileinfo, sLister, uLister, ICLView
+> HTMLView, MarkdownView, SqLiteViewer, Imagine
+
+
+
+
+
+whzecomjm 
+2019-12-04
+
