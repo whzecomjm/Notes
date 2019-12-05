@@ -55,7 +55,9 @@
 
 ### 内容插件 wdx
 
-> CDocProp, Exif, FileDiz, ShellDetails
+用于列表显示
+
+> Exif, FileDiz, ShellDetails, CDocProp (office 作者等信息)
 
 
 
@@ -72,7 +74,7 @@
 使用 F3 查看
 
 > Fileinfo, sLister, uLister, ICLView
-> HTMLView, MarkdownView, SqLiteViewer, Imagine
+> HTMLView, MarkdownView, SqLiteViewer, JSONViewer, Imagine
 
 
 

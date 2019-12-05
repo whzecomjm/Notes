@@ -60,46 +60,6 @@ https://muma16fx.netlify.com
 
 
 
-其他 SSR 订阅地址, 来自https://bbs.ios.cat/d/6
-
-> SSR订阅  
-> [https://ssrsub.00oo000.ooo](https://ssrsub.00oo000.ooo)
->
-> SSR订阅  
-> [https://heikejilaila.xyz/keji.php?id=22c7b9fdda20bb7405b270cd75971f66](https://heikejilaila.xyz/keji.php?id=22c7b9fdda20bb7405b270cd75971f66)
->
-> SSR订阅  
-> [https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub](https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub)
->
-> SSR订阅  
-> [https://raw.githubusercontent.com/AmazingDM/sub/master/ssrshare.com](https://raw.githubusercontent.com/AmazingDM/sub/master/ssrshare.com)
->
-> SSR订阅  
-> [https://gitee.com/ssrfree/subscribe/raw/master/ssr.com](https://gitee.com/ssrfree/subscribe/raw/master/ssr.com)
->
-> SSR订阅  
-> [https://teleplusfreessr.000webhostapp.com](https://teleplusfreessr.000webhostapp.com)
->
-> SSR订阅  
-> [https://youlianboshi.netlify.com/](https://youlianboshi.netlify.com/)
->
-> V2RAY订阅：  
-> [https://raw.githubusercontent.com/eycorsican/rule-sets/master/kitsunebi\_sub](https://raw.githubusercontent.com/eycorsican/rule-sets/master/kitsunebi_sub)
->
-> SSR 訂閱分享  
->
-> [http://aoxuaudaadaoeu.herokuapp.com/subscribe](http://aoxuaudaadaoeu.herokuapp.com/subscribe)  
-> 可能需要代理才能添加
->
-> v2ray 訂閱分享  
-> [https://raw.githubusercontent.com/eycorsican/rule-sets/master/kitsunebi\_sub](https://raw.githubusercontent.com/eycorsican/rule-sets/master/kitsunebi_sub)
->
-> SSR訂閱分享  
-> [https://gitee.com/ssrfree/subscribe/raw/master/ssr.com](https://gitee.com/ssrfree/subscribe/raw/master/ssr.com)  
-> (。・∀・)ノ
-
-
-
 参考链接:
 
 - 碧海小站. [SSR免费节点订阅地址](https://bhqt.ltd/?p=240)
