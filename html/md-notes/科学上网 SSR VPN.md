@@ -7,11 +7,10 @@
 
 ## 酸酸乳——SSR
 
-iOS版本可以使用**APP**:  Potatso Lite. PC 可以在Github或者ssrtool下载ssr. SSR可以使用ssr链接快速配置，可用地SSR免费账号分享网站：
+iOS版本可以使用APP:  **Potatso Lite**. PC 可以在Github下载SSR. SSR可以使用ssr链接快速配置，可用地SSR免费账号分享网站：
 
-- [poro](http://poro.cz/)
-- [SSRTool](https://www.ssrtool.com/tool/free_ssr)
-- [刘伟](https://darrenliuwei.com/%E5%85%8D%E8%B4%B9ss-ssr%E5%88%86%E4%BA%AB.html)
+- [poro](http://poro.cx/)
+- [SSRTool](https://ssrtool.us/tool/free_ssr)
 - [FreeSS](https://ssx.re/)
 - https://free-ss.site/
 
@@ -35,8 +34,6 @@ https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
 
 4. 切换规则中的规则列表规则选定为`SSR`，应用更改即可。
 
-
-
 参考连接: [Google浏览器配置SwitchyOmega模式为auto switch](https://blog.csdn.net/u011068702/article/details/86624940).
 
 
@@ -46,8 +43,6 @@ https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
 很多免费SSR会一段时间后更改密码, 有的提供SSR地址订阅, 更加方便. 测试可用订阅如下:
 
 ```bash
-## SSRTool (被攻击后删除)
-https://raw.githubusercontent.com/AmazingDM/sub/master/ssrshare.com 
 ## t.me/SSRSUB(反馈很好)：
 https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
 ## voken100g AutoSSR
@@ -90,16 +85,16 @@ https://muma16fx.netlify.com
 
 
 
-### 更好的方式：Chrome 插件
+### 另一种方式：Chrome 插件
 
-使用 Chrome 插件 [NetEaseMusicWorldPlus](https://github.com/nondanee/NetEaseMusicWorldPlus)。使用普通模式，导入[^1]最适合的 CDN：
+使用 Chrome 插件 [NetEaseMusicWorldPlus](https://github.com/nondanee/NetEaseMusicWorldPlus)。使用普通模式，[导入](https://github.com/acgotaku/NetEaseMusicWorld)最适合的 CDN：
 
 ```shell
 ping ws.acgvideo.com
 ping cdnetworks.com
 ```
 
-使用上述ping 分别寻找最优的音乐资源CDN服务器和最优的图片资源CDN服务器。然后将其 ip 地址写入 hosts：
+使用上述ping 分别寻找最优的音乐资源CDN服务器和最优的图片资源CDN服务器。然后将其 IP 地址写入 hosts：
 
 ```shell
 163.171.129.140 m10.music.126.net
@@ -108,25 +103,23 @@ ping cdnetworks.com
 163.171.213.79 p4.music.126.net
 ```
 
-[^1]: 方法参见：https://github.com/acgotaku/NetEaseMusicWorld。
-
 
 
 ### 手机在海外享受国内影音
 
-手机翻墙回国推荐下面这三款app: [解锁通](https://www.jiesuotong.com), [穿梭](https://www.transocks.com)(有广告), 快帆.
+手机翻墙回国推荐下面这三款App: [解锁通](https://www.jiesuotong.com), [穿梭](https://www.transocks.com)(有广告), 快帆.
 
 
 
 ## 使用 Putty 创建 SOCKS5 代理
 
-使用BIU的ssh账号做代理。通过此代理, 查找文献时候会自动登录 Bar-Ilan 的公共账号. 步骤如下：
+使用BIU的ssh账号做代理。通过此代理, 查找文献时候会自动登录 BIU 的公共账号. 步骤如下：
 
-1. 下载putty, 新建一个 session: `BIU-putty`. HostName 为 `planet.cs.biu.ac.il`, Port 保持默认22.
+1. 使用putty新建一个session: `BIU`. HostName 为 `planet.cs.biu.ac.il`, Port 保持默认22.
 
-2. 在左侧 Connection > SSH > Tunnels, 填入一个 Source port `4000`. 使用 Dynamic + Auto.
+2. 在左侧 Connection > SSH > Tunnels, 填入一个 Source port `4000`. 使用 Dynamic + Auto. Add 保存后产生一个 D4000, 切回 session 保存. 
 
-3. Add 保存为一个 D4000, 切回 session 保存. Open 启用Putty, 输入账号`zhangwe1` 和密码.
+3. Open 启用Putty, 输入账号`zhangwe1` 和密码.
 
 4. 为了防止putty自动断线，选择 Connection，把 seconds between keepalives 设为 10；low-level TCP connection options 的两个选项都勾上。
 
@@ -150,7 +143,7 @@ ping cdnetworks.com
 
 ## 使用 GCP 安装SSR
 
-### 创建VM实例
+### 创建 VM 实例
 
 申请好 Google Cloud Platform 账号以后, 创建VM实例. 通过`创建实例`来创建一个虚拟机。名称：随意输入; 地区：建议asia-east1-c; 机器类型：小型（建议）/微型. 启动磁盘单击更改 – Ubuntu 16.04 LTS; 防火墙：允许HTTP流量，允许HTTPS流量
 
@@ -207,8 +200,20 @@ ping cdnetworks.com
 
 ## VPN 推荐
 
-[VPN大大](https://www.vpndada.com/best-vpns-for-china-cn/)是翻墙VPN推荐的好网站, 他推荐 [ExpressVPN](https://www.vpndada.com/go/expressvpn-cn), [VyprVPN](https://www.vpndada.com/go/vyprvpn-cn), [PureVPN](https://www.vpndada.com/go/purevpn), [NordVPN](https://www.vpndada.com/go/nordvpn-cn) 翻墙软件, 并提供优惠券.
+[VPN大大](https://www.vpndada.com/best-vpns-for-china-cn/)是翻墙VPN推荐的好网站, 他推荐 [ExpressVPN](https://www.vpndada.com/go/expressvpn-cn), [VyprVPN](https://www.vpndada.com/go/vyprvpn-cn), [PureVPN](https://www.vpndada.com/go/purevpn) 翻墙软件, 并提供优惠券.
 
 1. ExpressVPN，来自Panda和Yinda的推荐。
-2. [Baacloud](http://www.baavpn.net/)：Siyuan的推荐
-3. 翻墙回国首选：[PureVPN](https://www.vpndada.com/go/purevpn) 
+2. 蓝灯: 不支持 iOS
+3. 2019新兴VPN: [PandaVPN](https://www.ipandavpn.com/), 黑五2折$1.99/m 买一年送一年.
+4. [Baacloud](https://www.baacloud.com/)：Siyuan的推荐
+5. 翻墙回国首选：[PureVPN](https://www.vpndada.com/go/purevpn) 
+
+
+
+
+
+whzecomjm 
+2019-12-05
+
+
+
