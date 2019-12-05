@@ -47,6 +47,7 @@ https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
 https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
 ## voken100g AutoSSR
 https://raw.githubusercontent.com/voken100g/AutoSSR/master/online
+https://raw.githubusercontent.com/voken100g/AutoSSR/master/stable
 ## 敲门砖：
 https://qiaomenzhuanfx.netlify.com
 ## muma16fx(稍微有点慢)

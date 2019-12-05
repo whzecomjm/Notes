@@ -40,10 +40,10 @@
 1. Microsoft Office Pro Plus 2019
    密钥: `GRBR4-J4N3M-KTX9C-JM4PJ-J8HPT`
    下载地址: <https://setup.office.com/home/getoffice>
-
 2. Microsoft Office 家庭与学生版2016
    密钥: `JC3NP-Q28Q8-4MXXD-W7BM9-Y7V4K`
    下载地址：<https://account.microsoft.com/services/>
+3. [Win10 / Office 2019 Professional Plus](https://gdmi.weebly.com/234943805320250215922099820139)
 
 
 
