@@ -100,5 +100,6 @@ Typora 提供丰富的数学公式, 化学式, 交叉引用等有用的[学术�
 - [MarkdownHere](https://gist.github.com/xiaolai/aa190255b7dde302d10208ae247fc9f2): 来自其它网站
 - [Mirages](https://get233.com/archives/mirages-for-typora.html): 来自个人博主的自用主题, 适合打印
 - [Newsprint](https://theme.typora.io/theme/Newsprint/): 需要增加文本宽度
+- [Paper](https://github.com/IagoLast/paper): 学术主题
 - [Pixyll](https://theme.typora.io/theme/Pixyll/): 默认主题
 - [Ursine](https://github.com/aCluelessDanny/typora-theme-ursine): Polar 的两色主题好看
