@@ -21,12 +21,18 @@ Listary Notes
 
 ## Listary 5 自定义参数设置
 
-- WinSCP 的自定义BIU打开设置参数: `"BIU-putty" /Desktop /UploadIfAny`
-- 在当前目录打开 Git Status (运行cmd) 参数: `/K cd /d "{current_folder}" & git status`
-- 打开回收站 (explorer) 参数: `::{645FF040-5081-101B-9F08-00AA002F954E}`
-- 在此目录使用 Everything 搜索参数: `-search {query} -path . `
-- 默认文件管理器 TC 参数: `/O /T /L="%1"` 
-- 默认文件管理器 xyplorer 参数 : `"%1"`
+| 调用程序                   | 调用参数                                   |
+| -------------------------- | ------------------------------------------ |
+| WinSCP-BIU                 | `"BIU-putty" /Desktop /UploadIfAny`        |
+| Git Status (当前目录, cmd) | `/K cd /d "{current_folder}" & git status` |
+| Everything (当前目录)      | `-search {query} -path . `                 |
+| FileLocator (当前目录)     | `-d "%path%" -c "{query}"`                 |
+| 打开回收站                 | `::{645FF040-5081-101B-9F08-00AA002F954E}` |
+| 默认文件管理器 TC          | `/O /T /L="%1"`                            |
+| 默认文件管理器 xyplorer    | `"%1"`                                     |
+| GoldenDict                 | `{query}`                                  |
+
+
 
 
 
