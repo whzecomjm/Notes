@@ -59,7 +59,7 @@
 
 用于列表显示
 
-> Exif, FileDiz, ShellDetails, CDocProp (office 作者等信息)
+> Exif, FileDiz, ShellDetails(所有资源管理器自带属性), CDocProp (office 作者等信息)
 
 
 
