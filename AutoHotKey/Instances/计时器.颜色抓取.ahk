@@ -7,7 +7,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 ;---------------------一键拷贝文件路径 Ctrl+Shift+c ---------------------
-; 该功能已被Listary的功能替换
+; 该功能已被Listary和 TC 的功能替换
 ^+c::
 ; null= 
 send ^c

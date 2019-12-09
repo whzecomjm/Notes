@@ -44,7 +44,7 @@ Listary Notes
 | Ctrl+N/P     | 下一个/上一个项目                  |
 | Ctrl+G       | 切换到文件管理器中正在浏览的文件夹 |
 | Ctrl+Shift+O | 直接打开文件管理器中选中的文件     |
-| Win + N      | 使用 Notepad3 编辑（AHK+Listary）  |
+| Ctrl+Shift+E | 使用 Notepad3 编辑                 |
 | Ctrl+Shift+C | 复制选中的文件路径到粘贴板         |
 | Ctrl+Shift+X | 显示/隐藏文件后缀名                |
 | Ctrl+Shift+H | 显示/隐藏隐藏文件夹                |
