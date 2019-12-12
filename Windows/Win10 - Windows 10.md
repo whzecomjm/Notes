@@ -131,6 +131,38 @@
 
 
 
+## Win10 死机解决方案
+
+关于Windows 10死机的问题，
+
+您可以尝试在系统正常的时候进行以下操作检查您的系统：
+
+在管理员命令提示符下键入以下命令：`sfc /SCANNOW` 及
+
+```
+Dism /Online /Cleanup-Image /ScanHealth
+```
+
+这条命令将扫描全部系统文件并和官方系统文件对比，扫描计算机中的不一致情况。
+
+```
+Dism /Online /Cleanup-Image /CheckHealth
+```
+
+这条命令必须在前一条命令执行完以后，发现系统文件有损坏时使用。 
+
+```
+DISM /Online /Cleanup-image /RestoreHealth
+```
+
+这条命令是把那些不同的系统文件还原成官方系统源文件。
+
+完成后重启，再键入以下命令：`sfc /SCANNOW`，检查系统文件是否被修复。
+
+> 参见: [win10死机](https://answers.microsoft.com/zh-hans/windows/forum/windows_10-other_settings/win10%E6%AD%BB%E6%9C%BA/648a4589-b20b-495f-bfa7-b43078ed4583).
+
+
+
 ## 其他问题解决的链接
 
 Win10作为微软的一个旗舰系统有了更多的性质，不过也会有相应更多的问题，有一个网站 [Windows10 Pro](https://www.windows10.pro/category/win10-tutorial/) 十分好，介绍了win10常见的问题：

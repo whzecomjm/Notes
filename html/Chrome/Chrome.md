@@ -74,7 +74,8 @@ Chrome 在中文状态下的默认字体设置策略不恰当。实际上，四�
 * [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif): 代理切换
 * [NetEaseMusicWorld+](https://chrome.google.com/webstore/detail/neteasemusicworld%20/pjcgkmiglhiambjngnljkdpoggonlnfe): 网易云音乐海外
 * Grammarly for chrome
-
+* [LaTeX2Word-Equation](https://chrome.google.com/webstore/detail/latex2word-equation): 复制 latex 代码到 Word, 可以使用 [codecogs](http://latex.codecogs.com/eqneditor/editor.php) 预览latex, 再右键 LaTeX2Word-Equation 复制, 到Word 复制即可.
+* [Web Scraper](https://chrome.google.com/webstore/detail/web-scraper/): 爬虫插件
 
 
 ### 暴力猴脚本
