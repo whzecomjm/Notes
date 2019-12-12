@@ -13,7 +13,6 @@ specify username + use private key.
 ```shell
 cd /usr/local
 cd /usr/local/bin
-ls
 ```
 
 
