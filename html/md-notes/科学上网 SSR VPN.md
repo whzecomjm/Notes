@@ -86,23 +86,9 @@ https://muma16fx.netlify.com
 
 
 
-### 另一种方式：Chrome 插件
+### Chrome 插件
 
-使用 Chrome 插件 [NetEaseMusicWorldPlus](https://github.com/nondanee/NetEaseMusicWorldPlus)。使用普通模式，[导入](https://github.com/acgotaku/NetEaseMusicWorld)最适合的 CDN：
-
-```shell
-ping ws.acgvideo.com
-ping cdnetworks.com
-```
-
-使用上述ping 分别寻找最优的音乐资源CDN服务器和最优的图片资源CDN服务器。然后将其 IP 地址写入 hosts：
-
-```shell
-163.171.129.140 m10.music.126.net
-163.171.213.79 p1.music.126.net
-163.171.213.79 p3.music.126.net
-163.171.213.79 p4.music.126.net
-```
+使用 Chrome 插件 [NetEaseMusicWorldPlus](https://github.com/nondanee/NetEaseMusicWorldPlus)。使用~~普通模式~~，[导入](https://github.com/acgotaku/NetEaseMusicWorld)最适合的 CDN hosts. 普通模式现已不可用, 直接使用增强模式即可.
 
 
 

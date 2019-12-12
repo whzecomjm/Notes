@@ -1,6 +1,6 @@
 # Web Scraper 使用教程
 
-首先下载安装 [Web Scraper](https://chrome.google.com/webstore/detail/web-scraper/) 扩展. 在网页打开 F12, 选择最后的 Web Scraper, 新建一个 sitemap.
+首先下载安装 [Web Scraper](https://chrome.google.com/webstore/detail/web-scraper/jnhgnonknehpejjnehehllkliplmbmhn) 扩展. 在网页打开 F12, 选择最后的 Web Scraper, 新建一个 sitemap.
 
 选择需要提取器(Selectors), 就可以抓取了. 如果需要抓取链接内的内容, 提取器选择类型为 link, 再新建一个子提取器, 提取内容 text 即可.
 
