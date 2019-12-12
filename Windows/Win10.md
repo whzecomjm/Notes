@@ -7,7 +7,7 @@
 更多内容可以参见：[Win10服务优化](http://www.w10zj.com/Win10xy/Win10yh_508.html)。下面是我自己总结的优化建议。
 
 1. ==使用Dism++优化系统及服务==: 尽量不要用别的方法优化. **不要关闭控制面板的搜索功能**, 搜索服务可以用 Dism++ 关闭. 其他可关闭的[服务](https://www.zhihu.com/question/36192602)有 Connected User Experiences and Telemetry、SysMain （原名为Superfetch，关闭以后会影响应用程序打开速度）. 优化方法参见[这个知乎回答](https://www.zhihu.com/question/33855201/answer/382534840)。
-2. 需要安装的软件: Office 2016, 火绒5, 坚果云, Typora; 使用 TC 代替资源管理器. Notepad3代替文本文档.
+2. 需要安装的软件: Office 2016, 火绒5, 坚果云, Typora; 使用 TC 代替资源管理器. Notepad3代替文本文档. 记得添加 `D:\Program Files\Git\cmd` 系统变量.
 3. 桌面使用暗色主题+亮色应用模式; 任务栏使用小任务栏+不合并
 4. Intel相关驱动只保留显卡驱动, 显卡驱动使用Dell官方驱动, 否则会闪屏.
 5. 使用Dism++删除缓存以及不必要的预装应用(可以全部删除，包括应用商店)
