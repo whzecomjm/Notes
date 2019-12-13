@@ -1,6 +1,8 @@
 Latex 学习笔记
 ===
 
+[toc]
+
 ## 常误用的符号
 
 常用符号公式的输入可以参见: 维基百科帮助[帮助:数学公式](https://zh.wikipedia.org/wiki/Help:数学公式).
@@ -35,7 +37,7 @@ Latex 学习笔记
 
 ## 参考文献
 
-- bib转换为可以插入latex的bbl (arXiv需要), 使用 `overleaf>bib2bbl`, 编译以后查找 `logs and output files` 右下角可以下载bbl文件.
+- bib转换为可以插入latex的bbl (arXiv需要), 使用 `overleaf`, 编译以后查找 `logs and output files` 右下角可以下载bbl文件.
 
 
 
@@ -93,3 +95,9 @@ Latex 学习笔记
 |\to    | → |    右箭头 |
 |\iff|⇔|    当且仅当|
 |\mapsto    | ⤇|元素映射箭头|
+
+
+
+## 其他参考
+
+1. [LaTeX页码设置](https://blog.csdn.net/japinli/article/details/51418977)
