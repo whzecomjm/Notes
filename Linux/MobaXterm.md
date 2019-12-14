@@ -72,6 +72,12 @@ vncserver -kill :13697
 
 
 
+## MobaXTerm 的 SSHTunnel
+
+在 Moba 的 Tools 里也有 SSHTunnel 用以转发端口. 这一功能可以代替 putty 的端口转发的功能.
+
+
+
 whzecomjm
 2019-12-11
 
