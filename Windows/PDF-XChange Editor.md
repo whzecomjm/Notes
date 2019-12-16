@@ -17,7 +17,7 @@
 
 > 打开首选项>页面显示>渲染；将**同步页面渲染打开**和**字体微调禁用**。
 
-<img src="https://i.loli.net/2019/09/05/ZKfUQLmYhsPl7Er.jpg" alt="页面设置" style="zoom:50%;" />
+<img src="pdf-xchange-rendering-bugs.jpg" alt="页面设置" style="zoom:50%;" />
 
 
 
