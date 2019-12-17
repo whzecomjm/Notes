@@ -47,7 +47,7 @@ Latex 学习笔记
 * `subequation` 可以使得编号不变两（多）个公式区分，实际加入了a。进一步我们可以记录。
 * 在`\begin{document}`后面加入`\numberwithin{equation}{section}`可以让公式按照小节来编号。
 * `\( \)`或者`\[ \]`环境是LaTeX的风格，而`$`与`$$`是TeX的风格，推荐使用前者。
-* `align`可以覆盖掉`eqnarray`和`aligned`的功能. `align`可以写多列对齐，代替公式环境里的`aligned`环境这样复杂的式子, 所以尽量使用`align`. 但是 `aligned` 可以在[行内公式使用](https://tex.stackexchange.com/questions/401201/difference-between-align-and-alignedt). 另外尽量不要使用 eqnarray, 它在设计上问题较多，主要是间距不对，基本上被认为不宜使用. align 和 aligned 由 amsmath 宏包提供，eqnarray 是 LaTeX2e 内核提供。
+* `align`可以代替几乎所有`eqnarray`和`aligned`的功能. `align`可以写多列对齐，代替公式环境里的`aligned`环境, 所以尽量使用`align`. 但是 `aligned` 可以在[行内公式使用](https://tex.stackexchange.com/questions/401201/difference-between-align-and-alignedt). 另外尽量不要使用 eqnarray, 它在设计上问题较多，主要是间距不对，基本上被认为不宜使用. align 和 aligned 由 amsmath 宏包提供，eqnarray 是 LaTeX2e 内核提供。
 
 
 
