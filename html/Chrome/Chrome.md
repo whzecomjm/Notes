@@ -66,7 +66,7 @@ Chrome 在中文状态下的默认字体设置策略不恰当。实际上，四�
 * [暴力猴](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag): 更好的[Tampermonkey](http://tampermonkey.net/)替换品
 * [LastPass](https://www.lastpass.com/zh)：密码管理
 * [Stylish](https://userstyles.org/)：更改网站的样式。
-* [Aria2 for Chrome](https://chrome.google.com/webstore/detail/aria2-for-chrome/mpkodccbngfoacfalldjimigbofkhgjn)：Aria2高效的下载界面
+* [Aria2 for Chrome](https://chrome.google.com/webstore/detail/aria2-for-chrome/mpkodccbngfoacfalldjimigbofkhgjn)：Aria2高效的下载界面, 其他类似于 Aria2助手, 添加到 Aria2之类均不好用。
 * [Google Mail Checker](https://chrome.google.com/webstore/detail/google-mail-checker/mihcahmgecmbnbcchbopgniflfhgnkff)
 * [Markdown Here](https://markdown-here.com)
 * [Zotero Connector](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc)
