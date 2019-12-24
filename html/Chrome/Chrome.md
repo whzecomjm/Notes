@@ -80,7 +80,9 @@ Chrome 在中文状态下的默认字体设置策略不恰当。实际上，四�
 
 - [药方 (YAWF)](https://greasyfork.org/zh-CN/scripts/3249): 过滤微博；修改版面
 
-- [网盘助手](https://greasyfork.org/zh-CN/scripts/378301), [百度云限速破解](https://greasyfork.org/zh-CN/scripts/380664) 等等
+- [网盘助手](https://greasyfork.org/zh-CN/scripts/378301)
+
+- [网盘直链下载助手](https://www.baiduyun.wiki/install.html): 持续维护版本
 
 - [简悦-轻阅版](https://greasyfork.org/zh-CN/scripts/39998): 暴力猴需要安装Github版本的[simpread.js](https://raw.githubusercontent.com/Kenshin/simpread-little/master/src/userscript/simpread.js).
 
