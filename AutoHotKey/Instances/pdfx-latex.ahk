@@ -5,6 +5,17 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance force  ;脚本正在运行时, 启动该脚本时会跳过对话框并自动替换旧实例.
 ;#NoTrayIcon  ;不显示托盘图标
 
+;===========================原始latex-to-uft8的调用方式==============
+; Turn off caps lock
+;SetCapsLockState AlwaysOff
+
+;~Capslock Up:: Send, {Capslock Up}
+
+; The #If directive creates context-sensitive hotkeys and hotstrings:
+;#If (A_PriorHotkey = "~Capslock Up" and A_TimeSincePriorHotkey < 10000) 
+;#If
+
+
 ;========================== pdf 注释 latex2utf8 ============================
 #IfWinActive ahk_exe PDFXEdit.exe 
 ; misc math symbols
