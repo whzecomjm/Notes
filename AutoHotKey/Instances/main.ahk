@@ -144,9 +144,12 @@ Else IfWinExist
 WinActivate
 Return
 
-^+a:: ;使用微信时用微信截图, 否则使用系统自带截图
+$^+a:: ;使用微信时用微信截图, 在Cent中使用浏览器自带截图, 其他情况使用系统自带截图
+; $的使用参考 http://ahkcn.net/thread-816-post-10513.html#pid10513
 IfWinActive, ahk_exe WeChat.exe
 Send !a
+else IFWinActive, ahk_exe Chrome.exe
+Send ^+a
 else
 Send #+s
 return
