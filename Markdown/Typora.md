@@ -1,5 +1,7 @@
 # Typora 使用指南
 
+[toc]
+
 Typora 默认是所见即所得的 Markdown 编辑器, 不过也能切换**编辑模式**. 编辑视图和所见即所得视图用 `Ctrl+/` 完成, 注意有时候所见即所得视图会出现问题无法编辑此时切换即可(原因不明). 在Typora中, 单独的回车是新开一段，`Shift+回车`是添加段内新行。使用各级标题`#`后面接的内容之前要有空格, 否则无法识别(这是因为开启了**严格模式Strict Mode**, 关闭以后可以消除, 但是养成如此习惯会更好). Typora 还有一些特殊格式, 比如~~删除线~~将使用两个`~~`包围, ==高亮文字==使用两个`==`包围, 使用 `[toc]`能产生目录. :smile_cat:
 
 使用Typora建议新建文档之后再编辑, 否则在没有保存之前，回退(Ctrl+Z)经常会出现问题. 
@@ -12,30 +14,35 @@ Typora 默认是所见即所得的 Markdown 编辑器, 不过也能切换**编�
 
 ## 一些有用的快捷键
 
-全部的快捷键参考: [Shortcut Keys](http://support.typora.io/Shortcut-Keys/).
+全部的快捷键参考: [Shortcut Keys](http://support.typora.io/Shortcut-Keys/)。 表中一部分快捷键是我自定义添加或者替换。
 
-| 快捷键                   | 效果                                                 |
-| :----------------------- | ---------------------------------------------------- |
-| `Ctrl + D`               | 选中单词(包括他的格式)                               |
-| `Ctrl + Shift + D`       | 删除单词                                             |
-| `Ctrl + E`               | 选中光标所在那一行(源代码的一行)                     |
-| `Ctrl + Shift + C/V`     | 复制为Markdown / 粘贴为纯文本                        |
-| `Ctrl + J`               | 跳转到选定的位置(会让选定位置放在页面最上方)         |
-| `Ctrl + T`               | 添加表格                                             |
-| `Ctrl+Enter`             | 添加新行 / 在表格中是增加新的空行                    |
-| `Ctrl + Shift + K`/  `   | 添加代码块, 行间代码                                 |
-| `Ctrl + Shift + M`       | 添加行间公式块                                       |
-| `Ctrl + Shift + Q`       | 添加引用                                             |
-| `Ctrl + Shift + [`/`]`   | 添加有序列表和无序列表                               |
-| `Ctrl + B/I/U`           | 粗体, 斜体, 下划线                                   |
-| `Alt + Shift + 5`        | 添加删除线                                           |
-| `Ctrl + K`               | 添加链接                                             |
-| `Ctrl + Shift + I`       | 添加图片 (Images)                                    |
-| `Ctrl + \`               | 清理格式                                             |
-| `Ctrl + Shift + L`       | 显示/隐藏侧边栏 (C.S.+1,2,3分别表示大纲,文章,文件树) |
-| `Ctrl + /`               | 源代码模式                                           |
-| `F8` / `F9`              | 聚焦模式 / 打字机模式                                |
-| `Ctrl + Shift + =` / `-` | 放大/缩小                                            |
+| 快捷键                   | 效果                                              |
+| :----------------------- | ------------------------------------------------- |
+| `Ctrl + D`               | 选中单词(包括它的格式)                            |
+| `Ctrl + Shift + D`       | 删除单词                                          |
+| `Ctrl + L`               | 选中一行/一个句子                                 |
+| `Ctrl + Shift + L`       | 删除选中行                                        |
+| `Ctrl + E`               | 选中光标所在那一源代码的一行                      |
+| `Ctrl + Shift + C/V`     | 复制为Markdown / 粘贴为纯文本                     |
+| `Ctrl + J`               | 跳转到选定的位置(会让选定位置滑动到页面最上方)    |
+| `Ctrl + T`               | 添加表格                                          |
+| `Ctrl + Enter`           | 添加新行 / 在表格中是增加新的空行                 |
+| `Ctrl + Shift + K`       | 添加代码块                                        |
+| `Ctrl +` `               | 行间代码                                          |
+| `Ctrl + Shift + H `      | 高亮文本                                          |
+| `Ctrl + M`               | 添加行内公式，可以直接把没有包裹在$$内的latex转换 |
+| `Ctrl + Shift + M`       | 添加行间公式块                                    |
+| `Ctrl + Shift + Q`       | 添加引用                                          |
+| `Ctrl + Shift + [`/`]`   | 添加有序列表和无序列表                            |
+| `Ctrl + B/I/U`           | 粗体, 斜体, 下划线                                |
+| `Ctrl + Shift + ` `      | 添加删除线                                        |
+| `Ctrl + K`               | 添加链接                                          |
+| `Ctrl + Shift + I`       | 添加图片 (Images)                                 |
+| `Ctrl + \`               | 清理格式                                          |
+| `Ctrl + Shift + T`       | 显示/隐藏侧边栏 (^+1/2/3分别表示大纲,文章,文件树) |
+| `Ctrl + /`               | 源代码模式                                        |
+| `F8` / `F10`             | 聚焦模式 / 打字机模式                             |
+| `Ctrl + Shift + =` / `-` | 放大/缩小                                         |
 
 
 
@@ -51,19 +58,19 @@ Typora 提供丰富的数学公式, 化学式, 交叉引用等有用的[学术�
 
 - 输入两个美元符号再回车即可得到一个**行间公式**, 点击完成退出公式模式. (也可以用快捷键 ctrl+shift+M 进入). 在设置中还可以打开行间公式的自动编号功能.
 
-- 行内公式需要在设置中打开, 使用两个美元符号包裹公式即可. 输入一个美元符号以后, 按 `Esc` 可以自动补全.
+- 行内公式需要在设置中打开, 使用两个美元符号包裹公式即可. 输入一个美元符号以后, 按 `Esc` 可以自动补全. (我用ahk改为自动补全)
 
-- Typora 支持 TeX 命令, 这来源于 [MathJax 的支持](http://docs.mathjax.org/en/latest/tex.html#supported-latex-commands)继承.
+- Typora 支持 TeX 命令, 这来源于 [MathJax 的支持](http://docs.mathjax.org/en/latest/tex.html#supported-latex-commands) 继承.
 
 - Typora 支持 mhchem **化学式**, 可以再公式内使用 `\ce`, 具体用法参见 [mhchem 的文档](https://mhchem.github.io/MathJax-mhchem/).
 
-- Typora 可使用[交叉引用](http://support.typora.io/Math/#cross-reference), 使用  `\label{}`​ 和 `\ref{}` 即可.
+- Typora 可使用[交叉引用](http://support.typora.io/Math/#cross-reference), 使用  `\label{}`​ 和 `\ref{}` 即可. 
 
   
 
 ## 重要功能更新
 
-截止0.9.70. 更多更新内容参见 [Release Notes](https://typora.io/windows/dev_release.html), 或者 [本地Change Log](C:\Program Files\Typora\resources\app\Docs\Change Log.md). 
+截止0.9.83. 更多更新内容参见 [Release Notes](https://typora.io/windows/dev_release.html), 或者 [本地Change Log](C:\Program Files\Typora\resources\app\Docs\Change Log.md). 
 
 - 支持打开文件夹的**全文内容搜索**(Ctrl+Shift+F)
 
@@ -73,19 +80,9 @@ Typora 提供丰富的数学公式, 化学式, 交叉引用等有用的[学术�
 
 - 9.59 以后**拼写检查**可以使用
 
-- 使用快捷键 `CS+-` 修改显示文本大小.
-
 - 选中标题, 不再显示源代码, 导致卡顿和误操作 (赞!)
 
   
-
-### Bugs
-
-- 有时候另存为 PDF 会有 Electron 的bug, 不能打印的话稍微修改一下再另存为即可. ==打印时, 光标不要停在标题上== (0.9.71 fixed? 仅不弹错误)
-
-  
-
-
 
 ## Typora 主题推荐
 
@@ -100,6 +97,12 @@ Typora 提供丰富的数学公式, 化学式, 交叉引用等有用的[学术�
 - [MarkdownHere](https://gist.github.com/xiaolai/aa190255b7dde302d10208ae247fc9f2): 来自其它网站
 - [Mirages](https://get233.com/archives/mirages-for-typora.html): 来自个人博主的自用主题, 适合打印
 - [Newsprint](https://theme.typora.io/theme/Newsprint/): 需要增加文本宽度
-- [Paper](https://github.com/IagoLast/paper): 学术主题
+- [Paper](https://github.com/IagoLast/paper): 学术主题, 导出pdf没有 Academic 好看.
 - [Pixyll](https://theme.typora.io/theme/Pixyll/): 默认主题
 - [Ursine](https://github.com/aCluelessDanny/typora-theme-ursine): Polar 的两色主题好看
+
+
+
+whzecomjm
+2019-12-26 23:59
+
