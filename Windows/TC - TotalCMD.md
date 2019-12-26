@@ -80,6 +80,11 @@
 
 
 
+### 其他插件
+
+- [NewFiles](https://totalcmd.net/plugring/newfiles.html): 批量新建文件和文件夹
+- [QuickSearch eXtended](https://www.ghisler.ch/board/viewtopic.php?f=6&t=22592&sid=858049aa70e211dbab5d1fac5c76e6f3): 支持拼音首字母搜索
+
 
 
 whzecomjm 
