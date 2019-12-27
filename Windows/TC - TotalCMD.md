@@ -47,43 +47,40 @@
 
 ## 我的插件列表
 
-### 压缩插件 wcx
+### 正在使用的插件
 
-使用 `Alt+F5` 压缩对应类型
-
-> DiskDir (创建lst目录文件), ISO, RAR, Total7zip, TotalRSZ (压缩图片)
-
-
-
-### 内容插件 wdx
-
-用于列表显示
-
-> Exif, FileDiz, ShellDetails(所有资源管理器自带属性), CDocProp (office 作者等信息)
-
-
-
-### 文件系统插件 wfx
-
-在`网络`文件夹中打开
-
-> cloudplugin, Registry, Webdav, Porocfs (任务管理器)
-
-
-
-### 查看插件 wlx
-
-使用 F3 查看
-
-> Fileinfo, sLister, uLister, ICLView
-> HTMLView, MarkdownView, SqLiteViewer, JSONViewer, Imagine
+- 压缩插件(wcx)：使用 `Alt+F5` 压缩对应类型
+  - DiskDir: 用于创建lst目录文件
+  - ISO: 打开 iso 镜像文件
+  - RAR: 支持RAR压缩、解压缩
+  - Total7zip：完整的7zip功能
+  - TotalRSZ：压缩图片
+- 内容插件(wdx)：用于列表显示和浮窗显示
+  - FileDiz：显示文件备注
+  - ShellDetails：显示所有资源管理器自带属性
+- 文件系统插件(wfx)：在`网络`文件夹中打开
+  - cloudplugin：支持Dropbox、Onedrive、Google Drive等国外常用网盘
+  - Registry：注册表工具
+- 查看插件(wlx)：使用 F3 查看
+  - Fileinfo：显示exe、dll等文件详细信息
+  - HTMLView：预览html文件
+  - MarkdownView：预览markdown文件
+  - SqLiteViewer：预览sqlite数据库文件
+  - JSONViewer：预览json文件
+  - Imagine：图片管理和预览工具
+  - sLister：使用SumatraPDF预览PDF文件和其他电子书
+  - uLister：预览常用文件
+- 其他插件：位于Tools或根目录
+  - [NewFiles](https://totalcmd.net/plugring/newfiles.html): 批量新建文件和文件夹
+  - [QuickSearch eXtended](https://www.ghisler.ch/board/viewtopic.php?f=6&t=22592&sid=858049aa70e211dbab5d1fac5c76e6f3): 支持拼音首字母搜索
 
 
 
-### 其他插件
+### 其他可用插件
 
-- [NewFiles](https://totalcmd.net/plugring/newfiles.html): 批量新建文件和文件夹
-- [QuickSearch eXtended](https://www.ghisler.ch/board/viewtopic.php?f=6&t=22592&sid=858049aa70e211dbab5d1fac5c76e6f3): 支持拼音首字母搜索
+- 内容插件：CDocProp (office 文档信息), Exif (图片exif)
+- 文件系统插件：Webdav、Porocfs (任务管理器)
+- 查看插件：ICLView (显示ico, 应用程序图标)、Mmdedia (配合K-Lite 解码器预览多媒体)
 
 
 
