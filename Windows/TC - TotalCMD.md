@@ -14,7 +14,7 @@
 9. `Backspace` 跳到上层目录
 10. `Tab` 切换左右窗口
 11. `Ctrl+Shift+F5` 或者 `Ctrl+I`创建快捷方式
-12. `Ctrl + Z`  编辑文件备注
+12. `Ctrl+Z`  编辑文件备注
 13. `Ctrl+Q` 另一侧快速预览
 
 
@@ -29,7 +29,7 @@
 3. 在 TC 下继续新建一个子项 `Command`，修改默认值为：
 
    ```bash
-   D:\Program Files\TotalCMD\Totalcmd64.exe /T /L="%1"
+   D:\Program Files\TotalCMD\Totalcmd64.exe /T /R="%1"
    ```
 
 
@@ -87,6 +87,8 @@
 
 
 
-whzecomjm 
-2019-12-04
+whzecomjm
+2019-12-27 10:52
+
+
 
