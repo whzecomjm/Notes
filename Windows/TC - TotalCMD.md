@@ -80,7 +80,7 @@
 
 - 内容插件：CDocProp (office 文档信息), Exif (图片exif)
 - 文件系统插件：Webdav、Porocfs (任务管理器)
-- 查看插件：ICLView (显示ico, 应用程序图标)、Mmdedia (配合K-Lite 解码器预览多媒体)
+- 查看插件：ICLView (显示ico, 应用程序图标)、[Mmedia](https://totalcmd.net/plugring/mmedia.html) (配合K-Lite 解码器预览多媒体)
 
 
 
