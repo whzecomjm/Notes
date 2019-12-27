@@ -35,9 +35,11 @@
 
 参考文章: [设置 TC 为系统默认的资源管理器](https://zhuanlan.zhihu.com/p/79046588).
 
-> 注1: 直接删除这一注册表以后无法恢复自带资源管理器能力, 一个可行的做法是使用火绒的右键管理禁用TC之后再删除注册表. 
+> 注1: 直接删除这一注册表以后无法恢复自带资源管理器能力, 一个可行的做法是<u>使用火绒的右键管理禁用TC之后再删除注册表</u>. 
 >
-> 注2: 设置以后使用火绒右键管理禁用TC之后, 不会影响到TC的默认文件管理器的地位, 但使用资源管理器打开内部文件夹不会跳转到 TC, 这更符合我们想要的结果!
+> 注2: 这样设置以后可以使用火绒右键管理禁用TC, 结果不会影响到TC的默认文件管理器的地位。 但使用资源管理器打开内部文件夹不会跳转到 TC。
+>
+> 注3：`%C` 或者`%1`是选中文件名的参数。
 
 ## 编辑 TC 工具栏
 
@@ -52,8 +54,7 @@
 - 压缩插件(wcx)：使用 `Alt+F5` 压缩对应类型
   - DiskDir: 用于创建lst目录文件
   - ISO: 打开 iso 镜像文件
-  - RAR: 支持RAR压缩、解压缩
-  - Total7zip：完整的7zip功能
+  - Total7zip：完整的7zip功能。除了totalzip的文件以外，只需要保留两个dll和exe即可（7z.exe 是命令行版本，不需要也可以删除）
   - TotalRSZ：压缩图片
 - 内容插件(wdx)：用于列表显示和浮窗显示
   - FileDiz：显示文件备注
@@ -73,6 +74,8 @@
 - 其他插件：位于Tools或根目录
   - [NewFiles](https://totalcmd.net/plugring/newfiles.html): 批量新建文件和文件夹
   - [QuickSearch eXtended](https://www.ghisler.ch/board/viewtopic.php?f=6&t=22592&sid=858049aa70e211dbab5d1fac5c76e6f3): 支持拼音首字母搜索
+  - [F4Menu](https://totalcmd.net/plugring/F4Menu.html)：F4功能的增强版
+  - RAR: Rar压缩解压缩
 
 
 
