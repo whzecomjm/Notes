@@ -39,13 +39,15 @@
 
 以上，就完成一个静态博客的搭建了~
 
+参考文献: [Gridea 小白上手教程](https://fehey.com/post/hve-notes-start/).
+
 
 
 ## 相关主题的一些微小自定义
 
 ### Simple
 
-1. 归档自定义实心方块列表 (main.less)
+1. 归档自定义**实心方块列表** (main.less)
 
    ```less
        // 在第312行 .archives-container .post 内的padding bottom下添加如下样式:
@@ -54,13 +56,27 @@
        margin-left: 1em;
    ```
 
-2. 将sidebar内的Facebook链接图标改为linkedin链接和图标 (sidebar.ejs, config.json)
+2. 将sidebar内的Facebook链接图标改为**Linkedin**链接和图标 (sidebar.ejs, config.json)
 
    > 由于使用了 fontawesome (位于head), 所以直接更改相应id即可:
    >
    > 在 sidebar.ejs 第28行中的 'facebook' 改为 'linkedin' 即可
    > 在 config.json 第74-75行相应更改即可
 
-3. sidebar 右侧的 scroll 删除。位于 `main.less` 26行，注释掉即可。
+3. **添加 RSS 图标和链接**，类似于2的方法，在sidebar.ejs 修改 <div class="site-footer"> 为
+
+   ```html
+   <%- themeConfig.footerInfo %> | <a class="rss" href="<%= themeConfig.domain %>/atom.xml" target="_blank"><i class="fas fa-rss"></i></a>
+   ```
+   
+   
+   
+4. sidebar 右侧的 scroll 删除。位于 `main.less` 26行，注释掉即可。
 
    
+
+
+
+whzecomjm
+2019-12-29 12:23
+
