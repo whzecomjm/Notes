@@ -61,6 +61,6 @@
    > 在 sidebar.ejs 第28行中的 'facebook' 改为 'linkedin' 即可
    > 在 config.json 第74-75行相应更改即可
 
-   
+3. sidebar 右侧的 scroll 删除。位于 `main.less` 26行，注释掉即可。
 
    

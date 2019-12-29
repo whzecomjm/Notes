@@ -66,8 +66,9 @@ Listary Notes
 
 ### Autohotkey 实现
 
-```ahk
+```
 ~LWin Up::!+^#f
+CapsLock::!+^#f  ;capslock 映射成 Listary 激活键
 ```
 
 参考链接: [ListaryWithWinKey](https://github.com/KevinWang15/ListaryWithWinKey/blob/master/auto_hot_key_solution.ahk).
