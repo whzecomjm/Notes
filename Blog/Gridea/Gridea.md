@@ -56,7 +56,7 @@
        margin-left: 1em;
    ```
 
-2. 由于使用了 fontawesome.js，所以直接更改相应id即可：
+2. 由于使用了 fontawesome.js，所以直接更改或者添加相应id即可，比如
 
    1. 在 sidebar.ejs 第28行中的 'facebook' 改为 'linkedin' ；
    2. 在 config.json 第74-75行相应更改即可。
@@ -67,9 +67,19 @@
    <%- themeConfig.footerInfo %> | <a class="rss" href="<%= themeConfig.domain %>/atom.xml" target="_blank"><i class="fas fa-rss"></i></a>
    ```
 
-4. sidebar 右侧的 scroll 删除。位于 `main.less` 26行，注释掉即可。
+4. sidebar 右侧的 scroll 删除。位于 `main.less` 第26行，注释掉即可。
 
 5. 更新**KaTeX**以消除不等号的 bug。 把head.ejs里的KaTeX的版本调整为 0.11.1 即可。
+
+6. achieves 里的年份 fade-in 效果不好改为 fade-up. (第18行)
+
+   ``` html
+   <h2 class="year" data-aos="fade-up"><%- year %></h2>
+   ```
+
+   
+
+    
 
    
 
@@ -77,4 +87,3 @@
 
 whzecomjm
 2019-12-29 12:23
-
