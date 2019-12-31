@@ -77,7 +77,7 @@
    <h2 class="year" data-aos="fade-up"><%- year %></h2>
    ```
 
-   
+7. 将主题内的 unpkg 的 js/css 替换为 cndjs 的 CDN 使其加载更快。
 
     
 
