@@ -6,13 +6,13 @@
 
 更多内容可以参见：[Win10服务优化](http://www.w10zj.com/Win10xy/Win10yh_508.html)。下面是我自己总结的优化建议。
 
-1. ==只使用Dism++优化系统及服务==: 尽量不要用别的方法优化. **搜索功能**不要关闭, 搜索服务可以用 Dism++ 关闭. 
+1. ==只使用Dism++优化系统及服务==: 尽量不要用别的方法优化. **搜索功能**不要关闭, 搜索服务可以用 Dism++ 关闭.  
 2. 用火绒剑可关闭的[服务](https://www.zhihu.com/question/36192602)有 Diagtrack、diagsvc、DPS、WdiServiceHost、WdiSystemHost、SysMain （关闭后会影响软件打开速度）。
 3. 安装的软件: Office 2016, 火绒5, 坚果云, Typora。
 4. 使用 TC 代替资源管理器；Notepad3代替文本文档.。
 5. 桌面使用暗色主题+亮色应用模式。
 6. 将用户的音乐/图片/视频文件夹移到F盘.
-7. Intel相关驱动只保留显卡驱动, 显卡驱动使用Dell官方驱动, 否则会闪屏.
+7. Intel相关驱动只保留显卡驱动, 显卡驱动使用Dell官方驱动, 否则会闪屏. 不使用win10自动更新驱动程序 (可在 Dism++ 中配置).
 8. 使用Dism++删除缓存以及不必要的预装应用(尽量不要删除应用商店)
 9. **BIOS**关闭 Legacy启动，开启安全启动; 关闭 Performance Intel SpeedStep, 提升CPU功率.
 10. 使用 Windows Update Blocker 关闭系统更新, 移除休眠 `powercfg /h off`.
