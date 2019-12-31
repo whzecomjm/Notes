@@ -1,5 +1,7 @@
 ## 笔记本硬件
 
+**服务标签**: `1FQXRC2`
+
 **电脑型号**    戴尔 Inspiron 7460 笔记本电脑  (扫描时间：2017年10月31日)  
 **操作系统**    Windows 10 专业版 64位 ( 4.09.00.0904 )  
 **处理器**    英特尔 Core i5-7200U @ 2.50GHz 双核  
@@ -25,7 +27,7 @@
 
 ## 常见问题
 
-1. 更新intel的集成显卡（只使用[官网](http://www.dell.com/support/home/CN/zh/cnbsd1/product-support/servicetag/1FQXRC2/drivers?os=wt64a&DCP=DNDTAG)的驱动22.20.16.4836, 再更新会出现闪屏的问题）可以解决开机长时间卡顿的问题。
+1. 更新intel的集成显卡（使用[官网](http://www.dell.com/support/home/CN/zh/cnbsd1/product-support/servicetag/1FQXRC2/drivers?os=wt64a&DCP=DNDTAG)的驱动22.20.16.4836, 再更新会出现闪屏的问题）可以解决开机长时间卡顿的问题。
 2. 电脑正常运行后只更新官网中关键词为"紧急"的驱动, [更新地址](https://www.dell.com/support/home/cn/zh/cnbsd1/product-support/servicetag/1fqxrc2/drivers?os=wt64a&dcp=dndtag).
 3. 关于键盘失灵的问题: **休息一段时间ctrl+x/c/v会失灵.** 表现在最下面一排按键失灵, 比如复制粘贴快捷键. (应该是硬件问题)
    1. 去掉电池以后导致原本电池压着键盘线蓬松, 现在用胶带贴上以后暂时缓和了此问题. 胶带的方法是将折起来的两部分合在一起粘紧
